@@ -4,8 +4,13 @@
 
 body{
     background-color: #000000;
-    overflow: hidden;
+    overflow-x: visible;
 }
+
+/* body::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+} */
 
 @font-face {
     font-family: Gilroy-Black;
@@ -212,6 +217,125 @@ a {
     color: #E0C438;
 }
 
+.scroller-svg {
+    width: auto;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 98.8%;
+    z-index: 999;
+}
+
+.line {
+    width: 0.25px;
+    height: 300px;
+    background-color: #EBEBEB;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #EBEBEB;
+}
+
+.scroller-container{
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.scroller-svg-container{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
 /* Styling the Logo Section */
+
+.logo-main{
+    width: 100%; 
+    height: 100%; 
+    background: #E0C438;
+}
+
+.logo-main-content{
+    width: 100%; 
+    height: auto; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 80px; 
+    display: inline-flex;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.logo-main-heading{
+    width: 676px; 
+    height: 73px; 
+    color: black; 
+    font-size: 80px; 
+    font-family: Gilroy-Heavy; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    word-wrap: break-word;
+    padding-top: 40px; 
+}
+
+.logo-main-text{
+    width: 932px
+}
+
+.logo-main-subheading{
+    color: black; 
+    font-size: 20px; 
+    font-family: Gilroy-Medium; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.logo-main-paragraph{
+    color: black; 
+    font-size: 20px; 
+    font-family: Gilroy-Light; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.logo-watermark-container{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 25px; 
+    display: inline-flex;
+}
+
+.selection{
+    width: 100px; 
+    height: 109.13px; 
+    position: relative;
+}
+
+.selection-box{
+    width: 100px; 
+    height: 100px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border: 0.50px black solid;
+}
+
+.selection-square{
+    width: 20px; 
+    height: 20px; 
+    left: 40px; 
+    top: 89.13px; 
+    position: absolute; 
+    background: black;
+}
 
 /* End of stylying in the logo section */
