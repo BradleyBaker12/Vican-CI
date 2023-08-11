@@ -322,3 +322,83 @@ a {
         width: 50%;
     }
 }
+
+@media only screen and (max-width: 1366px) {
+    .main-heading {
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: 200px;
+        left: 650px;
+    }
+
+    .paragraphs{
+        width: 400px;
+    }
+
+    .main-paragraph{
+        position: absolute;
+        width: 10px;
+        height: auto;
+        top: 300px;
+        left: 920px;
+    }
+
+    .main-heading-1,
+    .main-heading-2{
+        font-size: 50px;
+    }
+
+    .main-paragraph-1,
+    .main-paragraph-2{
+        font-size: 16px;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    .home-page-main-image {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1519px) {
+    .main-heading {
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: 200px;
+        left: 740px;
+    }
+
+    .paragraphs{
+        width: 400px;
+    }
+
+    .main-paragraph{
+        position: absolute;
+        width: 10px;
+        height: auto;
+        top: 300px;
+        left: 920px;
+    }
+
+    .main-heading-1,
+    .main-heading-2{
+        font-size: 50px;
+    }
+
+    .main-paragraph-1,
+    .main-paragraph-2{
+        font-size: 16px;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    .home-page-main-image {
+        width: 50%;
+    }
+}
