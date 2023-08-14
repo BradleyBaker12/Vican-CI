@@ -20,8 +20,10 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+        const targetElement = document.querySelector(this.getAttribute('href'));
+        targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start' // Scroll to the top of the element
         });
     });
 });

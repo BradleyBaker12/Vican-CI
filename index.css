@@ -1,9 +1,21 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #000000;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 17%;
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 999;
     overflow: hidden;
 }
 
@@ -118,22 +130,18 @@ ul, li {
     position: fixed;
     left: 0;
     top: 0;
-    width: 280px;
+    width: 17%;
     height: 100%;
     margin:0;
     background-color: black;
     color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     z-index: 999;
     overflow: none;
 }
 
-ul {
-    padding: 20px;
-}
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 5%;
 }
 
 .logo img {
@@ -156,11 +164,6 @@ li {
 a {
     text-decoration: none;
     color: white;
-}
-
-.content {
-    margin-left: 250px;
-    padding: 20px;
 }
 
 .searchbox-style::placeholder{
@@ -204,13 +207,14 @@ a {
 }
 
 .main-content {
-    flex-grow: 1;
-    padding-left: 280px; /* Adjust this value to match the width of the navbar */
+    margin-left: 18%;
+    padding-left: 20px;
 }
 
 .home-page-main-image {
     position: relative;
     width: 50%;
+    max-width: 100%;
     overflow: hidden;
 }
 
@@ -227,16 +231,16 @@ a {
 
 .main-heading{
     position: absolute;
-    width: 1000px;
-    height: 102px;
-    top: 385px;
-    left: 847px;
+    width: 100%;
+    height: auto;
+    top: 30%;
+    left: 45%;
 
 }
 
 .main-heading-1{
     color: #E0C438; 
-    font-size: 80px; 
+    font-size: 60px; 
     font-family: Gilroy-Light; 
     font-weight: 400; 
     text-transform: uppercase; 
@@ -246,7 +250,7 @@ a {
 
 .main-heading-2{
     color: #E0C438; 
-    font-size: 80px; 
+    font-size: 60px; 
     font-family: Gilroy-Heavy; 
     font-weight: 400; 
     text-transform: uppercase; 
@@ -256,15 +260,15 @@ a {
 
 .main-paragraph{
     position: absolute;
-    width: 506px;
-    height: 169px;
-    top: 490px;
-    left: 1265px;
+    width: 400px;
+    height: auto;
+    top: 50%;
+    left: 69%;
 
 }
 
 .paragraphs{
-    width: 506px;
+    width: 100%;
 }
 
 .main-paragraph-1{
@@ -283,122 +287,42 @@ a {
     word-wrap: break-word;
 }
 
-@media only screen and (max-width: 1366px) {
-    .main-heading {
-        position: absolute;
-        width: auto;
-        height: auto;
-        top: 200px;
-        left: 650px;
+@media (min-width: 1024px){
+    .navbar {
+        width: 15%;
     }
 
-    .paragraphs{
-        width: 400px;
+    .logo img {
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
-    .main-paragraph{
-        position: absolute;
-        width: 10px;
-        height: auto;
-        top: 300px;
-        left: 920px;
+    .search input {
+        margin-top: 2%;
     }
 
-    .main-heading-1,
-    .main-heading-2{
-        font-size: 50px;
-    }
-
-    .main-paragraph-1,
-    .main-paragraph-2{
-        font-size: 16px;
-    }
-
-    .main-heading {
-        width: 100%;
+    .main-content {
+        padding-left: 16%;
     }
 
     .home-page-main-image {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 1366px) {
-    .main-heading {
-        position: absolute;
-        width: auto;
-        height: auto;
-        top: 200px;
-        left: 650px;
-    }
-
-    .paragraphs{
-        width: 400px;
-    }
-
-    .main-paragraph{
-        position: absolute;
-        width: 10px;
-        height: auto;
-        top: 300px;
-        left: 920px;
-    }
-
-    .main-heading-1,
-    .main-heading-2{
-        font-size: 50px;
-    }
-
-    .main-paragraph-1,
-    .main-paragraph-2{
-        font-size: 16px;
-    }
-
-    .main-heading {
         width: 100%;
-    }
-
-    .home-page-main-image {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 1519px) {
-    .main-heading {
-        position: absolute;
-        width: auto;
         height: auto;
-        top: 200px;
-        left: 740px;
-    }
-
-    .paragraphs{
-        width: 400px;
-    }
-
-    .main-paragraph{
-        position: absolute;
-        width: 10px;
-        height: auto;
-        top: 300px;
-        left: 920px;
-    }
-
-    .main-heading-1,
-    .main-heading-2{
-        font-size: 50px;
-    }
-
-    .main-paragraph-1,
-    .main-paragraph-2{
-        font-size: 16px;
     }
 
     .main-heading {
-        width: 100%;
+        top: 25%;
+        left: 40%;
     }
 
-    .home-page-main-image {
-        width: 50%;
+    .main-paragraph {
+        top: 40%;
+        left: 60%;
+        width: 300px;
+    }
+
+    .main-paragraph-1, .main-paragraph-2 {
+        font-size: 18px;
     }
 }
