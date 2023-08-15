@@ -501,7 +501,7 @@ a {
 
     .main-paragraph{
         width: 406px; 
-        left: 910px; 
+        left: 985px; 
         top: 290px; 
         position: absolute;
     }
@@ -517,7 +517,7 @@ a {
     .line{
         width: 142px; 
         height: 0px; 
-        left: 1000px; 
+        left: 1220px; 
         top: 487px; 
         position: absolute; 
     }
@@ -525,7 +525,7 @@ a {
     .square{
         width: 15px; 
         height: 15px; 
-        left: 1130px; 
+        left: 1350px; 
         top: 480px; 
         position: absolute; 
     }
