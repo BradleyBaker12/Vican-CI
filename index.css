@@ -485,7 +485,7 @@ a {
     }
 
     .main-heading{
-        left: 460px; 
+        left: 660px; 
         top: 200px; 
         width: 100%;
         position: absolute;
@@ -501,7 +501,7 @@ a {
 
     .main-paragraph{
         width: 406px; 
-        left: 710px; 
+        left: 910px; 
         top: 290px; 
         position: absolute;
     }
