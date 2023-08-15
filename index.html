@@ -5,65 +5,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="fonts.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
   <script src="index.js"></script>
   <title>Vican | Home</title>
-  <style>
-    body{
-      background-color: black;
-    }
-
-    a {
-      text-decoration: none;
-      color: white;
-    }
-  </style>
 </head>
 
 <body>
-  <div style="width: 100%; height: 100%; position: relative; background: black">
-    <img style="width: 788px; height: 1080px; left: 311px; top: -1px; position: absolute" src="Resources\Images\Home Page Image.png" />
-    <div style="left: 50px; top: 158px; position: absolute; color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">
-      Search
+  <div class="main-content">
+    <img class="main-content-image" src="Resources\Images\Home Page Image.png" />
+    <div class="search-bar">
+      <form style="width: 100%;">
+        <input type="search" id="search" name="navbar-search" placeholder="Search" class="navbar-search"/>
+      </form>
     </div>
-    <div style="left: 0px; top: 182px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-      <div style="height: 106px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-        <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Core Elements</div>
-        <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="brand-apperance.html">Brand Values</a></div>
-        <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="logo.html">Basics</a></div>
+    <div class="side-navbar-layout">
+      <div class="core-elements-layout">
+        <div class="side-navbar-heading">Core Elements</div>
+        <div class="side-navbar-item"><a href="brand-apperance.html">Brand Values</a></div>
+        <div class="side-navbar-item"><a href="logo.html">Basics</a></div>
       </div>
-      <div style="height: 205px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-        <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Guides</div>
-        <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">User Interface</a></div>
-        <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Communication Media</a></div>
-        <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Corporate Branding</a></div>
-        <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Motion Pictures</a></div>
-        <div style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Package Design</a></div>
+      <div class="guide-layout">
+        <div class="side-navbar-heading">Guides</div>
+        <div class="side-navbar-item"><a href="">User Interface</a></div>
+        <div class="side-navbar-item"><a href="">Communication Media</a></div>
+        <div class="side-navbar-item"><a href="">Corporate Branding</a></div>
+        <div class="side-navbar-item"><a href="">Motion Pictures</a></div>
+        <div class="side-navbar-item"><a href="">Package Design</a></div>
       </div>
     </div>
-    <a href="index.html"><img style="width: 60px; height: 60px; left: 55px; top: 43px; position: absolute" src="Resources\Images\Vican_Yellow_Watermark 4 (1).png" /></a> 
-    <div style="width: 317px; height: 33px; left: -6px; top: 149px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-    <div style="width: 317px; height: 33px; left: -6px; top: 116px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-    <div style="width: 0px; height: 1080px; left: 311px; top: 0px; position: absolute; border: 0.25px #EBEBEB solid"></div>
-    <div style="left: 847px; top: 385px; position: absolute">
-      <span style="color: #E0C438; font-size: 80px; font-family: Gilroy-Light; font-weight: 400; text-transform: uppercase; letter-spacing: 4px; word-wrap: break-word">
+    <a href="index.html">
+      <img src="Resources\Images\Vican_Yellow_Watermark 4 (1).png" class="side-navbar-image"/>
+    </a> 
+    <div class="bottom-search-line"></div>
+    <div class="top-search-line"></div>
+    <div class="main-vertical-line"></div>
+    <div class="main-heading">
+      <span class="heading-part-1">
         Our new
       </span>
-      <span style="color: #E0C438; font-size: 80px; font-family: Gilroy-Heavy; font-weight: 400; text-transform: uppercase; letter-spacing: 4px; word-wrap: break-word">
+      <span class="heading-part-2">
         expression.</span>
     </div>
-    <div style="width: 506px; left: 1265px; top: 490px; position: absolute">
-        <span style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">
+    <div class="main-paragraph">
+        <span class="paragraph-1">
             Welcome to the beginning of your Vican journey. This guide serves as a high-level introduction, offering a 
             comprehensive overview of how the vibrant world of Vican comes to life.
             <br />
             <br />
         </span>
-        <span style="color: white; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">
+        <span class="paragraph-2">
             Explore this guide to unlock the essence of our brand and embark on a captivating experience.
         </span>
     </div>
-    <div style="width: 142px; height: 0px; left: 1620.50px; top: 720px; position: absolute; border: 0.25px #E0C438 solid"></div>
-    <div style="width: 20px; height: 20px; left: 1745px; top: 712px; position: absolute; background-color: #E0C438;"></div>
+    <div class="line"></div>
+    <div class="square"></div>
   </div>
 </body>
 
