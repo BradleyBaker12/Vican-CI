@@ -1,245 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="fonts.css">
-    <title>Vican | Basics</title>
-    <style>
-        body{
-            background-color: black;
-        }
-
-        a {
-      text-decoration: none;
-      color: white;
-    }
-    </style>
-</head>
-<body>
-    <div style="width: 100%; height: 100%; position: relative; background: black">
-        <div style="left: 50px; top: 158px; position: absolute; color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Search</div>
-        <div style="left: 0px; top: 182px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-            <div style="height: 370px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-                <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Core Elements</div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="brand-apperance.html">Brand Values </a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="logo.html">Basics </a></div>
-                <div style="padding-left: 50px;">
-                    <div style="width: 261px; color: #E0C438; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word"><a href="logo.html" style="color:#E0C438">Logo </a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="brand-claim.html">Brand Claim </a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="colour-palette.html">Colour System </a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="typography.html">Typography </a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="layout-structure.html">Layout Structure </a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="imagery.html">Imagery </a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="iconography.html">Iconography </a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="tone-of-voice.html">Tone of Voice </a></div>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="logo.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Resources\Images\White Vican Logo Resized.png"
+    />
+    <title>Vican | Logo</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="index.html">
+        <img src="Resources\Images\White Vican Logo 1.png" class="logo-image" />
+      </a>
+      <div class="divider-1">
+        <input type="search" class="search-bar" placeholder="Search" />
+      </div>
+      <div class="divider-2">
+        <span class="sidebar-heading">Core Elements</span>
+        <a href="brand-apperance.html">Brand Values</a>
+        <a href="logo.html">Basics</a>
+        <div class="basics-list">
+          <a href="logo.html" class="active">Logo </a>
+          <a href="brand-claim.html">Brand Claim </a>
+          <a href="colour-system.html">Colour System </a>
+          <a href="typography.html">Typography </a>
+          <a href="layout-structure.html">Layout Structure </a>
+          <a href="imagery.html">Imagery </a>
+          <a href="iconography.html">Iconography </a>
+          <a href="tone-of-voice">Tone Of Voice </a>
+        </div>
+      </div>
+      <div class="divider-2">
+        <span class="sidebar-heading">Guide</span>
+        <a href="#">User Interface</a>
+        <a href="#">Communication Media</a>
+        <a href="#">Corporate Branding</a>
+        <a href="#">Motion Pictures</a>
+        <a href="#">Package Design</a>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="logo-section">
+        <div class="main-logo">
+          <div class="main-logo-content">
+            <span class="main-logo-heading"> Logo </span>
+            <br />
+            <br style="padding-bottom: 50px" />
+            <span class="main-logo-subheading">
+              Our favoured method involves employing the Vican logo
+              independently,
+              <br />
+              detached from the brand claim
+            </span>
+            <br />
+            <br />
+            <span class="main-logo-paragraph">
+              This choice grants us versatility in showcasing the Vican icon
+              more prominently, all while upholding a thoughtful, uncluttered,
+              and contemporary visual presentation.
+            </span>
+          </div>
+          <div class="vican-logo-theme">
+            <div class="vican-logo-themes">
+              <div class="active-square"></div>
+              <button id="yellowButton" class="yellow-theme">
+                <img
+                  id="yellowButtonImage"
+                  src="Resources\Images\Yellow Vican Logo 1.png"
+                  class="yellow-logo"
+                  style="border: 1px solid #000000"
+                />
+              </button>
+              <button id="whiteButton" class="white-theme">
+                <img
+                  id="whiteButtonImage"
+                  src="Resources\Images\White Vican Logo 2.png" class="white-logo"
+                />
+              </button>
+              <button id="blackButton" class="black-theme">
+                <img
+                  id="blackButtonImage"
+                  src="Resources\Images\Black Vican Logo 2.png"
+                  class="black-logo"
+                />
+              </button>
             </div>
-            <div style="height: 205px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-                <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Guides</div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">User Interface </a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Communication Media </a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Corporate Branding </a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Motion Pictures </a></div>
-                <div style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Package Design  </a></div>
+          </div>
+          <div class="disclosure-section">
+            <div class="disclosure">
+              <span class="disclosure-paragraph">
+                The Vican logo is a proprietary trademark of Vican Corporation.
+                Usage or adoption of the logo is permissible solely by
+                individuals or entities with authorized contractual rights to do
+                so.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="variable-logos-section">
+          <div class="variable-logos-content">
+            <div class="variable-logos">
+              <span class="variable-logos-heading"> variable Logos </span>
+              <img src="Resources/icons/download.png" class="download-icon" />
+            </div>
+            <div class="variable-logos-text">
+              <span class="variable-logos-subheading">
+                Vican's distinct logos includes three different colours,
+                available as a comprehensive file package.
+              </span>
+              <br />
+              <br />
+              <span class="variable-logos-paragraph">
+                These logos offer flexibility in communication, allowing for
+                variations in colours to enhance the intended design message. By
+                creatively combining these core elements, the logos empower the
+                brand's visual identity.
+                <br />
+                <br />
+                Importantly, colours are not limited to specific products,
+                categories, or business sectors, ensuring their adaptability
+                across our brand spectrum.
+              </span>
+            </div>
+            <div class="downloadable-logos">
+              <div class="logos">
+                <div class="download-yellow-logo">
+                  <div class="yellow-logo-image">
+                    <img
+                      src="Resources\Images\Yellow Vican Logo 1.png"
+                      class="download-yellow"
+                    />
+                  </div>
+                  <div class="yellow-logo-size">
+                    <a
+                      id="download-link"
+                      href="Resources\Images\Yellow Vican Logo 512.png"
+                      download="Yellow Vican Logo 512"
+                      >512</a
+                    >
+                    <span>|</span>
+                    <a
+                      id="download-link"
+                      href="Resources\Images\Yellow Vican Logo 1000.png"
+                      download="Yellow Vican Logo 1000"
+                      >1000</a
+                    >
+                    <span>|</span>
+                    <a
+                      id="download-link"
+                      href="Resources\Images\Yellow Vican Logo 2000.png"
+                      download="Yellow Vican Logo 2000"
+                      >2000</a
+                    >
+                  </div>
+                </div>
+                <div class="download-white-logo">
+                  <div class="white-logo-image">
+                    <img
+                      src="Resources\Images\White Vican Logo 2.png"
+                      class="download-white"
+                    />
+                  </div>
+                  <div class="white-logo-size">
+                    <a
+                      id="download-link"
+                      href="Resources\Images\White Vican Logo 512.png"
+                      download="White Vican Logo 512"
+                      >512</a
+                    >
+                    <span>|</span>
+                    <a
+                      id="download-link"
+                      href="Resources\Images\White Vican Logo 1000.png"
+                      download="White Vican Logo 1000"
+                      >1000</a
+                    >
+                    <span>|</span>
+                    <a
+                      id="download-link"
+                      href="Resources\Images\White Vican Logo 2000.png"
+                      download="White Vican Logo 2000"
+                      >2000</a
+                    >
+                  </div>
+                </div>
+                <div class="download-black-logo">
+                  <div class="black-logo-image">
+                    <img
+                      src="Resources\Images\Black Vican Logo 2.png"
+                      class="download-black"
+                    />
+                  </div>
+                  <div class="black-logo-size">
+                    <a
+                      id="download-link"
+                      href="Resources\Images\Black Vican Logo 512.png"
+                      download="Black Vican Logo 512"
+                      >512</a
+                    >
+                    <span>|</span>
+                    <a
+                      id="download-link"
+                      href="Resources\Images\Black Vican Logo 1000.png"
+                      download="Black Vican Logo 1000"
+                      >1000</a
+                    >
+                    <span>|</span>
+                    <a
+                      id="download-link"
+                      href="Resources\Images\Black Vican Logo 2000.png"
+                      download="Black Vican Logo 2000"
+                      >2000</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="positioning-section">
+          <div class="positioning-main-content">
+            <div class="positioning-main-heading">Positioning</div>
+            <div style="width: 972px">
+              <span class="positioning-main-subheading">
+                The Vican logo can be positioned and sized flexibly within the
+                layout – whether as a central focal point or spanning across the
+                entire application.
+                <br />
+              </span>
+              <span class="positioning-main-paragraph">
+                <br />
+                It can overlay spaces, images, or other elements. Regardless of
+                its application, the logo must maintain clear and distinct
+                visibility, ensuring important information remains unobscured.
+                The logo should not be covered by any other elements, such as
+                typography, to preserve its visual integrity.
+                <br />
+                <br />
+                It's important to avoid positioning the Vican logo on top of
+                products or obscuring people's faces.
+              </span>
+            </div>
+            <div class="positioning-slideshow">
+              <div class="positioning-images">
+                <div class="left-lorem">
+                  <div class="left-lorem-image">
+                    <img src="Resources\Images\3.png" class="left-lorem-img" />
+                  </div>
+                </div>
+                <div
+                  style="
+                    width: 1px;
+                    height: 608px;
+                    border-left: 0.25px #ebebeb solid;
+                  "
+                ></div>
+                <div class="middle-lorem">
+                  <div class="middle-lorem-image">
+                    <img
+                      src="Resources\Images\4.png"
+                      class="middle-lorem-img"
+                    />
+                  </div>
+                </div>
+                <div
+                  style="
+                    width: 1px;
+                    height: 608px;
+                    border-left: 0.25px #ebebeb solid;
+                  "
+                ></div>
+                <div class="right-lorem">
+                  <div class="right-lorem-image">
+                    <img src="Resources\Images\5.png" class="right-lorem-img" />
+                  </div>
+                </div>
+              </div>
+              <div class="slideshow-arrow">
+                <button class="right-slide-arrow-button">
+                  <img src="Resources/icons/right-small.png" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="minimum-size-section">
+          <div class="minimum-size-content">
+            <div class="minimum-size-heading">minimum Size</div>
+            <div style="width: 972px">
+              <span class="minimum-size-subheading">
+                it's crucial to maintain an optimal appearance of the logo at
+                all sizes regardless of colour variations.
+                <br />
+              </span>
+              <span class="minimum-size-paragraph">
+                <br />
+                The minimum size for the logo is 50 pixels for digital
+                applications and 10 mm in positive space and 15 mm in negative
+                space for analogue applications.
+              </span>
+            </div>
+          </div>
+          <div class="minimum-size-image-layout">
+            <div class="minimum-size-large-image">
+              <img
+                src="Resources\Images\Yellow Vican Logo 1.png"
+                class="large-image"
+              />
+            </div>
+            <div class="main-logo-horizontal-line"></div>
+            <div class="minimum-size-small-image">
+              <img
+                src="Resources\Images\Yellow Vican Logo 1.png"
+                class="small-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="spacing-section">
+          <div class="spacing-content">
+            <div class="spacing-heading">Spacing</div>
+            <div style="width: 972px">
+              <span class="spacing-subheading">
+                You have the flexibility to choose the spacing between the logo
+                and typography, allowing for an optimal and visually pleasing
+                arrangement of the logo.
+                <br />
+              </span>
+              <span class="spacing-paragraph">
+                <br />
+                While you have the freedom to adjust this spacing, for
+                reference, a minimum spacing of half the logos height above and
+                below the rings can be used. Additionally, on the left and/or
+                right edge of the logo, a minimum spacing of one full logo
+                height is recommended.
+              </span>
+            </div>
+          </div>
+          <div class="spacing-images">
+            <div class="spacing-square">
+              <img src="Resources\Images\70.png" class="spacing-square-image" />
+            </div>
+            <div class="spacing-horizontal">
+              <img
+                src="Resources\Images\69.png"
+                class="spacing-horizontal-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="logo-size-section">
+          <div class="logo-size-content">
+            <div class="logo-size-heading">Logo size with typography</div>
+            <div style="width: 972px">
+              <span class="logo-size-subheading">
+                You have the flexibility to choose the ratio between the logo
+                and typography according to your design preferences
+                <br />
+              </span>
+              <span class="logo-size-paragraph">
+                <br />
+                For an especially harmonious visual effect, the rings work well
+                with typography when the cap height is set at 70% of the outer
+                ring's height. Other ratios (26% and 11.5%) can also be derived
+                from this proportion (refer to the provided illustration). It's
+                important to note that this illustration serves as a reference
+                for guidance purposes.
+              </span>
+            </div>
+          </div>
+          <div class="logo-size-examples">
+            <div class="logo-size-examples-content">
+              <div class="horizontal-1"></div>
+              <div class="icon-1-layout">
+                <img
+                  class="icon-1"
+                  src="Resources\Images\Yellow Vican Logo 2.png"
+                />
+                <div class="icon-1-text">= 100%</div>
+              </div>
+              <div class="horizontal-2"></div>
+              <div class="header-layout">
+                <div class="header-heading">Header</div>
+                <div class="header-text">= 100%</div>
+              </div>
+              <div class="layout">
+                <div class="horizontal-3"></div>
+              </div>
+            </div>
+            <div class="layout-1">
+              <div class="horizontal-4"></div>
+              <div class="icon-2-layout">
+                <img
+                  class="icon-2"
+                  src="Resources\Images\Yellow Vican Logo 2.png"
+                />
+                <div class="icon-2-text">= 100%</div>
+              </div>
+              <div class="horizontal-5"></div>
+              <div class="subheading-layout">
+                <div class="subheading-heading">Sub Heading</div>
+                <div class="subheading-text">= 50%</div>
+              </div>
+              <div class="layout-2">
+                <div class="horizontal-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="prohibitions-section">
+        <div class="prohibitions-content">
+          <div class="prohibitions-heading">Prohibitions</div>
+        </div>
+        <div class="prohibitions-slideshow">
+          <div class="prohibitions-image-1">
+            <img src="Resources\Images\6.png" class="image-1" />
+          </div>
+          <div
+            style="width: 1px; height: 608px; border-left: 0.25px #ebebeb solid"
+          ></div>
+          <div class="prohibitions-image-2">
+            <img src="Resources\Images\7.png" class="image-2" />
+          </div>
+          <div
+            style="width: 1px; height: 608px; border-left: 0.25px #ebebeb solid"
+          ></div>
+          <div class="prohibitions-image-3">
+            <img src="Resources\Images\8.png" class="image-3" />
+          </div>
+          <div style="width: 20px; height: 20px; position: relative">
+            <div class="prohibitions-slideshow-arrow">
+              <button class="prohibitions-right-slide-arrow-button">
+                <img src="Resources/icons/right-small.png" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: inline-flex">
+        <div style="width: 816px; padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
+            <div style="width: 616px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">
+              Examples
             </div>
         </div>
-        <a href="index.html"><img style="width: 60px; height: 60px; left: 55px; top: 43px; position: absolute" src="Resources\Images\Vican_White_Watermark 2 (1).png" /> </a>
-        <div style="width: 317px; height: 33px; left: -6px; top: 149px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-        <div style="width: 317px; height: 33px; left: -6px; top: 116px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-        <div style="width: 0px; height: 8674px; left: 311px; top: 0px; position: absolute; border: 0.25px #EBEBEB solid"></div>
-        <div style="left: 311px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-            <div style="width: 1609px; height: 1080px; background: #E0C438"></div>
-            <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 80px; display: flex; z-index: 999; position: absolute; top: 15%; left: 15%">
-                <div style="width: 676px; height: 73px; color: black; font-size: 80px; font-family: Gilroy-Heavy; font-weight: 400; text-transform: uppercase; letter-spacing: 4px; word-wrap: break-word">Logo</div>
-                <div style="width: 932px"><span style="color: black; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">Our favoured method involves employing the Vican logo independently,<br/>detached from the brand claim<br/></span><span style="color: black; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>This choice grants us versatility in showcasing the Vican icon more prominently, all while upholding a thoughtful, uncluttered, and contemporary visual presentation.</span></div>
-                <div style="justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
-                    <div style="width: 100px; height: 109.13px; position: relative">
-                        <div style="width: 100px; height: 100px; left: 0px; top: 0px; position: absolute; border: 0.50px black solid"></div>
-                        <div style="width: 20px; height: 20px; left: 40px; top: 89.13px; position: absolute; background: black"></div>
-                    </div>
-                    <div style="width: 100px; height: 100px; position: relative">
-                        <img style="width: 100px; height: 100px; left: 0px; top: 0px; position: absolute" src="Resources\Images\Vican_White_Watermark 2 (1).png" />
-                    </div>
-                    <div style="width: 100px; height: 100px; position: relative">
-                        <img style="width: 100px; height: 100px; left: 0px; top: 0px; position: absolute" src="Resources\Images\Vican_Black_Watermark 2 (2).png" />
-                    </div>
-                </div>
+        <div style="padding-left: 250px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+            <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <img style="width: 461.75px; height: 607px" src="Resources\Images\25.png" />
             </div>
-            <div style="width: 1609px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; display: inline-flex">
-                <div style="width: 879px; text-align: center; color: black; font-size: 15px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">The Vican logo is a proprietary trademark of Vican Corporation. Usage or adoption of the logo is permissible solely by individuals or entities with authorized contractual rights to do so.</div>
+            <div style="width: 1px; height: 608px; border-left: 0.25px #EBEBEB solid"></div>
+            <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <img style="width: 461.75px; height: 607px" src="Resources\Images\28.png" />
             </div>
         </div>
-        <div style="width: 1609px; height: 4680px; left: 311px; top: 1080px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-            <div style="width: 1609px; height: 329px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="justify-content: center; align-items: center; gap: 50px; display: inline-flex">
-                        <div style="width: 439px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Variable logos</div>
-                        <div style="width: 40px; height: 40px; position: relative">
-                            <img src="Resources\icons\download.png">
-                        </div>
-                    </div>
-                    <div style="width: 972px"><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">Vican's distinct logos includes three different colours, available as a comprehensive file package.<br/></span><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>These logos offer flexibility in communication, allowing for variations in colours to enhance the intended design message. By creatively combining these core elements, the logos empower the brand's visual identity.<br/><br/>Importantly, colours are not limited to specific products, categories, or business sectors, ensuring their adaptability across our brand spectrum.</span></div>
-                </div>
+        <div style=" padding-left: 170px;  justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+            <div style="height: 989px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <img style="width: 1200px; height: 989px" src="Resources\Images\27.png" />
             </div>
-            <div style="width: 1609px; height: 570px; padding-top: 50px; padding-bottom: 50px; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                <div style="width: 537px; height: 520px; background: white; flex-direction: column; justify-content: flex-start; align-items: center; gap: 50px; display: inline-flex">
-                    <img style="width: 400px; height: 400px" src="Resources\Images\Vican_Yellow_Watermark 2.png" />
-                    <div style="justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
-                        <div style="color: black; font-size: 30px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">512  |  1000  |  2000</div>
-                    </div>
-                </div>
-                <div style="width: 537px; height: 520px; border-right: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: center; gap: 50px; display: inline-flex">
-                    <img style="width: 400px; height: 400px" src="Resources\Images\Vican_White_Watermark 2 (1).png" />
-                    <div style="justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
-                        <div style="color: #EBEBEB; font-size: 30px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">512  |  1000  |  2000</div>
-                    </div>
-                </div>
-                <div style="width: 537px; height: 520px; background: #E0C438; border-right: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: center; gap: 50px; display: inline-flex">
-                    <img style="width: 400px; height: 400px" src="Resources\Images\Vican_Black_Watermark 2 (2).png" />
-                    <div style="justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
-                        <div style="color: black; font-size: 30px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">512  |  1000  |  2000</div>
-                    </div>
-                </div>
-            </div>
-            <div style="width: 1609px; height: 994px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 344px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Positioning</div>
-                    <div style="width: 972px"><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">The Vican logo can be positioned and sized flexibly within the layout – whether as a central focal point or spanning across the entire application.<br/></span><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>It can overlay spaces, images, or other elements. Regardless of its application, the logo must maintain clear and distinct visibility, ensuring important information remains unobscured. The logo should not be covered by any other elements, such as typography, to preserve its visual integrity.<br/><br/>It's important to avoid positioning the Vican logo on top of products or obscuring people's faces.</span></div>
-                </div>
-                <div style="width: 1668px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (1).png" />
-                    </div>
-                    <div style="width: 1px; height: 608px; border-left: 0.25px #EBEBEB solid"></div>
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (7).png" />
-                    </div>
-                    <div style="width: 1px; height: 608px; border-left: 0.25px #EBEBEB solid"></div>
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (2).png" />
-                    </div>
-                    <div style="width: 20px; height: 20px; position: relative">
-                        <img src="Resources/icons/right-small.png">
-                    </div>
-                </div>
-            </div>
-            <div style="width: 1609px; height: 590px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 722px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">minimum Size</div>
-                    <div style="width: 972px"><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">it's crucial to maintain an optimal appearance of the logo at all sizes regardless of colour variations. <br/></span><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>The minimum size for the logo is 50 pixels for digital applications and 10 mm in positive space and 15 mm in negative space for analogue applications.</span></div>
-                </div>
-                <div style="width: 1609px; padding-left: 100px; padding-right: 100px; justify-content: flex-start; align-items: center; gap: 50px; display: inline-flex">
-                    <div style="width: 300px; height: 300px; justify-content: center; align-items: center; display: flex">
-                        <img style="width: 300px; height: 300px" src="Resources\Images\Vican_Yellow_Watermark 2.png" />
-                    </div>
-                    <div style="width: 246px; height: 0.50px; border-bottom: 0.25px #E0C438 solid"></div>
-                    <div style="width: 50px; height: 50px; justify-content: center; align-items: center; display: flex">
-                        <img style="width: 50px; height: 50px" src="Resources\Images\Vican_Yellow_Watermark 2.png" />
-                    </div>
-                </div>
-            </div>
-            <div style="width: 1609px; height: 738px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 722px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Spacing</div>
-                    <div style="width: 972px"><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">You have the flexibility to choose the spacing between the logo and typography, allowing for an optimal and visually pleasing arrangement of the logo.<br/></span><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>While you have the freedom to adjust this spacing, for reference, a minimum spacing of half the logos height above and below the rings can be used. Additionally, on the left and/or right edge of the logo, a minimum spacing of one full logo height is recommended.</span></div>
-                </div>
-                <div style="width: 1609px; padding-left: 100px; padding-right: 100px; justify-content: flex-start; align-items: center; gap: 134px; display: inline-flex">
-                    <div style="width: 400px; height: 400px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 400px; height: 400px" src="Resources\Images\Vican_Yellow_Watermark 4.png" />
-                    </div>
-                    <div style="width: 596px; height: 400px; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 667px; height: 195px" src="Resources\Images\Vican_Yellow_Watermark 4 (10).png" />
-                    </div>
-                </div>
-            </div>
-            <div style="width: 1609px; height: 666px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 789px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Logo size with typography</div>
-                    <div style="width: 972px"><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">You have the flexibility to choose the ratio between the logo and typography according to your design preferences.<br/></span><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>For an especially harmonious visual effect, the rings work well with typography when the cap height is set at 70% of the outer ring's height. Other ratios (26% and 11.5%) can also be derived from this proportion (refer to the provided illustration). It's important to note that this illustration serves as a reference for guidance purposes.</span></div>
-                </div>
-                <div style="width: 1609px; height: 200px; padding-left: 100px; padding-right: 100px; justify-content: flex-start; align-items: center; gap: 97px; display: inline-flex">
-                    <div style="width: 655px; height: 200px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                        <div style="width: 655px; height: 1px; border-top: 0.25px #E0C438 solid"></div>
-                        <div style="justify-content: flex-start; align-items: center; gap: 492px; display: inline-flex">
-                            <img style="width: 100px; height: 100px" src="Resources\Images\Vican_Yellow_Watermark 2.png" />
-                            <div style="width: 63px; height: 29px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">= 100%</div>
-                        </div>
-                        <div style="width: 655px; height: 50px; border-top: 0.25px #E0C438 solid; border-bottom: 0.25px #E0C438 solid"></div>
-                        <div style="height: 100px; justify-content: center; align-items: center; gap: 62px; display: inline-flex">
-                            <div style="width: 530px; height: 181px; color: white; font-size: 122px; font-family: Gilroy-Heavy; font-weight: 400; text-transform: uppercase; letter-spacing: 6.60px; word-wrap: break-word; position: relative; top: 10px;">Header</div>
-                            <div style="width: 63px; height: 29px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">= 100%</div>
-                        </div>
-                        <div style="width: 655px; height: 5px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-                            <div style="width: 655px; height: 5px; border-top: 0.25px #E0C438 solid"></div>
-                        </div>
-                    </div>
-                    <div style="width: 655px; height: 200px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                        <div style="width: 655px; height: 1px; border-top: 0.25px #E0C438 solid"></div>
-                        <div style="justify-content: flex-start; align-items: center; gap: 492px; display: inline-flex">
-                            <img style="width: 100px; height: 100px" src="Resources\Images\Vican_Yellow_Watermark 2.png" />
-                            <div style="width: 63px; height: 29px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">= 100%</div>
-                        </div>
-                        <div style="width: 655px; height: 50px; border-top: 0.25px #E0C438 solid; border-bottom: 0.25px #E0C438 solid"></div>
-                        <div style="height: 97px; justify-content: center; align-items: center; gap: 164px; display: inline-flex">
-                            <div style="width: 428px; height: 45px; color: white; font-size: 60px; font-family: Gilroy-Bold; font-weight: 400; letter-spacing: 3.30px; word-wrap: break-word; position: relative; top: -12px;">Sub Heading</div>
-                            <div style="width: 63px; height: 4px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">= 50%</div>
-                        </div>
-                        <div style="width: 655px; height: 5px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-                            <div style="width: 655px; height: 5px; border-top: 0.25px #E0C438 solid"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style="width: 1609px; padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
-                <div style="width: 1408px; height: 1px; border-bottom: 0.25px #EBEBEB solid"></div>
-            </div>
-            <div style="width: 1609px; height: 752px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 393px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Prohibitions</div>
-                </div>
-                <div style="width: 1668px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (3).png" />
-                    </div>
-                    <div style="width: 1px; height: 608px; border-left: 0.25px #EBEBEB solid"></div>
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (4).png" />
-                    </div>
-                    <div style="width: 1px; height: 608px; border-left: 0.25px #EBEBEB solid"></div>
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (5).png" />
-                    </div>
-                    <div style="width: 20px; height: 20px; position: relative">
-                        <img src="Resources/icons/right-small.png">
-                    </div>
-                </div>
-            </div>
-            <div style="width: 1609px; height: 1886px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                <div style="width: 816px; padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 616px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Examples</div>
-                </div>
-                <div style="width: 1668px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 461.75px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (13).png" />
-                    </div>
-                    <div style="width: 1px; height: 608px; border-left: 0.25px #EBEBEB solid"></div>
-                    <div style="height: 607px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 461.75px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (16).png" />
-                    </div>
-                </div>
-                <div style="width: 1668px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
-                    <div style="height: 989px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 1200px; height: 989px" src="Resources\Images\Logo_Positions_01 1 (15).png" />
-                    </div>
-                </div>
-                <div style="width: 1668px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
-                    <div style="height: 989px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 1200px; height: 989px" src="Resources\Images\Logo_Positions_01 1 (14).png" />
-                    </div>
-                </div>
+        </div>
+        <div style=" padding-left: 170px;  justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+            <div style="height: 989px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <img style="width: 1200px; height: 989px" src="Resources\Images\26.png" />
             </div>
         </div>
     </div>
-</body>
+    </div>
+    <script src="logo.js"></script>
+  </body>
 </html>

@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="fonts.css">
-    <title>Vican | Imagery</title>
-    <style>
-        body{
-            background-color: black;
-            height: auto;
-        }
-        a{
-            text-decoration: none;
-            color: #EBEBEB;
-        }
-    </style>
-</head>
-<body>
-    <div style="width: 100%; height: 100%; position: relative; background: black">
-        <div style="left: 50px; top: 158px; position: absolute; color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Search</div>
-        <div style="left: 0px; top: 182px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-            <div style="height: 370px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-                <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Core Elements</div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="brand-apperance.html">Brand Values</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="logo.html">Basics</a></div>
-                <div style="margin-left: 50px;">
-                    <div style="width: 261px; color: #EBEBEB; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">       <a href="logo.html">Logo</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">      <a href="brand-claim.html"> Brand Claim</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">      <a href="colour-palette.html"> Colour System</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">     <a href="typography.html">  Typography</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">     <a href="layout-structure.html">  Layout Structure</a></div>
-                    <div style="width: 261px; color: #E0C438; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">   <a href="imagery.html" style="color:#E0C438">    Imagery</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">     <a href="iconography.html">  Iconography</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">     <a href="tone-of-voice.html">  Tone of Voice</a></div>
-                </div>
-            </div>
-            <div style="height: 205px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-                <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Guides</div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">User Interface</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Communication Media</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Corporate Branding</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Motion Pictures</a></div>
-                <div style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Package Design</a></div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="imagery.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Resources\Images\White Vican Logo Resized.png"
+    />
+    <title>Vican | Typography</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="index.html">
+        <img src="Resources\Images\White Vican Logo 1.png" class="logo-image" />
+      </a>
+      <div class="divider-1">
+        <input type="search" class="search-bar" placeholder="Search" />
+      </div>
+      <div class="divider-2">
+        <span class="sidebar-heading">Core Elements</span>
+        <a href="brand-apperance.html">Brand Values</a>
+        <a href="logo.html">Basics</a>
+        <div class="basics-list">
+          <a href="logo.html">Logo </a>
+          <a href="brand-claim.html" >Brand Claim </a>
+          <a href="colour-system.html">Colour System </a>
+          <a href="typography.html" >Typography </a>
+          <a href="layout-structure.html">Layout Structure </a>
+          <a href="imagery.html" class="active">Imagery </a>
+          <a href="iconography.html">Iconography </a>
+          <a href="tone-of-voice">Tone Of Voice </a>
         </div>
-        <img style="width: 60px; height: 60px; left: 55px; top: 43px; position: absolute" src="Resources\Images\Vican_White_Watermark 2 (1).png" />
-        <div style="width: 317px; height: 33px; left: -6px; top: 149px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-        <div style="width: 317px; height: 33px; left: -6px; top: 116px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-        <div style="width: 0px; height: 5183px; left: 311px; top: 0px; position: absolute; border: 0.25px #EBEBEB solid"></div>
-        <div style="width: 1609px; height: 1080px; left: 311px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-            <div style="flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: flex">
-                <div style="height: 1083px; position: relative">
-                    <img style="width: 589px; height: 1083px; left: 1024px; top: 0px; position: absolute" src="Resources\Images\eereebus_a_macro_shot_of_yellow_cube_structure_design_cgi_rende_752550d4-e0bc-43ef-9ca5-88bad118ed67_upscayl_4x_remacri 1 (2).png" />
-                    <div style="width: 1024px; height: 1083px; left: 0px; top: 0px; position: absolute; background: #E0C438"></div>
-                </div>
-            </div>
-            <div style="height: 487.13px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 80px; display: flex; z-index: 999; position:absolute; top: 25%; left: 10%;">
-                <div style="width: 100%; height: 74px; color: black; font-size: 80px; font-family: Gilroy-Heavy; font-weight: 400; text-transform: uppercase; letter-spacing: 4px; word-wrap: break-word">imagery</div>
-                <div style="width: 807px"><span style="color: black; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">Extraordinary moments that are both inspiring and genuine.<br/></span><span style="color: black; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>We invite you to join us on this journey of passion and precision, where every image tells a story that embodies our core values and the spirit of Vican. Our visual aesthetic mirrors these values, portraying a minimalistic and clear-cut style that reflects confidence and assurance.</span></div>
-                <div style="justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
-                    <div style="width: 100px; height: 109.13px; position: relative">
-                        <div style="width: 100px; height: 100px; left: 0px; top: 0px; position: absolute; border: 0.50px black solid"></div>
-                        <div style="width: 20px; height: 20px; left: 40px; top: 89.13px; position: absolute; background: black"></div>
+      </div>
+      <div class="divider-3">
+        <span class="sidebar-heading">Guide</span>
+        <a href="#">User Interface</a>
+        <a href="#">Communication Media</a>
+        <a href="#">Corporate Branding</a>
+        <a href="#">Motion Pictures</a>
+        <a href="#">Package Design</a>
+      </div>
+    </div>
+    <div class="main-content">
+        <div class="imagery-section">
+            <div class="imagery">
+                <img  src="Resources\Images\32.png" class="image-3"/>
+                <img  src="Resources\Images\53.png" class="image-2"/>
+                <img  src="Resources\Images\16.png" class="image-1"/>
+                <div class="imagery-content">
+                    <div class="imagery-text">
+                        <div class="imagery-heading">
+                            imagery
+                        </div>
+                        <div style="width: 807px">
+                            <span class="imagery-subheading">
+                                Extraordinary moments that are both inspiring and genuine.
+                                <br/>
+                            </span>
+                            <span class="imagery-paragraph">
+                                <br/>
+                                We invite you to join us on this journey of passion and precision, where every image tells a 
+                                story that embodies our core values and the spirit of Vican. Our visual aesthetic mirrors these 
+                                values, portraying a minimalistic and clear-cut style that reflects confidence and assurance.
+                            </span>
+                        </div>
+                        <div class="imagery-change">
+                            <!-- <div style="width: 100px; height: 109.13px; position: relative">
+                                <div style="width: 100px; height: 100px; left: 0px; top: 0px; position: absolute; border: 0.50px black solid"></div>
+                                <div style="width: 20px; height: 20px; left: 40px; top: 89.13px; position: absolute; background: black"></div>
+                            </div> -->
+                            <div class="active-square"></div>
+                            <button id="button-1" class="button-1"></button>
+                            <button id="button-2" class="button-2"></button>
+                            <button id="button-3" class="button-3"></button>
+                        </div>
                     </div>
-                    <div style="width: 100px; height: 100px; background: black"></div>
-                    <div style="width: 100px; height: 100px; background: black"></div>
                 </div>
             </div>
-            <div style="width: 1609px; height: 1961px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+            <div style="padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
                 <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 1014px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Brand Imagery Guidelines</div>
+                    <div style="color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Brand Imagery Guidelines</div>
                     <div style="width: 1014px; color: #EBEBEB; font-size: 25px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Our imagery is a powerful tool that visually communicates who we are, what we stand for, and the impact we aim to make. Here's how to select and use imagery that aligns seamlessly with our brand identity.</div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="width: 670px; height: 180px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
                         <div style="color: #E0C438; font-size: 25px; font-family: Gilroy-Bold; font-weight: 400; letter-spacing: 1.25px; word-wrap: break-word">01 Reflecting Our Essence</div>
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Choose imagery that captures the essence of our brand. Whether it's the vibrancy of innovation, the dedication of our team, or the transformative solutions we offer, every image should reflect our core values and messaging.</div>
@@ -83,22 +96,22 @@
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Our imagery should evoke emotions and connect with our audience on a personal level. Select visuals that inspire, uplift, and create a sense of relatability. The emotional resonance of our imagery strengthens the bond between our brand and our community.</div>
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex">
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2.png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\59.png" />
                     </div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 322px; height: 400px" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (1).png" />
+                        <img style="width: 322px; height: 400px" src="Resources\Images\20.png" />
                     </div>
                     <div style="width: 1px; height: 400px; border-left: 0.25px #EBEBEB solid"></div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (2).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\43.png" />
                     </div>
                     <div style="width: 322px; height: 400px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch; border: 0.25px #EBEBEB solid" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (3).png" />
+                        <img style="flex: 1 1 0; align-self: stretch; border: 0.25px #EBEBEB solid" src="Resources\Images\44.png" />
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="width: 670px; height: 180px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
                         <div style="color: #E0C438; font-size: 25px; font-family: Gilroy-Bold; font-weight: 400; letter-spacing: 1.25px; word-wrap: break-word">03 Consistency is Key</div>
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Maintain a consistent visual style across all imagery. From composition to color palette, ensure that our visuals create a harmonious and recognizable look. Consistency reinforces our brand identity and fosters trust among our audience.</div>
@@ -109,22 +122,22 @@
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Choose high-quality images that reflect the professionalism and excellence that define us. Crisp and clear visuals convey our attention to detail and dedication to delivering the best in everything we do.</div>
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex">
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (4).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\45.png" />
                     </div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 322px; height: 400px" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (5).png" />
+                        <img style="width: 322px; height: 400px" src="Resources\Images\46.png" />
                     </div>
                     <div style="width: 1px; height: 400px; border-left: 0.25px #EBEBEB solid"></div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (6).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\47.png" />
                     </div>
                     <div style="width: 322px; height: 400px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch; border: 0.25px #EBEBEB solid" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (7).png" />
+                        <img style="flex: 1 1 0; align-self: stretch; border: 0.25px #EBEBEB solid" src="Resources\Images\48.png" />
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="width: 670px; height: 180px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
                         <div style="color: #E0C438; font-size: 25px; font-family: Gilroy-Bold; font-weight: 400; letter-spacing: 1.25px; word-wrap: break-word">05 Context Matters</div>
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Consider where and how the imagery will be used. Tailor visuals to suit different platforms while adhering to our brand's overarching identity. Whether it's our website, social media, presentations, or marketing collateral, each image should harmonize with its context.</div>
@@ -135,22 +148,22 @@
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Our imagery isn't just a backdrop; it's a catalyst for impact. Choose visuals that amplify our messages and amplify the stories we want to tell. Every image should contribute to our mission of making a positive difference.</div>
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex">
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (8).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\49.png" />
                     </div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 322px; height: 400px" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (9).png" />
+                        <img style="width: 322px; height: 400px" src="Resources\Images\50.png" />
                     </div>
                     <div style="width: 1px; height: 400px; border-left: 0.25px #EBEBEB solid"></div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (10).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\51.png" />
                     </div>
                     <div style="width: 322px; height: 400px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch; border: 0.25px #EBEBEB solid" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (11).png" />
+                        <img style="flex: 1 1 0; align-self: stretch; border: 0.25px #EBEBEB solid" src="Resources\Images\52.png" />
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="width: 670px; height: 180px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
                         <div style="color: #E0C438; font-size: 25px; font-family: Gilroy-Bold; font-weight: 400; letter-spacing: 1.25px; word-wrap: break-word">07 Embracing Local Flavour</div>
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Whenever possible, opt for images captured within our local community. Showcasing our region's landmarks, culture, and people not only fosters a sense of pride but also reinforces our strong ties to the places we call home.</div>
@@ -161,42 +174,42 @@
                         <div style="width: 670px; height: 129px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Respect for intellectual property is essential. Ensure that all selected images are properly licensed and attributed. Seek out images from reputable sources or engage local photographers who contribute to our creative ecosystem while maintaining legal compliance.</div>
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex">
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (12).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\53.png" />
                     </div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 322px; height: 400px" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (13).png" />
+                        <img style="width: 322px; height: 400px" src="Resources\Images\54.png" />
                     </div>
                     <div style="width: 1px; height: 400px; border-left: 0.25px #EBEBEB solid"></div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (14).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\55.png" />
                     </div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (15).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\56.png" />
                     </div>
                 </div>
                 <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
                     <div style="width: 1014px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Image adjustments</div>
                     <div style="width: 881px; color: #EBEBEB; font-size: 25px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Enhance images to accentuate the application of yellow paint, while toning down all other elements in greyscale and darkening to amplify the vibrant impact of the yellow hue.</div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 447px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (16).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\57.png" />
                     </div>
                     <div style="width: 1px; height: 400px; border-left: 0.25px #EBEBEB solid"></div>
                     <div style="width: 322px; height: 400px; border: 0.25px #EBEBEB solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (17).png" />
+                        <img style="flex: 1 1 0; align-self: stretch" src="Resources\Images\58.png" />
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="width: 1398px; height: 180px; flex-direction: column; justify-content: center; align-items: center; gap: 20px; display: inline-flex">
                         <div style="width: 1079px; text-align: center; color: rgba(255, 255, 255, 0.50); font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">By adhering to these brand imagery guidelines, we ensure that every image we share becomes a powerful reflection of our values, aspirations, and the impact we're committed to creating in the world. Together, let's visually shape <br/>a brand that resonates, inspires, and makes a lasting impression.</div>
                     </div>
                 </div>
             </div>
         </div>
-        
     </div>
-</body>
+    <script src="imagery.js"></script>
+  </body>
 </html>

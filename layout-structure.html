@@ -1,111 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="fonts.css">
-    <title>Vican | Layout Structure</title>
-    <style>
-        body{
-            background-color: black;
-            overflow-x: hidden;
-        }
-        a{
-            text-decoration: none;
-            color:#EBEBEB;
-        }
-    </style>
-</head>
-<body>
-    <div style="width: 100%; height: 100%; position: relative; background: black">
-        <div style="left: 50px; top: 158px; position: absolute; color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Search</div>
-        <div style="left: 0px; top: 182px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-            <div style="height: 370px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-                <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Core Elements</div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"> <a href="brand-apperance.html">Brand Values</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="logo.html">Basics</a></div>
-                <div style="margin-left: 50px;">
-                    <div style="width: 261px; color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">     <a href="logo.html">  Logo</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">  <a href="brand-claim.html">     Brand Claim</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">     <a href="colour-palette.html">  Colour System</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">    <a href="typography.html">   Typography</a></div>
-                    <div style="width: 261px; color: #E0C438; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">     <a href="layout-structure.html" style="color:#E0C438">  Layout Structure</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">      <a href="imagery.html"> Imagery</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">     <a href="iconography.html">  Iconography</a></div>
-                    <div style="width: 261px; color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">   <a href="tone-of-voice.html">    Tone of Voice</a></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout-structure.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Resources\Images\White Vican Logo Resized.png"
+    />
+    <title>Vican | Typography</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="index.html">
+        <img src="Resources\Images\White Vican Logo 1.png" class="logo-image" />
+      </a>
+      <div class="divider-1">
+        <input type="search" class="search-bar" placeholder="Search" />
+      </div>
+      <div class="divider-2">
+        <span class="sidebar-heading">Core Elements</span>
+        <a href="brand-apperance.html">Brand Values</a>
+        <a href="logo.html">Basics</a>
+        <div class="basics-list">
+          <a href="logo.html">Logo </a>
+          <a href="brand-claim.html" >Brand Claim </a>
+          <a href="colour-system.html">Colour System </a>
+          <a href="typography.html">Typography </a>
+          <a href="layout-structure.html" class="active" >Layout Structure </a>
+          <a href="imagery.html">Imagery </a>
+          <a href="iconography.html">Iconography </a>
+          <a href="tone-of-voice">Tone Of Voice </a>
+        </div>
+      </div>
+      <div class="divider-3">
+        <span class="sidebar-heading">Guide</span>
+        <a href="#">User Interface</a>
+        <a href="#">Communication Media</a>
+        <a href="#">Corporate Branding</a>
+        <a href="#">Motion Pictures</a>
+        <a href="#">Package Design</a>
+      </div>
+    </div>
+    <div class="main-content">
+        <div style="flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+            <div style="width: 1613px; height: 1083px; position: relative">
+                <img style="left: -2px; top: 0px; position: absolute" src="Resources\Images\15.png" />
+                <div style="width: 1024px; height: 1083px; left: -2px; top: 0px; position: absolute; background: #E0C438"></div>
+                <div style="width: 100%; height: 100%; flex-direction: column; justify-content: center; align-items: flex-start; gap: 80px; display: inline-flex; z-index: 999">
+                    <div style="padding-left: 80px; color: black; font-size: 80px; font-family: Gilroy-Heavy; font-weight: 400; text-transform: uppercase; letter-spacing: 4px; word-wrap: break-word; z-index: 999">
+                        Layout structure</div>
+                    <div style="width: 807px; z-index: 999; padding-left: 5%;">
+                        <span style="color: black; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word; z-index: 999">
+                            We prioritize clear communication in our brand design.<br/>
+                        </span>
+                        <span style="color: black; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word;z-index: 999">
+                            <br/>Our flexible layout structure ensures content is conveyed precisely, whether filling the entire space or subdividing 
+                            it. We maintain a cohesive overall impression by avoiding superimposed spaces, images and transparencies. 
+                            <br/><br/>Clarity is key in conveying our brand message effectively and precisely to our audience.</span>
+                    </div>
                 </div>
             </div>
-            <div style="height: 205px; padding-left: 50px; padding-right: 50px; padding-top: 12px; padding-bottom: 12px; border-bottom: 0.25px #EBEBEB solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9px; display: flex">
-                <div style="color: white; font-size: 13px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Guides</div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">User Interface</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Communication Media</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Corporate Branding</a></div>
-                <div style="color: white; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href="">Motion Pictures</a></div>
-                <div style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><a href=""> </a>Package Design</a></div>
-            </div>
-        </div>
-        <img style="width: 60px; height: 60px; left: 55px; top: 43px; position: absolute" src="Resources\Images\Vican_White_Watermark 2 (1).png" />
-        <div style="width: 317px; height: 33px; left: -6px; top: 149px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-        <div style="width: 317px; height: 33px; left: -6px; top: 116px; position: absolute; border-bottom: 0.25px #EBEBEB solid"></div>
-        <div style="width: 0px; height: 3446px; left: 311px; top: 0px; position: absolute; border: 0.25px #EBEBEB solid"></div>
-        <div style="padding-left: 50px; padding-right: 50px; left: 1820px; top: 285px; position: absolute; justify-content: flex-end; align-items: flex-start; display: inline-flex">
-            <div style="width: 20px; height: 0px; transform: rotate(90deg); transform-origin: 0 0; border: 10px #E0C438 solid"></div>
-            <div style="width: 400px; height: 0px; transform: rotate(90deg); transform-origin: 0 0; border: 0.25px #E0C438 solid"></div>
-        </div>
-        <div style="width: 1609px; height: 1080px; left: 311px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-            <div style="flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: flex">
-                <div style="width: 1613px; height: 1083px; position: relative">
-                    <img style="width: 1613px; height: 1083px; left: 0px; top: 0px; position: absolute" src="Resources\Images\nadine-shaabana-pywan95C6lU-unsplash_v2 2 (6).png" />
-                    <div style="width: 1024px; height: 1083px; left: 0px; top: 0px; position: absolute; background: #E0C438"></div>
-                </div>
-            </div>
-            <div style="height: 321px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 80px; display: flex; z-index: 999; position: absolute; top: 25%; left: 10%">
-                <div style="width: 100%; height: 73px; color: black; font-size: 80px; font-family: Gilroy-Heavy; font-weight: 400; text-transform: uppercase; letter-spacing: 4px; word-wrap: break-word">Layout structure</div>
-                <div style="width: 807px"><span style="color: black; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">We prioritize clear communication in our brand design.<br/></span><span style="color: black; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word"><br/>Our flexible layout structure ensures content is conveyed precisely, whether filling the entire space or subdividing it. We maintain a cohesive overall impression by avoiding superimposed spaces, images and transparencies. <br/><br/>Clarity is key in conveying our brand message effectively and precisely to our audience.</span></div>
-            </div>
-            <div style="width: 1609px; height: 925px; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+            <div style="width: 100%; height: 100%; padding-top: 50px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
                 <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
-                    <div style="width: 1014px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Implementing the Layout Structure</div>
+                    <div style="color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Implementing the Layout Structure</div>
                     <div style="width: 972px"><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Layouts may incorporate one or multiple subdivisions, both horizontally and vertically. The divisions are straight, rectangular, and extend to the edge, offering the choice of symmetry or distinct asymmetry. The quantity and proportions of spaces are adaptable, providing flexibility in design.<br/><br/>A space can manifest as a solid block in any of the brand's full-tone colours or as an image extending to the edge. These full-tone spaces are strategically employed to highlight typography, buttons, and icons.<br/></span><span style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word"><br/>Crafting thoughtfully designed layout structures, abundant in contrast. These structures facilitate the clear communication of content and provide the flexibility to tell stories with clarity.</span></div>
                 </div>
-                <div style="width: 1668px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="height: 430px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 430px" src="Resources\Images\Logo_Positions_01 1 (10).png" />
+                        <img style="width: 430px; height: 430px" src="Resources\Images\22.png" />
                     </div>
                     <div style="width: 1px; height: 430px; border-left: 0.25px #EBEBEB solid"></div>
                     <div style="height: 430px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 430px" src="Resources\Images\Logo_Positions_01 1 (11).png" />
+                        <img style="width: 430px; height: 430px" src="Resources\Images\23.png" />
                     </div>
                     <div style="width: 1px; height: 430px; border-left: 0.25px #EBEBEB solid"></div>
                     <div style="height: 430px; justify-content: center; align-items: center; gap: 10px; display: flex">
-                        <img style="width: 430px; height: 430px" src="Resources\Images\Logo_Positions_01 1 (12).png" />
+                        <img style="width: 430px; height: 430px" src="Resources\Images\24.png" />
                     </div>
                     <div style="width: 20px; height: 20px; position: relative">
-                        <img src="Resources/icons/right-small.png">
+                        <div style="width: 20px; height: 20px; position: relative">
+                            <div class="slideshow-arrow">
+                                <button class="right-slide-arrow-button">
+                                  <img src="Resources/icons/right-small.png" />
+                                </button>
+                              </div>
+                          </div>
                     </div>
                 </div>
-                <div style="width: 1609px; padding-left: 0px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                <div style="padding-left: 220px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                     <div style="flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                        <img style="width: 1147px; height: 631px" src="Resources\Images\Layout_Structure_04 1.png" />
+                        <img style="width: 1147px; height: 631px" src="Resources\Images\21.png" />
                     </div>
                 </div>
-                <div style="width: 1609px; height: 804px; padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                <div style="padding-bottom: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
                     <div style="padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex">
                         <div style="width: 444px; height: 44px; color: #EBEBEB; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; text-transform: uppercase; letter-spacing: 2.50px; word-wrap: break-word">Prohibitions</div>
                     </div>
-                    <div style="width: 1609px; padding-left: 0px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
+                    <div style="padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex">
                         <div style="width: 430px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                            <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (21).png" />
+                            <img style="width: 430px; height: 607px" src="Resources\Images\11.png" />
                             <div style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Frames are not to be generated within spaces.</div>
                         </div>
                         <div style="width: 1px; height: 662px; border-left: 0.25px #EBEBEB solid"></div>
                         <div style="width: 430px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                            <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (23).png" />
+                            <img style="width: 430px; height: 607px" src="Resources\Images\13.png" />
                             <div style="color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Every space must serve a purpose.</div>
                         </div>
                         <div style="width: 1px; height: 662px; border-left: 0.25px #EBEBEB solid"></div>
                         <div style="width: 430px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                            <img style="width: 430px; height: 607px" src="Resources\Images\Logo_Positions_01 1 (22).png" />
+                            <img style="width: 430px; height: 607px" src="Resources\Images\12.png" />
                             <div style="width: 333px; color: #EBEBEB; font-size: 20px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">Spaces are consistently oriented at perpendicular angles to each other.</div>
                         </div>
                     </div>
@@ -113,5 +119,5 @@
             </div>
         </div>
     </div>
-</body>
+  </body>
 </html>
