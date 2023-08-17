@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
+    overflow-x: hidden;
   }
   
   /* Style the page title */
@@ -117,3 +118,260 @@ body {
     padding-left: 30px;
     line-height: 1;
   }
+
+
+  .iconography{
+    background-color: #e0c438;
+  }
+
+  .iconography-content{
+    display: flex;
+  }
+
+  .iconography-layout{
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 80px; 
+    display: inline-flex;
+    flex:1;
+    padding-left: 8%;
+    padding-right: 6%;
+    padding-top: 13%;
+    padding-bottom: 12%;
+  }
+
+  .iconography-heading{
+    color: black; 
+    font-size: 80px; 
+    font-family: Gilroy-Heavy; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    word-wrap: break-word;
+  }
+
+  .iconography-subheading{
+    color: black; 
+    font-size: 20px; 
+    font-family: Gilroy-Medium; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+
+  .iconography-paragraph{
+    color: black; 
+    font-size: 20px; 
+    font-family: Gilroy-Light; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+
+  .iconography-icon-theme{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 25px; 
+    display: inline-flex;
+  }
+
+  .stroke-button{
+    width: 100px; 
+    height: 100px; 
+    background: transparent;
+    border: 1px solid #000000;
+  }
+
+  .fill-button{
+    width: 100px; 
+    height: 100px; 
+    background: black;
+    border: none;
+  }
+
+  .iconography-example-icons{
+    background-color: #000000;
+    flex: 1;
+    position:relative;
+  }
+
+  .example-icons-image-1 {
+    position: relative;
+    z-index: 2;
+}
+
+.example-icons-image-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    opacity: 0;
+    filter: invert(100%);
+}
+
+
+  .active-square {
+    width: 20px;
+    height: 20px;
+    left: 10.5%;
+    top: 23.1%;
+    position: absolute;
+    background: black;
+  }
+  
+  .icon-library-heading-container {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    padding-top: 25px;
+  }
+  
+  .icon-library-heading {
+    color: #E0C438;
+    font-size: 80px;
+    font-family: Gilroy-Heavy;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-wrap: break-word;
+    padding-left: 100px;
+  }
+  
+  .icon-search {
+    margin-left: 20px; /* Add some spacing between the heading and the input */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    padding: 5px 10px; /* Add padding to the input */
+    float: right;
+    background-color: transparent;
+    position: relative;
+    left: 24.5%;
+    width: 380px;
+    color: #EBEBEB;
+    font-size: 20px;
+  }
+
+  .icon-search::placeholder{
+    font-family: Gilroy-Light;
+    float: right;
+
+  }
+  
+  .library-filters{
+    position: relative;
+    left: 67%;
+    width: 500px;
+  }
+
+  .icon-filter{
+    width: 100%;
+  }
+
+  .icon-dropdown {
+    font-size: 16px;
+    color: #EBEBEB;
+    border: none;
+    background-color: transparent;
+    font-family: Gilroy-Light;
+    background-size: 16px 16px;
+    margin-right: 40px;
+  }
+  
+  .option {
+    color: #000000;
+    font-family: Gilroy-Light;
+    background-color: transparent;
+  }
+  
+
+  .outline-icons{
+    color: #EBEBEB;
+    font-size: 20px;
+    font-family: Gilroy-Light;
+    letter-spacing: 0.70px;
+    word-wrap: break-word;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .solid-icons{
+    padding-left: 40px;
+    color: #EBEBEB;
+    font-size: 20px;
+    font-family: Gilroy-Light;
+    letter-spacing: 0.70px;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .icon-active{
+    color: #E0C438;
+    text-decoration: underline;
+  }
+
+  .library{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .basic-icons{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .icon-box{
+    border: 1px solid #EBEBEB;
+    width: 82px;
+    height: 88px;
+    margin: 5px;
+  }
+
+ .icon-container{
+  margin: 10px;
+ } 
+
+  .icon{
+    width: 100%;
+  }
+
+  .scroller-svg {
+    width: auto;
+    height: 300px;
+    position: fixed;
+    top: 25%;
+    left: 97.8%;
+    z-index: 999;
+}
+
+.line {
+    width: 0.25px;
+    height: 300px;
+    background-color: #EBEBEB;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #EBEBEB;
+}
+
+.scroller-container{
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.scroller-svg-container{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+body::-webkit-scrollbar{
+    width: 0%;
+    height: 0%;
+}
