@@ -41,8 +41,6 @@ body {
   }
   
   .logo-image {
-    padding-top: 20px;
-    padding-left: 50px;
     padding-bottom: 20px;
     width: 25%;
   }
@@ -219,7 +217,7 @@ body {
     width: auto;
     height: 300px;
     position: fixed;
-    top: 25%;
+    top: 40%;
     left: 97.8%;
     z-index: 999;
 }

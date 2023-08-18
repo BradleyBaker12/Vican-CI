@@ -49,8 +49,6 @@ body::-webkit-scrollbar{
 }
 
 .logo-image{
-  padding-top: 20px;
-  padding-left: 50px;
   padding-bottom: 20px;
   width: 25%;
 }
@@ -65,8 +63,14 @@ body::-webkit-scrollbar{
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 0.5px solid #EBEBEB;
-  border-bottom: 0.5px solid #EBEBEB;
 }
+
+.divider-3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 0.5px solid #EBEBEB;
+    border-bottom: 0.5px solid #EBEBEB;
+  }
 
 .search-bar{
   margin-left: 50px;
@@ -382,7 +386,7 @@ body::-webkit-scrollbar{
     width: auto;
     height: 300px;
     position: fixed;
-    top: 25%;
+    top: 40%;
     left: 97.8%;
     z-index: 999;
 }

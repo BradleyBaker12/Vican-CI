@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
+    overflow: hidden;
 }
 
 /* Style the sidebar */
@@ -31,8 +32,6 @@ body {
 }
 
 .logo-image{
-  padding-top: 20px;
-  padding-left: 50px;
   padding-bottom: 20px;
   width: 25%;
 }
@@ -44,6 +43,12 @@ body {
 }
 
 .divider-2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 0.5px solid #EBEBEB;
+}
+
+.divider-3{
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 0.5px solid #EBEBEB;
@@ -65,7 +70,7 @@ body {
 }
 
 .main-content{
-    margin-left: 15.01%;
+    margin-left: 15.05%;
     position: relative;
 }
 
