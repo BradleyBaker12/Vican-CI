@@ -154,16 +154,21 @@ body {
     padding-bottom: 30px;
   }
 
+
   .tester{
     background-color: transparent;
     font-family: Gilroy-Light;
     border: 0.5px solid #000000;
     width: 920px;
-    height: auto;
-    font-size: 40px;
+    height: 40px;
+    font-size: 30px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 7px;
+  }
+
+  .tester::placeholder{
+    opacity: 50%;
   }
 
   .font-weighting{
@@ -224,8 +229,10 @@ body {
 
 .line {
     width: 0.25px;
-    height: 300px;
+    height: 290px;
     background-color: #EBEBEB;
+    position: relative;
+    top: -20px;
 }
 
 .square {
