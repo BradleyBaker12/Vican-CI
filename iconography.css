@@ -188,12 +188,6 @@ body {
     border: none;
   }
 
-  .iconography-example-icons{
-    background-color: #000000;
-    flex: 1;
-    position:relative;
-  }
-
   .example-icons-image-1 {
     position: relative;
     z-index: 2;
@@ -213,7 +207,7 @@ body {
     width: 20px;
     height: 20px;
     left: 10.5%;
-    top: 23.1%;
+    top: 26%;
     position: absolute;
     background: black;
   }
@@ -316,26 +310,6 @@ body {
     padding-right: 100px;
   }
 
-  .basic-icons{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .icon-box{
-    border: 1px solid #EBEBEB;
-    width: 82px;
-    height: 88px;
-    margin: 5px;
-  }
-
- .icon-container{
-  margin: 10px;
- } 
-
-  .icon{
-    width: 100%;
-  }
-
   .scroller-svg {
     width: auto;
     height: 300px;
@@ -376,4 +350,120 @@ body {
 body::-webkit-scrollbar{
     width: 0%;
     height: 0%;
+}
+
+.iconography-example-icons{
+  background-color: #000000;
+  flex: 1;
+  position:relative;
+}
+
+.icon-display{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+.heading{
+  color: #EBEBEB;
+  font-size: 15px;
+  font-family: Gilroy-Light;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.icon-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-image{
+  width: 12px;
+  height: 27px;
+  margin: 8px;
+  position: relative;
+}
+
+.icon-img-1{
+  filter: invert(100%);
+  width: 100%;
+  image-rendering: optimizeQuality;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.icon-img-2{
+  filter: invert(100%);
+  width: 100%;
+  image-rendering: optimizeQuality;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.icon-box{
+  width: 70px; 
+  height: 70px;
+  border: 0.5px #EBEBEB solid;
+  padding: 5px;
+  margin: 3px;
+}
+
+.icon-container{
+  position: relative;
+}
+
+.icon-1{
+  filter: invert(100%);
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.icon-2{
+  filter: invert(100%);
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  display: none;
+}
+
+.basics-icons{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.essentials-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.emoji-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.interface-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.commerce-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.technology-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.hidden {
+  display: none;
 }
