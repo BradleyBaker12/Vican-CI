@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+/* Style the sidebar */
+.sidebar {
+    width: 15%;
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 0.5px solid #EBEBEB;
+}
+
+/* Style the sidebar links */
+.sidebar a {
+    display: block;
+    padding-left: 50px;
+    padding-top: 9px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: Gilroy-Light, sans-serif;
+}
+
+.logo-image{
+  padding-bottom: 12.5%;
+  padding-top: 2.5%;
+  width: 25%;
+}
+
+.divider-1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 0.5px solid #EBEBEB;
+}
+
+.divider-2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 0.5px solid #EBEBEB;
+}
+
+.divider-3{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 0.5px solid #EBEBEB;
+  border-bottom: 0.5px solid #EBEBEB;
+}
+
+.search-bar{
+  margin-left: 50px;
+  color: #EBEBEB;
+  background-color: #000000;
+  border: none;
+}
+
+.sidebar-heading{
+  color: white;
+  font-size: 14px;
+  padding-left: 50px;
+  font-family: Gilroy-Light, sans-serif;
+}
+
+.main-content{
+    margin-left: 15.05%;
+    position: relative;
+}
+
+.home-image{
+  width: 50.2%;
+}
+
+.main-heading{
+  position: absolute;
+  top: 35%;
+  left: 34.5%;
+}
+
+.main-heading-part-1{
+  color: #E0C438;
+  font-size: 80px;
+  font-family: Gilroy-Light, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.main-heading-part-2{
+  color: #E0C438;
+  font-size: 80px;
+  font-family: Gilroy-Heavy, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.main-paragraph{
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 59.5%;
+}
+
+.main-paragraph-1{
+  color: #EBEBEB;
+  font-size: 20px;
+  font-family: Gilroy-Light, sans-serif;
+}
+
+.main-paragraph-2{
+  color: #EBEBEB;
+  font-size: 20px;
+  font-family: Gilroy-Medium, sans-serif;
+}
+
+.square{
+  width: 20px;
+  height: 20px;
+  background-color: #E0C438;
+  position: absolute;
+  top: 70%;
+  left: 88%;
+}
+
+.line{
+  width: 145px;
+  height: 0px;
+  border: 0.5px solid #E0C438;
+  color: #E0C438;
+  position: absolute;
+  top: 71%;
+  left: 79%;
+}
