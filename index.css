@@ -15,7 +15,7 @@ body {
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    border-right: 0.5px solid #EBEBEB;
+    border-right: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 /* Style the sidebar links */
@@ -40,20 +40,20 @@ body {
 .divider-1{
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 0.5px solid #EBEBEB;
+  border-top: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 .divider-2{
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 0.5px solid #EBEBEB;
+  border-top: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 .divider-3{
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 0.5px solid #EBEBEB;
-  border-bottom: 0.5px solid #EBEBEB;
+  border-top: 0.5px solid rgba(235, 235, 235, 0.4);
+  border-bottom: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 .search-bar{

@@ -15,7 +15,7 @@ function setActiveButton(button) {
     let leftPosition = 0;
 
     if (button === button1) {
-        leftPosition = 10.5;
+        leftPosition = 17;
         button1.style.background = 'transparent';
         button2.style.background = '#000000';
         button1.style.border = '1px solid #000000';
@@ -23,7 +23,7 @@ function setActiveButton(button) {
         iconImages2.forEach(img => (img.style.opacity = 0));
     } 
     else if (button === button2) {
-        leftPosition = 18.3;
+        leftPosition = 73;
         button1.style.background = '#000000';
         button2.style.background = 'transparent';
         button2.style.border = '1px solid #000000';
@@ -76,13 +76,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const sections = document.querySelectorAll('.section'); // Select divs with class "section"
 
   outlineButton.addEventListener('click', function () {
-    outlineIcons.forEach(icon => icon.style.display = 'block');
+    outlineIcons.forEach(icon => icon.style.display = 'flex');
     solidIcons.forEach(icon => icon.style.display = 'none');
   });
 
   solidButton.addEventListener('click', function () {
     outlineIcons.forEach(icon => icon.style.display = 'none');
-    solidIcons.forEach(icon => icon.style.display = 'block');
+    solidIcons.forEach(icon => icon.style.display = 'flex');
   });
 
   dropdown.addEventListener('change', function () {

@@ -24,7 +24,7 @@ body::-webkit-scrollbar{
   left: 0;
   overflow-x: hidden;
   padding-top: 20px;
-  border-right: 0.5px solid #ebebeb;
+  border-right: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 /* Style the sidebar links */
@@ -54,20 +54,20 @@ body::-webkit-scrollbar{
 .divider-1 {
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 0.5px solid #ebebeb;
+  border-top: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 .divider-2 {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 0.5px solid #ebebeb;
+  border-top: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 .divider-3 {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 0.5px solid #ebebeb;
-  border-bottom: 0.5px solid #ebebeb;
+  border-top: 0.5px solid rgba(235, 235, 235, 0.4);
+  border-bottom: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 .search-bar {
@@ -869,7 +869,7 @@ body::-webkit-scrollbar{
 .line {
   width: 0.25px;
   height: 290px;
-  background-color: #EBEBEB;
+  background-color: rgba(235, 235, 235, 0.5);
   position: relative;
   top: -20px;
 }

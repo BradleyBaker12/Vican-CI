@@ -20,7 +20,7 @@ body {
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    border-right: 0.5px solid #ebebeb;
+    border-right: 0.5px solid rgba(235, 235, 235, 0.4);
   }
   
   /* Style the sidebar links */
@@ -51,20 +51,20 @@ body {
   .divider-1 {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top: 0.5px solid #ebebeb;
+    border-top: 0.5px solid rgba(235, 235, 235, 0.4);
   }
   
   .divider-2 {
     padding-top: 15px;
     padding-bottom: 15px;
-    border-top: 0.5px solid #ebebeb;
-    border-bottom: 0.5px solid #ebebeb;
+    border-top: 0.5px solid rgba(235, 235, 235, 0.4);
+    border-bottom: 0.5px solid rgba(235, 235, 235, 0.4);
   }
 
   .divider-3 {
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 0.5px solid #ebebeb;
+    border-bottom: 0.5px solid rgba(235, 235, 235, 0.4);
   }
   
   .search-bar {
@@ -172,6 +172,7 @@ body {
     align-items: flex-start; 
     gap: 25px; 
     display: inline-flex;
+    position: relative;
   }
 
   .stroke-button{
@@ -206,8 +207,8 @@ body {
   .active-square {
     width: 20px;
     height: 20px;
-    left: 10.5%;
-    top: 26%;
+    left: 17%;
+    top: 89%;
     position: absolute;
     background: black;
   }
@@ -230,13 +231,13 @@ body {
   
   .icon-search {
     margin-left: 20px; /* Add some spacing between the heading and the input */
-    border: 1px solid #ccc; /* Add a border for better visibility */
+    border: 1px solid rgba(235, 235, 235, 0.4); /* Add a border for better visibility */
     padding: 5px 10px; /* Add padding to the input */
     float: right;
     background-color: transparent;
     position: relative;
     left: 24.5%;
-    width: 380px;
+    width: 460px;
     color: #EBEBEB;
     font-size: 20px;
   }
@@ -322,7 +323,7 @@ body {
 .line {
     width: 0.25px;
     height: 290px;
-    background-color: #EBEBEB;
+    background-color: rgba(235, 235, 235, 0.5);
     position: relative;
     top: -20px;
 }
@@ -408,7 +409,7 @@ body::-webkit-scrollbar{
 .icon-box{
   width: 70px; 
   height: 70px;
-  border: 0.5px #EBEBEB solid;
+  border: 0.5px rgba(235, 235, 235, 0.4) solid;
   padding: 5px;
   margin: 3px;
 }
@@ -464,6 +465,42 @@ body::-webkit-scrollbar{
   display: none;
 }
 
-.hidden {
+.authoring-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.real-estate-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.arrows-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.files-and-folders-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.tasks-chats-and-events-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.social-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.browser-icons{
+  flex-wrap: wrap;
+  display: none;
+}
+
+.design-and-dev-icons{
+  flex-wrap: wrap;
   display: none;
 }
