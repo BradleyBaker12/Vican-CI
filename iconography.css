@@ -114,10 +114,32 @@ body {
     flex-direction: column;
   }
   
+  .basics-list a {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: cascade 0.5s ease-in-out forwards;
+  }
+  
+  /* Define animations */
+  @keyframes cascade {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Adjust padding for the list */
   .basics-list {
     padding-left: 30px;
     line-height: 1;
+    display: flex;
+    flex-direction: column;
   }
+  
 
 
   .iconography{
@@ -264,7 +286,6 @@ body {
     border: none;
     background-color: transparent;
     font-family: Gilroy-Light;
-    background-size: 16px 16px;
     margin-right: 40px;
   }
   
@@ -420,18 +441,20 @@ body::-webkit-scrollbar{
 
 .icon-1{
   filter: invert(100%);
-  width: 100%;
+  width: 80%;
   position: absolute;
-  top:0;
-  left: 0;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, 10%);
 }
 
 .icon-2{
   filter: invert(100%);
-  width: 100%;
+  width: 80%;
   position: absolute;
-  top:0;
-  left: 0;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, 10%);
   display: none;
 }
 

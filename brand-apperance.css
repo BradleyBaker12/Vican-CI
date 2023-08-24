@@ -128,17 +128,18 @@ body::-webkit-scrollbar{
     width: 100%;
 }
 
-.reliability-main-content{
+
+.reliability-main-content {
     padding-left: 50px;
     position: relative;
     top: -170px;
 }
 
-.reliability-content-1{
+.reliability-content-1 {
     width: 100%;
 }
 
-.reliability-heading{
+.reliability-heading {
     color: #E0C438;
     font-size: 80px;
     font-family: Gilroy-Heavy;
@@ -147,28 +148,29 @@ body::-webkit-scrollbar{
     word-wrap: break-word;
 }
 
-.reliability-content-2{
+.reliability-content-2 {
     width: 100%;
 }
 
-.reliability-subheading{
+.reliability-subheading {
     color: #ffffff;
     font-size: 20px;
     font-family: Gilroy-Medium;
     word-wrap: break-word;
 }
 
-.reliability-content-3{
+.reliability-content-3 {
     width: 55%;
     padding-top: 20px;
 }
 
-.reliability-paragraph{
+.reliability-paragraph {
     color: #ffffff;
     font-size: 20px;
     font-family: Gilroy-Light;
     word-wrap: break-word;
 }
+
 
 .experts-section{
     margin: 0;
@@ -180,12 +182,14 @@ body::-webkit-scrollbar{
     width: 100%;
 }
 
-.experts-main-content{
+.experts-main-content {
     padding-left: 50px;
     position: absolute;
     top: 67%;
     left: 0%;
+    opacity: 0;
 }
+
 
 .experts-content-1{
     width: 100%;
@@ -238,6 +242,9 @@ body::-webkit-scrollbar{
     padding-left: 50px;
     position: relative;
     top: -140px;
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+    transform: translateY(30px);
 }
 
 .support-content-1{
@@ -291,6 +298,7 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 67%;
     left: 0%;
+    opacity: 0;
 }
 
 .system-driven-content-1{
@@ -345,6 +353,7 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 58%;
     left: 0%;
+    opacity: 0;
 }
 
 .no-time-wasting-content-1{
@@ -383,6 +392,17 @@ body::-webkit-scrollbar{
     word-wrap: break-word;
 }
 
+/* Apply animation when the element is active (in view) */
+.experts-main-content.active,
+.support-main-content.active,
+.system-driven-main-content.active,
+.no-time-wasting-main-content.active {
+    opacity: 1;
+    transform: translateY(-50px);
+    transition: opacity 1s, transform 1s;
+}
+
+
 .scroller-svg {
     width: auto;
     height: 300px;
@@ -395,7 +415,7 @@ body::-webkit-scrollbar{
 .line {
     width: 0.25px;
     height: 290px;
-    background-color: rgba(235, 235, 235, 0.5);
+    background-color: #EBEBEB;
     position: relative;
     top: -20px;
 }

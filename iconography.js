@@ -105,24 +105,41 @@ sections.forEach((section, index) =>{
   }
 })
 
-  const searchInput = document.getElementById('icon-search');
-
-    searchInput.addEventListener('input', function () {
-      const searchQuery = searchInput.value.toLowerCase().trim();
-
-      sections.forEach(section => {
-        const iconsInSection = section.querySelectorAll('.icon-container a');
-
-        iconsInSection.forEach(iconLink => {
-          const iconName = iconLink.getAttribute('href').split('/').pop().split('.')[0];
-          const iconBox = iconLink.closest('.icon-box');
-
-          if (iconName.includes(searchQuery)) {
-            iconBox.style.display = 'block';
-          } else {
-            iconBox.style.display = 'none';
-          }
-        });
-      });
-    });
 });
+
+document.getElementById("icon-search").addEventListener("input", function() {
+  const searchTerm = this.value.toLowerCase();
+  const iconSections = document.querySelectorAll(".icon-library .section");
+
+  iconSections.forEach(section => {
+    const iconsInSection = section.querySelectorAll(".icon-box");
+    let shouldShowSection = false;
+
+    iconsInSection.forEach(iconContainer => {
+      const iconImages = iconContainer.querySelectorAll("img");
+      let shouldShowIcon = false;
+
+      iconImages.forEach(iconImage => {
+        const imageUrl = iconImage.getAttribute("src");
+        const imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1, imageUrl.lastIndexOf("."));
+
+        if (imageName.toLowerCase().includes(searchTerm)) {
+          shouldShowSection = true;
+          shouldShowIcon = true;
+        }
+      });
+
+      iconContainer.style.display = shouldShowIcon ? "block" : "none";
+    });
+
+    if (searchTerm === "") {
+      section.style.display = section.classList.contains("basics-icons") ? "flex" : "none";
+    } else {
+      section.style.display = shouldShowSection ? "flex" : "none";
+    }
+  });
+});
+
+
+
+

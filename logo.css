@@ -61,12 +61,12 @@ body::-webkit-scrollbar{
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 0.5px solid rgba(235, 235, 235, 0.4);
+  border-bottom: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
 .divider-3 {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 0.5px solid rgba(235, 235, 235, 0.4);
   border-bottom: 0.5px solid rgba(235, 235, 235, 0.4);
 }
 
@@ -117,10 +117,32 @@ body::-webkit-scrollbar{
   flex-direction: column;
 }
 
+.basics-list a {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: cascade 0.5s ease-in-out forwards;
+}
+
+/* Define animations */
+@keyframes cascade {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Adjust padding for the list */
 .basics-list {
   padding-left: 30px;
   line-height: 1;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .main-logo {
   background-color: #e0c438;
@@ -216,7 +238,7 @@ body::-webkit-scrollbar{
 }
 
 .variable-logos-section {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .variable-logos-heading {
@@ -253,7 +275,7 @@ body::-webkit-scrollbar{
 }
 
 .logos {
-  padding-top: 30px;
+  padding-top: 50px;
   display: flex;
   text-align: center;
 }
@@ -334,7 +356,6 @@ body::-webkit-scrollbar{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 50px;
   display: flex;
 }
 
@@ -353,6 +374,7 @@ body::-webkit-scrollbar{
   font-family: Gilroy-Medium;
   font-weight: 400;
   word-wrap: break-word;
+  padding-top: 20px;
 }
 
 .positioning-main-paragraph {
@@ -408,7 +430,6 @@ body::-webkit-scrollbar{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 50px;
   display: flex;
 }
 
@@ -490,7 +511,6 @@ body::-webkit-scrollbar{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 50px;
   display: flex;
 }
 
@@ -571,7 +591,6 @@ body::-webkit-scrollbar{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 50px;
   padding-bottom: 50px;
 }
 
@@ -585,7 +604,7 @@ body::-webkit-scrollbar{
   word-wrap: break-word;
 }
 
-.logo-size-subhedaing {
+.logo-size-subheading {
   color: #ebebeb;
   font-size: 20px;
   font-family: Gilroy-Medium;
@@ -869,7 +888,7 @@ body::-webkit-scrollbar{
 .line {
   width: 0.25px;
   height: 290px;
-  background-color: rgba(235, 235, 235, 0.5);
+  background-color: #EBEBEB;
   position: relative;
   top: -20px;
 }
