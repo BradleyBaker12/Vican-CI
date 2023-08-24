@@ -161,11 +161,11 @@ body {
   }
 
   .image-3{
-    width: 589px; 
+    width: auto; 
     height: 1083px; 
-    left: 1100px; 
-    top: 0px; 
     position: absolute;
+    left: 900px; 
+    top: 0px; 
   }
 
   .imagery-content{
