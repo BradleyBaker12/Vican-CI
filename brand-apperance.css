@@ -115,7 +115,18 @@ body::-webkit-scrollbar{
     position: relative;
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    animation: fadeOpacity 3s 1 forwards;
 }
+
+@keyframes fadeOpacity{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
 
 .reliability-section{
     margin: 0;
