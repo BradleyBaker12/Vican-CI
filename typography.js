@@ -6,7 +6,7 @@ function changeFont(buttonId) {
         if (button.id === buttonId) {
             button.style.background = '#000000';
         } else {
-            button.style.background = 'transparent';
+            button.style.background = 'none';
         }
     });
 

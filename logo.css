@@ -181,6 +181,7 @@ body::-webkit-scrollbar{
   padding-top: 250px;
   padding-left: 250px;
   padding-bottom: 180px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, scrollbar-color 0.5s ease-in-out;
 }
 
 .main-logo-content {
@@ -194,6 +195,7 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 4px;
   word-wrap: break-word;
+  transition: color 0.3s ease-in-out;
 }
 
 .main-logo-subheading {
@@ -201,6 +203,7 @@ body::-webkit-scrollbar{
   font-size: 20px;
   font-family: Gilroy-Medium, sans-serif;
   word-wrap: break-word;
+  transition: color 0.3s ease-in-out;
 }
 
 .main-logo-paragraph {
@@ -208,12 +211,14 @@ body::-webkit-scrollbar{
   font-size: 20px;
   font-family: Gilroy-Light, sans-serif;
   word-wrap: break-word;
+  transition: color 0.3s ease-in-out;
 }
 
 .vican-logo-theme {
   position: relative;
   width: 100%;
   padding-top: 50px;
+  transition: color 0.3s ease-in-out;
 }
 
 .active-square {
@@ -223,6 +228,7 @@ body::-webkit-scrollbar{
   top: 91%;
   position: absolute;
   background: black;
+  transition: left 0.3s ease-in-out;
 }
 
 .yellow-theme,
@@ -232,6 +238,7 @@ body::-webkit-scrollbar{
   border: none;
   width: 8%;
   height: auto;
+  transition: color 0.3s ease-in-out;
 }
 
 .yellow-logo {
@@ -255,11 +262,13 @@ body::-webkit-scrollbar{
   padding-left: 15%;
   padding-top: 50px;
   padding-bottom: 50px;
+  transition: color 0.3s ease-in-out;
 }
 
 .disclosure {
   width: 820px;
   text-align: center;
+  transition: color 0.3s ease-in-out;
 }
 
 .disclosure-paragraph {
@@ -267,6 +276,7 @@ body::-webkit-scrollbar{
   font-size: 15px;
   font-family: Gilroy-Light, sans-serif;
   word-wrap: break-word;
+  transition: color 0.3s ease-in-out;
 }
 
 .variable-logos-section {
