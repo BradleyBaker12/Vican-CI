@@ -45,6 +45,10 @@ body::-webkit-scrollbar{
   font-family: Gilroy-Medium, sans-serif !important;
 }
 
+.sidebar .active:hover {
+  font-size: 22px;
+}
+
 .logo-image {
   padding-bottom: 12.5%;
   padding-top: 2.5%;
@@ -68,6 +72,10 @@ body::-webkit-scrollbar{
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 0.5px solid rgba(235, 235, 235, 0.4);
+}
+
+.divider-3 a{
+  color: #ebebeb52;
 }
 
 .search-bar {
@@ -104,7 +112,14 @@ body::-webkit-scrollbar{
 }
 
 .sidebar-heading {
-  color: white;
+  color: #EBEBEB;
+  font-size: 14px;
+  padding-left: 50px;
+  font-family: Gilroy-Light, sans-serif;
+}
+
+.sidebar-heading-2 {
+  color: #EBEBEB52;
   font-size: 14px;
   padding-left: 50px;
   font-family: Gilroy-Light, sans-serif;
@@ -173,6 +188,14 @@ body::-webkit-scrollbar{
   line-height: 1;
   display: flex;
   flex-direction: column;
+  height: 0px;
+  animation: slideBar 1s ease-out forwards;
+}
+
+@keyframes slideBar{
+  to{
+    height: 240px;
+  }
 }
 
 
@@ -953,4 +976,16 @@ body::-webkit-scrollbar{
   display: flex; 
   flex-direction: column; 
   align-items: center;
+}
+
+.item-hover{
+  transition: 0.3s ease-in-out;
+}
+
+.item-hover:hover{
+  font-size: 22px;
+}
+
+.item-inactive{
+  cursor: default;
 }
