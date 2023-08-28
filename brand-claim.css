@@ -209,3 +209,25 @@ body::-webkit-scrollbar{
   padding-left: 50px;
   font-family: Gilroy-Light, sans-serif;
 }
+
+#archway {
+  transform-origin: bottom center;
+  width: 14px; /* Set the height of your SVG */
+  height: auto;
+  transition: 0.3s ease-out;
+  position:fixed;
+  top: 29%;
+  left: 14.3%;
+  border: none;
+  z-index: 999;
+  animation: slideAway 0.5s 1 forwards;
+}
+
+@keyframes slideAway{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

@@ -450,3 +450,41 @@ body::-webkit-scrollbar{
     flex-direction: column; 
     align-items: center;
 }
+
+.item-inactive{
+    cursor: default;
+  }
+  
+  .divider-3 a{
+    color: #ebebeb52;
+  }
+  
+  
+  .sidebar-heading-2 {
+    color: #EBEBEB52;
+    font-size: 14px;
+    padding-left: 50px;
+    font-family: Gilroy-Light, sans-serif;
+  }
+
+  #archway {
+    transform-origin: bottom center;
+    width: 14px; /* Set the height of your SVG */
+    height: auto;
+    transition: 0.3s ease-out;
+    position:absolute;
+    top: 19%;
+    left: 14.3%;
+    border: none;
+    z-index: 999;
+    animation: slideAway 1s 1 forwards;
+  }
+  
+  @keyframes slideAway{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }

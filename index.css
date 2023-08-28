@@ -152,3 +152,19 @@ body {
   top: 71%;
   left: 79%;
 }
+
+.item-inactive{
+  cursor: default;
+}
+
+.divider-3 a{
+  color: #ebebeb52;
+}
+
+
+.sidebar-heading-2 {
+  color: #EBEBEB52;
+  font-size: 14px;
+  padding-left: 50px;
+  font-family: Gilroy-Light, sans-serif;
+}

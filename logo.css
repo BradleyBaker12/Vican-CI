@@ -989,3 +989,26 @@ body::-webkit-scrollbar{
 .item-inactive{
   cursor: default;
 }
+
+#archway {
+  /* transform: translateX(50%); */
+  transform-origin: bottom center;
+  width: 14px; /* Set the height of your SVG */
+  height: auto;
+  transition: 0.3s ease-out;
+  position:absolute;
+  top: 24.5%;
+  left: 14.35%;
+  border: none;
+  z-index: 999;
+  animation: slideAway 0.5s 1 forwards;
+}
+
+@keyframes slideAway{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

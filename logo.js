@@ -21,6 +21,7 @@ function setActiveButton(button) {
     let blackBorder = 'none';
     let scrollerBackgroundColor = '#EBEBEB';
 
+
     if (button === yellowButton) {
         leftPosition = 3.5;
         backgroundColor = '#E0C438';
@@ -103,4 +104,19 @@ window.addEventListener('scroll', () => {
 
     // Update the square's position
     square.style.transform = `translateY(${newPosition}px)`;
+});
+
+// Get references to the sidebar items and the archway
+const sidebarItems = document.querySelectorAll('.basics-list a');
+const archway = document.getElementById('archway');
+
+// Add a click event listener to each sidebar item
+sidebarItems.forEach(item => {
+  item.addEventListener('click', () => {
+    // Get the top position of the clicked item
+    const topPosition = item.getBoundingClientRect().top + window.scrollY;
+
+    // Update the top position of the archway
+    archway.style.top = `${topPosition}px`;
+  });
 });
