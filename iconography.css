@@ -533,11 +533,17 @@ body::-webkit-scrollbar{
 }
 
 .item-hover{
-  transition: 0.3s ease-in-out;
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: margin 0.1s ease-in, font-size 0.1s ease-out;
 }
 
 .item-hover:hover{
-  font-size: 22px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 24px;
 }
 
 .item-inactive{

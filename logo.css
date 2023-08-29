@@ -45,10 +45,6 @@ body::-webkit-scrollbar{
   font-family: Gilroy-Medium, sans-serif !important;
 }
 
-.sidebar .active:hover {
-  font-size: 22px;
-}
-
 .logo-image {
   padding-bottom: 12.5%;
   padding-top: 2.5%;
@@ -320,11 +316,11 @@ body::-webkit-scrollbar{
   padding-left: 30px;
 }
 
-.variable-logos-content{
+.variable-logos{
   opacity: 0;
 }
 
-.variable-logos-content.active,
+.variable-logos.active,
 .positioning-main-content.active
 {
   opacity: 1;
@@ -336,6 +332,7 @@ body::-webkit-scrollbar{
   padding-top: 20px;
   width: 1000px;
   margin-left: 100px;
+  opacity: 0;
 }
 
 .variable-logos-subheading {
@@ -355,6 +352,10 @@ body::-webkit-scrollbar{
   padding-top: 50px;
   display: flex;
   text-align: center;
+}
+
+.downloadable-logos{
+  opacity: 0;
 }
 
 .download-yellow-logo {
@@ -426,6 +427,10 @@ body::-webkit-scrollbar{
   position: relative;
 }
 
+.positioning-slideshow {
+  opacity: 0;
+}
+
 .positioning-main-content {
   padding-bottom: 50px;
   margin-left: 100px;
@@ -437,6 +442,12 @@ body::-webkit-scrollbar{
   opacity: 0;
 }
 
+.positioning-text{
+  width: 972px; 
+  padding-top: 20px;
+  opacity: 0;
+}
+
 .positioning-main-heading {
   color: #ebebeb;
   font-size: 50px;
@@ -444,6 +455,7 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
+  opacity: 0;
 }
 
 .positioning-main-subheading {
@@ -520,6 +532,13 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
+  opacity: 0;
+}
+
+.minimum-size-text{
+  width: 972px; 
+  padding-top: 20px;
+  opacity: 0;
 }
 
 .minimum-size-subheading {
@@ -543,6 +562,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 50px;
   display: inline-flex;
+  opacity: 0;
 }
 
 .minimum-size-large-image {
@@ -604,6 +624,13 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
+  opacity: 0;
+}
+
+.spacing-text{
+  width: 972px; 
+  padding-top: 30px;
+  opacity: 0;
 }
 
 .spacing-subheading {
@@ -628,6 +655,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 134px;
   display: flex;
+  opacity: 0;
 }
 
 .spacing-square {
@@ -684,6 +712,13 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
+  opacity: 0;
+}
+
+.logo-size-text{
+  width: 972px; 
+  padding-top: 20px;
+  opacity: 0;
 }
 
 .logo-size-subheading {
@@ -709,6 +744,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 97px;
   display: inline-flex;
+  opacity: 0;
 }
 
 .logo-size-examples-content {
@@ -997,11 +1033,17 @@ body::-webkit-scrollbar{
 }
 
 .item-hover{
-  transition: 0.3s ease-in-out;
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: margin 0.1s ease-in, font-size 0.1s ease-out;
 }
 
 .item-hover:hover{
-  font-size: 22px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 24px;
 }
 
 .item-inactive{
@@ -1031,7 +1073,7 @@ body::-webkit-scrollbar{
   }
 }
 
-.variable-logos-content.active,
+.variable-logos.active,
 .positioning-main-content.active,
 .minimum-size-section.active,
 .spacing-section.active,
@@ -1040,7 +1082,21 @@ body::-webkit-scrollbar{
 .example-section-heading.active,
 .examples-section-image-1-2.active,
 .examples-section-image-3.active,
-.examples-section-image-4.active
+.examples-section-image-4.active,
+.variable-logos.active,
+.variable-logos-text.active,
+.downloadable-logos.active,
+.positioning-main-heading.active,
+.positioning-text.active,
+.positioning-slideshow.active,
+.minimum-size-heading.active,
+.minimum-size-text.active,
+.minimum-size-image-layout.active,
+.spacing-heading.active, .spacing-text.active,
+.spacing-images.active,
+.logo-size-heading.active,
+.logo-size-text.active,
+.logo-size-examples.active
 {
   opacity: 1;
   transform: translateY(-10px);

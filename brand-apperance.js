@@ -42,3 +42,9 @@ const observer = new IntersectionObserver(handleIntersection, observerOptions);
 animatedElements.forEach(element => {
     observer.observe(element);
 });
+
+
+
+// Add the following JavaScript code to your existing <script> tag
+
+

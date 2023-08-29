@@ -16,6 +16,7 @@ body {
     overflow-x: hidden;
     padding-top: 20px;
     border-right: 0.5px solid rgba(235, 235, 235, 0.4);
+    z-index: 999;
 }
 
 /* Style the sidebar links */
@@ -92,8 +93,19 @@ body {
 
 .main-heading{
   position: absolute;
+  white-space: nowrap;
   top: 35%;
   left: 34.5%;
+  animation: slideIn 1s ease-in;
+}
+
+@keyframes slideIn{
+  from{
+    left: 100%;
+  }
+  to{
+    left: 34.5%;
+  }
 }
 
 .main-heading-part-1{
@@ -113,6 +125,19 @@ body {
   letter-spacing: 4px;
   word-wrap: break-word;
   padding-left: 16px;
+  position: absolute;
+  left: 100%;
+  top: -2%;
+  animation: slideOut 1s ease-in;
+}
+
+@keyframes slideOut{
+  from{
+    left: 0%;
+  }
+  to{
+    left: 100%;
+  }
 }
 
 .main-paragraph{
@@ -120,6 +145,17 @@ body {
   position: absolute;
   top: 50%;
   left: 60%;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn{
+  from{
+    transform: translate(-500px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 .main-paragraph-1{
@@ -141,6 +177,16 @@ body {
   position: absolute;
   top: 70%;
   left: 88%;
+  animation: slideIn2 1s ease forwards;
+}
+
+@keyframes slideIn2{
+  from{
+    left: 100%;
+  }
+  to{
+    left: 88%;
+  }
 }
 
 .line{
@@ -151,6 +197,16 @@ body {
   position: absolute;
   top: 71%;
   left: 79%;
+  animation: slideIn3 1s ease forwards;
+}
+
+@keyframes slideIn3{
+  from{
+    left: 100%;
+  }
+  to{
+    left: 79%;
+  }
 }
 
 .item-inactive{
@@ -168,3 +224,4 @@ body {
   padding-left: 50px;
   font-family: Gilroy-Light, sans-serif;
 }
+
