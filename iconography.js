@@ -142,4 +142,30 @@ document.getElementById("icon-search").addEventListener("input", function() {
 
 
 
+// Function to handle intersection
+function handleIntersection(entries, observer) {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          observer.unobserve(entry.target); // Unobserve once animation is triggered
+      }
+  });
+}
 
+// Set up the Intersection Observer
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.3 // Percentage of element visible
+};
+
+// Select all elements with the 'animate-on-scroll' class
+const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+// Create an Intersection Observer instance
+const observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+// Observe each 'animate-on-scroll' element
+animatedElements.forEach(element => {
+  observer.observe(element);
+});

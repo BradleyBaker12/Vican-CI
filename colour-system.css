@@ -310,3 +310,27 @@ body::-webkit-scrollbar{
     opacity: 1;
   }
 }
+
+.colour-systems-colours.active, 
+.brand-colours-section.active{
+  opacity: 1;
+  transform: translateY(-10px);
+  transition: opacity 1s, transform 1s;
+}
+
+.colour-systems-colours{
+  justify-content: center; 
+  align-items: center; 
+  display: inline-flex;
+  opacity: 0;
+}
+
+.brand-colours-section{
+  padding-top: 50px; 
+  padding-bottom: 50px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: flex;
+  opacity: 0;
+}

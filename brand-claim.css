@@ -231,3 +231,38 @@ body::-webkit-scrollbar{
     opacity: 1;
   }
 }
+
+.design-section.active,
+.positioning-section.active,
+.examples-section.active{
+  opacity: 1;
+  transform: translateY(-10px);
+  transition: opacity 1s, transform 1s;
+}
+
+.design-section{
+  height: 632px; 
+  padding-top: 50px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: flex;
+  opacity: 0;
+}
+
+.positioning-section{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: flex;
+  opacity: 0;
+}
+
+.examples-section{
+  padding-top: 50px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: flex;
+  opacity: 0;
+}

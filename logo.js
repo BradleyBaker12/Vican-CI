@@ -106,17 +106,31 @@ window.addEventListener('scroll', () => {
     square.style.transform = `translateY(${newPosition}px)`;
 });
 
-// Get references to the sidebar items and the archway
-const sidebarItems = document.querySelectorAll('.basics-list a');
-const archway = document.getElementById('archway');
 
-// Add a click event listener to each sidebar item
-sidebarItems.forEach(item => {
-  item.addEventListener('click', () => {
-    // Get the top position of the clicked item
-    const topPosition = item.getBoundingClientRect().top + window.scrollY;
+// Function to handle intersection
+function handleIntersection(entries, observer) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target); // Unobserve once animation is triggered
+        }
+    });
+}
 
-    // Update the top position of the archway
-    archway.style.top = `${topPosition}px`;
-  });
+// Set up the Intersection Observer
+const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.3 // Percentage of element visible
+};
+
+// Select all elements with the 'animate-on-scroll' class
+const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+// Create an Intersection Observer instance
+const observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+// Observe each 'animate-on-scroll' element
+animatedElements.forEach(element => {
+    observer.observe(element);
 });

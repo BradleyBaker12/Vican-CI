@@ -320,6 +320,18 @@ body::-webkit-scrollbar{
   padding-left: 30px;
 }
 
+.variable-logos-content{
+  opacity: 0;
+}
+
+.variable-logos-content.active,
+.positioning-main-content.active
+{
+  opacity: 1;
+  transform: translateY(-10px);
+  transition: opacity 1s, transform 1s;
+}
+
 .variable-logos-text {
   padding-top: 20px;
   width: 1000px;
@@ -422,6 +434,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+  opacity: 0;
 }
 
 .positioning-main-heading {
@@ -486,6 +499,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
+  opacity: 0;
 }
 
 .minimum-size-content {
@@ -496,6 +510,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+
 }
 
 .minimum-size-heading {
@@ -567,6 +582,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
+  opacity: 0;
 }
 
 .spacing-content {
@@ -648,6 +664,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
+  opacity: 0;
 }
 
 .logo-size-content {
@@ -864,6 +881,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
+  opacity: 0;
 }
 
 .prohibitions-content {
@@ -996,7 +1014,7 @@ body::-webkit-scrollbar{
   width: 14px; /* Set the height of your SVG */
   height: auto;
   transition: 0.3s ease-out;
-  position:absolute;
+  position:fixed;
   top: 24.5%;
   left: 14.35%;
   border: none;
@@ -1011,4 +1029,80 @@ body::-webkit-scrollbar{
   to{
     opacity: 1;
   }
+}
+
+.variable-logos-content.active,
+.positioning-main-content.active,
+.minimum-size-section.active,
+.spacing-section.active,
+.logo-size-section.active,
+.prohibitions-section.active,
+.example-section-heading.active,
+.examples-section-image-1-2.active,
+.examples-section-image-3.active,
+.examples-section-image-4.active
+{
+  opacity: 1;
+  transform: translateY(-10px);
+  transition: opacity 1s, transform 1s;
+}
+
+.examples-section{
+  padding-bottom: 50px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 50px; 
+  display: inline-flex;
+}
+
+.example-content{
+  width: 816px; 
+  padding-bottom: 50px; 
+  padding-left: 100px; 
+  padding-right: 100px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 50px; 
+  display: flex;
+}
+
+.example-section-heading{
+  width: 616px; 
+  height: 44px; 
+  color: #EBEBEB; 
+  font-size: 50px; 
+  font-family: Gilroy-Bold; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  letter-spacing: 2.50px; 
+  word-wrap: break-word;
+}
+
+.examples-section-image-1-2{
+  padding-left: 250px; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  display: inline-flex;
+  opacity: 0;
+}
+
+.examples-section-image-3{
+  padding-left: 170px;  
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  display: inline-flex;
+  opacity: 0;
+}
+
+.examples-section-image-4{
+  padding-left: 170px;  
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  display: inline-flex;
+  opacity: 0;
 }
