@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
     padding-top: 20px;
     border-right: 0.5px solid rgba(235, 235, 235, 0.4);
-    z-index: 999;
+    z-index: 99;
   }
   
   /* Style the sidebar links */
@@ -218,16 +218,18 @@ body::-webkit-scrollbar{
 }
 
 #archway {
+  /* transform: translateX(50%); */
   transform-origin: bottom center;
   width: 14px; /* Set the height of your SVG */
   height: auto;
   transition: 0.3s ease-out;
   position:fixed;
   top: 29%;
-  left: 14.3%;
+  left: 14.35%;
   border: none;
   z-index: 999;
   animation: slideAway 0.5s 1 forwards;
+  z-index: 999;
 }
 
 @keyframes slideAway{
@@ -250,17 +252,18 @@ body::-webkit-scrollbar{
   transition: opacity 1s, transform 1s;
 }
 
-.white-ribbon.active,
-.yellow-ribbon.active{
-  opacity: 1;
-  transform: translateX(0px);
-  transition: opacity 1s, transform 1s;
+.white-ribbon.active{
+  animation: slide-left 2s ease forwards;
 }
 
 .black-ribbon.active{
-  opacity: 1;
-  transform: translateX(0px);
-  transition: opacity 1s, transform 1s;
+  animation: slide-right 2s ease forwards;
+  animation-delay: 1000ms;
+}
+
+.yellow-ribbon.active{
+  animation: slide-left 2s ease forwards;
+  animation-delay: 2000ms;
 }
 
 .design-section{
@@ -345,6 +348,29 @@ body::-webkit-scrollbar{
   left: 0%;
   opacity: 0;
   z-index: -1;
+}
+
+
+@keyframes slide-left{
+  from{
+    opacity: 0;
+    left: 100%;
+  }
+  to{
+    opacity: 1;
+    left: 0%;
+  }
+}
+
+@keyframes slide-right{
+  from{
+    opacity: 0;
+    right: 100%;
+  }
+  to{
+    opacity: 1;
+    right: 0%;
+  }
 }
 
 .positioning-heading{

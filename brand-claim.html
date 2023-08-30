@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="brand-claim.css" />
     <link rel="stylesheet" href="fonts.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="Resources\Images\White Vican Logo Resized.png"
-    />
+    <link rel="icon" type="image/png" href="Resources\Images\White Vican Logo Resized.png"/>
     <title>Vican | Brand Claim</title>
   </head>
   <body>
@@ -133,29 +129,31 @@
                     </span>
                 </div>
                 </div>
-                <div class="ribbon">
-                    <div id="white-ribbon" class="white-ribbon animate-on-scroll">
-                        <div style="width: 920px">
-                            <span style="color: black; font-size: 50px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">
-                                Enriching Lives through
-                            </span>
-                            <span style="color: black; font-size: 50px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word"> 
-                            </span>
-                            <span style="color: black; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; word-wrap: break-word">
-                                Paint Mastery
-                            </span>
+                <div class="ribbon-container">
+                    <div class="ribbon">
+                        <div id="white-ribbon" class="white-ribbon animate-on-scroll">
+                            <div style="width: 920px">
+                                <span style="color: black; font-size: 50px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">
+                                    Enriching Lives through
+                                </span>
+                                <span style="color: black; font-size: 50px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word"> 
+                                </span>
+                                <span style="color: black; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; word-wrap: break-word">
+                                    Paint Mastery
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div id="black-ribbon" class="black-ribbon animate-on-scroll">
-                        <div style="width: 900px">
-                            <span style="color: #EBEBEB; font-size: 50px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">
-                            Enriching Lives through</span><span style="color: #EBEBEB; font-size: 50px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word"> </span><span style="color: #E0C438; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; word-wrap: break-word">
-                                Paint Mastery</span></div>
-                    </div>
-                    <div id="yellow-ribbon" class="yellow-ribbon animate-on-scroll">
-                        <div style="width: 909px"><span style="color: black; font-size: 50px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">
-                            Enriching Lives through </span><span style="color: black; font-size: 50px; font-family: Gilroy-Heavy; font-weight: 400; word-wrap: break-word">
-                                Paint Mastery</span></div>
+                        <div id="black-ribbon" class=" black-ribbon animate-on-scroll ">
+                            <div style="width: 900px">
+                                <span style="color: #EBEBEB; font-size: 50px; font-family: Gilroy-Light; font-weight: 400; word-wrap: break-word">
+                                Enriching Lives through</span><span style="color: #EBEBEB; font-size: 50px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word"> </span><span style="color: #E0C438; font-size: 50px; font-family: Gilroy-Bold; font-weight: 400; word-wrap: break-word">
+                                    Paint Mastery</span></div>
+                        </div>
+                        <div id="yellow-ribbon" class=" yellow-ribbon animate-on-scroll ">
+                            <div style="width: 909px"><span style="color: black; font-size: 50px; font-family: Gilroy-Medium; font-weight: 400; word-wrap: break-word">
+                                Enriching Lives through </span><span style="color: black; font-size: 50px; font-family: Gilroy-Heavy; font-weight: 400; word-wrap: break-word">
+                                    Paint Mastery</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,5 +205,31 @@
         </div>
     </div>
     <script src="brand-claim.js"></script>
+    <script>
+        // Function to handle animations
+        function handleAnimation(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }
+    
+        // Create an observer instance
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5 // 50% of the element visible
+        };
+    
+        const observer = new IntersectionObserver(handleAnimation, options);
+    
+        // Observe the elements
+        const animateElements = document.querySelectorAll('.animate-on-scroll');
+        animateElements.forEach(element => observer.observe(element));
+    </script>
+    </body>
+    
   </body>
 </html>

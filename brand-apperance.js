@@ -15,11 +15,11 @@ window.addEventListener('scroll', () => {
     square.style.transform = `translateY(${newPosition}px)`;
 });
 
-// Function to handle intersection
+// Define the callback function for the Intersection Observer
 function handleIntersection(entries, observer) {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('active');
+            entry.target.classList.add('active'); // Apply the animation class
             observer.unobserve(entry.target); // Unobserve once animation is triggered
         }
     });
@@ -42,9 +42,4 @@ const observer = new IntersectionObserver(handleIntersection, observerOptions);
 animatedElements.forEach(element => {
     observer.observe(element);
 });
-
-
-
-// Add the following JavaScript code to your existing <script> tag
-
 
