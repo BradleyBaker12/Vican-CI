@@ -3,6 +3,8 @@ const button1 = document.getElementById('button-1');
 const button2 = document.getElementById('button-2');
 const iconImages1 = document.querySelectorAll(".icon-img-1"); // Use querySelectorAll
 const iconImages2 = document.querySelectorAll(".icon-img-2"); // Use querySelectorAll
+const strokeImage = document.querySelector('.stroke-image');
+const fillImage = document.querySelector('.fill-image');
 const activeSquare = document.querySelector('.active-square');
 
 // Add click event listeners to the buttons
@@ -21,6 +23,8 @@ function setActiveButton(button) {
         button1.style.border = '1px solid #000000';
         iconImages1.forEach(img => (img.style.opacity = 1));
         iconImages2.forEach(img => (img.style.opacity = 0));
+        strokeImage.style.opacity = 1;
+        fillImage.style.opacity = 0;
     } 
     else if (button === button2) {
         leftPosition = 73;
@@ -29,6 +33,8 @@ function setActiveButton(button) {
         button2.style.border = '1px solid #000000';
         iconImages1.forEach(img => (img.style.opacity = 0));
         iconImages2.forEach(img => (img.style.opacity = 1));
+        strokeImage.style.opacity = 0;
+        fillImage.style.opacity = 1;
     }
     // Set the left position of the active square
     activeSquare.style.left = leftPosition + '%';

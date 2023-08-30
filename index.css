@@ -87,8 +87,14 @@ body {
   }
 }
 
+.index-image{
+  width: 50%;
+  position: relative;
+  top: 10px;
+}
+
 .home-image{
-  width: 50.2%;
+  width: 100%;
 }
 
 .main-heading{

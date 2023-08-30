@@ -481,13 +481,24 @@ body::-webkit-scrollbar{
   gap: 30px;
   display: flex;
 }
+.left-lorem-img{
+  width: 100%;
+}
 
 .left-lorem {
   flex: 1;
 }
 
+.middle-lorem-img{
+  width: 100%;
+}
+
 .middle-lorem {
   flex: 1;
+}
+
+.right-lorem-img{
+  width: 100%;
 }
 
 .right-lorem {
