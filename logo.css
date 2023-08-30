@@ -139,10 +139,28 @@ body::-webkit-scrollbar{
   }
 }
 
-.basics-list a {
+.basics-list {
+  padding-left: 30px;
+  line-height: 1;
+  position: relative;
+  flex-direction: column;
+  height: 0;
+  overflow: hidden;
+  animation: slideBar 1s ease-out forwards;
+}
+
+.basics-list .item a {
+  margin: 0;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
   opacity: 0;
   transform: translateY(-10px);
   animation: cascade 0.5s ease-out forwards;
+}
+
+.basics-list .item:hover a {
+  font-size: 24px;
 }
 
 @keyframes cascade {
@@ -153,46 +171,38 @@ body::-webkit-scrollbar{
 }
 
 /* Add animation delay to each link */
-.basics-list a:nth-child(1) {
+.basics-list .item:nth-child(1) a {
   animation-delay: 0.1s;
 }
-.basics-list a:nth-child(2) {
+.basics-list .item:nth-child(2) a {
   animation-delay: 0.2s;
 }
-.basics-list a:nth-child(3) {
+.basics-list .item:nth-child(3) a {
   animation-delay: 0.3s;
 }
-.basics-list a:nth-child(4) {
+.basics-list .item:nth-child(4) a {
   animation-delay: 0.4s;
 }
-.basics-list a:nth-child(5) {
+.basics-list .item:nth-child(5) a {
   animation-delay: 0.5s;
 }
-.basics-list a:nth-child(6) {
+.basics-list .item:nth-child(6) a {
   animation-delay: 0.6s;
 }
-.basics-list a:nth-child(7) {
+.basics-list .item:nth-child(7) a {
   animation-delay: 0.7s;
 }
-.basics-list a:nth-child(8) {
+.basics-list .item:nth-child(8) a {
   animation-delay: 0.8s;
 }
 
-/* Adjust padding for the list */
-.basics-list {
-  padding-left: 30px;
-  line-height: 1;
-  display: flex;
-  flex-direction: column;
-  height: 0px;
-  animation: slideBar 1s ease-out forwards;
-}
-
-@keyframes slideBar{
-  to{
-    height: 240px;
+@keyframes slideBar {
+  to {
+    height: 250px;
   }
 }
+
+
 
 
 .main-logo {
@@ -1043,20 +1053,6 @@ body::-webkit-scrollbar{
   align-items: center;
 }
 
-.item-hover{
-  margin-top: 0; 
-  margin-bottom: 0;
-  font-size: 20px; 
-  text-rendering: optimizeLegibility;
-  transition: margin 0.1s ease-in, font-size 0.1s ease-out;
-}
-
-.item-hover:hover{
-  margin-top: 1px;
-  margin-bottom: 1px;
-  font-size: 24px;
-}
-
 .item-inactive{
   cursor: default;
 }
@@ -1068,7 +1064,7 @@ body::-webkit-scrollbar{
   height: auto;
   transition: 0.3s ease-out;
   position:fixed;
-  top: 24.5%;
+  top: 25.5%;
   left: 14.35%;
   border: none;
   z-index: 999;
@@ -1172,4 +1168,116 @@ body::-webkit-scrollbar{
   gap: 30px; 
   display: inline-flex;
   opacity: 0;
+}
+
+.item-1 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 0%;
+}
+
+.item-1 a:hover{
+  font-size: 24px;
+}
+
+.item-2 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 12%;
+}
+
+.item-2 a:hover{
+  font-size: 24px;
+}
+
+.item-3 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 24%;
+}
+
+.item-3 a:hover{
+  font-size: 24px;
+}
+
+.item-4 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 36%;
+}
+
+.item-4 a:hover{
+  font-size: 24px;
+}
+
+.item-5 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 48%;
+}
+
+.item-5 a:hover{
+  font-size: 24px;
+}
+
+.item-6 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 60%;
+}
+
+.item-6 a:hover{
+  font-size: 24px;
+}
+
+.item-7 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 72%;
+}
+
+.item-7 a:hover{
+  font-size: 24px;
+}
+
+.item-8 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 84%;
+}
+
+.item-8 a:hover{
+  font-size: 24px;
 }

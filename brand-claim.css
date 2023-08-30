@@ -124,17 +124,14 @@ body {
     }
   }
   
-  
-  
-  /* Adjust padding for the list */
   .basics-list {
     padding-left: 30px;
     line-height: 1;
-    display: flex;
+    position: relative;
     flex-direction: column;
-    height: 240px;
-  }
-  
+    height: 250px;
+    overflow: hidden;
+  } 
   
   .right-slide-arrow-button {
     background-color: transparent;
@@ -254,16 +251,16 @@ body::-webkit-scrollbar{
 
 .white-ribbon.active{
   animation: slide-left 2s ease forwards;
+  animation-delay: 100ms;
 }
 
 .black-ribbon.active{
   animation: slide-right 2s ease forwards;
-  animation-delay: 1000ms;
 }
 
 .yellow-ribbon.active{
   animation: slide-left 2s ease forwards;
-  animation-delay: 2000ms;
+  animation-delay: 100ms;
 }
 
 .design-section{
@@ -426,4 +423,118 @@ body::-webkit-scrollbar{
   gap: 30px;
   display: inline-flex;
   opacity: 0;
+}
+
+
+
+.item-1 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 0%;
+}
+
+.item-1 a:hover{
+  font-size: 24px;
+}
+
+.item-2 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 12%;
+}
+
+.item-2 a:hover{
+  font-size: 24px;
+}
+
+.item-3 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 24%;
+}
+
+.item-3 a:hover{
+  font-size: 24px;
+}
+
+.item-4 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 36%;
+}
+
+.item-4 a:hover{
+  font-size: 24px;
+}
+
+.item-5 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 48%;
+}
+
+.item-5 a:hover{
+  font-size: 24px;
+}
+
+.item-6 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 60%;
+}
+
+.item-6 a:hover{
+  font-size: 24px;
+}
+
+.item-7 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 72%;
+}
+
+.item-7 a:hover{
+  font-size: 24px;
+}
+
+.item-8 a{
+  margin-top: 0; 
+  margin-bottom: 0;
+  font-size: 20px; 
+  text-rendering: optimizeLegibility;
+  transition: font-size 0.1s ease-out;
+  position: absolute;
+  top: 84%;
+}
+
+.item-8 a:hover{
+  font-size: 24px;
 }
