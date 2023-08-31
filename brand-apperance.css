@@ -467,24 +467,88 @@ body::-webkit-scrollbar{
     font-family: Gilroy-Light, sans-serif;
   }
 
-  #archway {
-    transform-origin: bottom center;
-    width: 14px; /* Set the height of your SVG */
-    height: auto;
-    transition: 0.3s ease-out;
-    position:absolute;
-    top: 19%;
-    left: 14.3%;
-    border: none;
-    z-index: 999;
-    animation: slideAway 1s 1 forwards;
-  }
-  
-  @keyframes slideAway{
-    from{
-      opacity: 0;
+  @media(max-width: 1919px) {
+
+    .sidebar{
+        width: 15%;
+        padding-top: 2%;
+      }
+    
+      .sidebar a{
+        padding-left: 15%;
+        padding-top: 2%;
+        font-size: 16px;
+      }
+    
+      .search-bar{
+        margin-left: 15%;
+        width: 70%;
+      }
+    
+      .sidebar-heading{
+        padding-left: 15%;
+      }
+    
+      .sidebar-heading-2{
+        padding-left: 15%;
+      }
+
+      .reliability-section, .support-section, 
+      .no-time-wasting-section{
+        height: 100%;
+      }
+
+      .reliability-main-content{
+        top: -178px;
+      }
+
+      .reliability-image-1{
+        width: 100%;
+        height: 10%;
+      }
+
+      .reliability-heading, .experts-heading, 
+      .support-heading, .system-driven-heading,
+      .no-time-wasting-heading{
+        font-size: 65px;
+      }
+
+      .reliability-subheading, .experts-subheading,
+      .support-subheading, .system-driven-subheading,
+      .no-time-wasting-subheading{
+        font-size: 17px;
+      }
+
+      .reliability-paragraph, .experts-paragraph,
+      .support-paragraph, .system-driven-paragraph,
+      .no-time-wasting-paragraph{
+        font-size: 17px;
+      }
+
+      .reliability-image-1{
+        height: auto;
+      }
+
+      .experts-main-content{
+        top: 59%;
+      }
+
+      .system-driven-main-content{
+        top: 64%;;
+      }
+
+      .scroller-svg{
+        height: 100%;
+        top: 10%;
+      }
+
+      .line{
+        height: 200px;
+        top: -16px;
+      }
+
+      .square{
+        width: 17px;
+        height: 17px;
+      }
     }
-    to{
-      opacity: 1;
-    }
-  }

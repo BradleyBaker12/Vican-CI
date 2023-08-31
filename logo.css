@@ -1281,3 +1281,117 @@ body::-webkit-scrollbar{
 .item-8 a:hover{
   font-size: 24px;
 }
+
+@media(max-width: 1919px){
+  
+  .sidebar{
+    width: 15%;
+    padding-top: 2%;
+  }
+
+  .sidebar a{
+    padding-left: 15%;
+    padding-top: 2%;
+    font-size: 16px;
+  }
+
+  .search-bar{
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  .sidebar-heading{
+    padding-left: 15%;
+  }
+
+  .sidebar-heading-2{
+    padding-left: 15%;
+  }
+
+  .scroller-svg{
+    height: 100%;
+    top: 10%;
+  }
+
+  .line{
+    height: 200px;
+    top: -16px;
+  }
+
+  .square{
+    width: 17px;
+    height: 17px;
+  }
+
+  .basics-list{
+    padding-left: 8%;
+  }
+
+  @keyframes slideBar {
+    to {
+      height: 200px;
+    }
+  }
+
+  .basics-list .item a{
+    font-size: 16px;
+  }
+
+  .basics-list .item:hover a{
+    font-size: 20px;
+  }
+
+  .item-1 a, .item-2 a, .item-3 a,
+  .item-4 a, .item-5 a, .item-6 a,
+  .item-7 a, .item-8 a{
+    font-size: 15px;
+  }
+
+  .main-logo{
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-bottom: 6%;
+  }
+
+  .main-logo-content{
+    width: 90%
+  }
+
+  .main-logo-heading{
+    font-size: 65px;
+  }
+
+  .main-logo-subheading{
+    font-size: 18px;
+  }
+
+  .main-logo-paragraph{
+    font-size: 18px;
+  }
+
+  .active-square{
+    width: 15px;
+    height: 15px;
+  }
+
+  .yellow-theme,
+  .black-theme,
+  .white-theme{
+    width: 8%;
+  }
+
+  .disclosure-section{
+    top: 30px;
+    padding-left: 4%;
+    padding-bottom: 0;
+  }
+
+  .disclosure-paragraph{
+    font-size: 14px;
+  }
+
+  .variable-logos-heading{
+    font-size: 40px;
+  }
+
+}
