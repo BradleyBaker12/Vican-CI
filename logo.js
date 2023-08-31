@@ -32,7 +32,7 @@ function setActiveButton(button) {
         blackBorder = "1px solid #000000";
         scrollerBackgroundColor = '#EBEBEB';
     } else if (button === whiteButton) {
-        leftPosition = 11.5;
+        leftPosition = 11.7;
         backgroundColor = '#EBEBEB';
         textColor = '#000000';
         activeSquareColour = '#000000';
