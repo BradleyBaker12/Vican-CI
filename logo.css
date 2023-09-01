@@ -1167,6 +1167,56 @@ body::-webkit-scrollbar{
   opacity: 0;
 }
 
+.tshirt-1-container{
+  height: 607px; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex;
+}
+
+.tshirt-1{
+  width: 461.75px; 
+  height: 607px;
+}
+
+.tshirt-2{
+  width: 461.75px; 
+  height: 607px;
+}
+
+.vertical-line-3{
+  width: 1px; 
+  height: 608px; 
+  border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.example-image-1-container{
+  height: 989px; 
+  justify-content: center; 
+  align-items: center;
+  gap: 10px; 
+  display: flex
+}
+
+.example-image-1{
+  width: 1200px; 
+  height: 989px;
+}
+
+.example-image-2-container{
+  height: 989px; 
+  justify-content: center; 
+  align-items: center;
+  gap: 10px; 
+  display: flex
+}
+
+.example-image-2{
+  width: 1200px; 
+  height: 989px;
+}
+
 .item-1 a{
   margin-top: 0; 
   margin-bottom: 0;
@@ -1280,6 +1330,18 @@ body::-webkit-scrollbar{
 }
 
 .position-vertical-line{
+  width: 1px; 
+  height: 608px; 
+  border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.vertical-line-1{
+  width: 1px; 
+  height: 608px; 
+  border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.vertical-line-2{
   width: 1px; 
   height: 608px; 
   border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
@@ -1469,6 +1531,14 @@ body::-webkit-scrollbar{
   .spacing-square-image{
     width: 300px;
     height: 300px;
+    padding-top: 10%;
+  }
+
+  .spacing-horizontal {
+    height: 400px;
+    height: 0;
+    padding-top: 0%;
+    padding-bottom: 10%;
   }
 
   .spacing-horizontal-image{
@@ -1493,11 +1563,11 @@ body::-webkit-scrollbar{
   }
 
   .horizontal-1{
-    width: 400px;
+    width: 450px;
   }
 
   .icon-1-layout{
-    gap: 240px;
+    gap: 310px;
   }
 
   .icon-1-text{
@@ -1510,12 +1580,12 @@ body::-webkit-scrollbar{
   }
 
   .horizontal-2{
-    width: 400px;
+    width: 450px;
   }
 
   .header-layout{
     height: 60px;
-    gap: 30px;
+    gap: 80px;
   }
 
   .header-heading{
@@ -1528,15 +1598,15 @@ body::-webkit-scrollbar{
   }
 
   .horizontal-3{
-    width: 400px;
+    width: 450px;
   }
 
   .horizontal-4{
-    width: 400px;
+    width: 450px;
   }
 
   .icon-2-layout{
-    gap: 240px;
+    gap: 310px;
   }
 
   .icon-2{
@@ -1549,7 +1619,116 @@ body::-webkit-scrollbar{
   }
 
   .horizontal-5{
-    width: 400px;
+    width: 450px;
+  }
+
+  .subheading-layout{
+    gap: 80px;
+  }
+
+  .subheading-heading{
+    font-size: 45px;
+  }
+
+  .subheading-text{
+    font-size: 18px;
+  }
+
+  .horizontal-6{
+    width: 450px;
+  }
+
+  .prohibitions-heading{
+    font-size: 40px;
+  }
+
+  .vertical-line-1{
+    height: 400px;
+  }
+
+  .vertical-line-2{
+    height: 400px;
+  }
+
+  .prohibitions-image-1{
+    height: auto
+  }
+
+  .image-1{
+    width: 270px;
+    height: auto;
+  }
+
+  .prohibitions-image-2{
+    height: auto
+  }
+
+  .image-2{
+    width: 270px;
+    height: auto;
+  }
+
+  .prohibitions-image-3{
+    height: auto
+  }
+
+  .image-3{
+    width: 270px;
+    height: auto;
+  }
+
+  .example-section-heading{
+    font-size: 40px;
+  }
+
+  .tshirt-1-container{
+    width: 300px;
+    height: auto;
+  }
+
+  .tshirt-1{
+    width: 300px;
+    height: auto;
+  }
+
+  .vertical-line-3{
+    height: 400px;
+  }
+
+  .tshirt-2-container{
+    width: 300px;
+    height: auto;
+  }
+
+  .tshirt-2{
+    width: 300px;
+    height: auto;
+  }
+
+  .example-image-1-container{
+    height: auto;
+  }
+
+  .example-image-1{
+    width: 900px;
+    height: auto;
+  }
+
+  .example-image-2-container{
+    height: auto;
+  }
+
+  .example-image-2{
+    width: 900px;
+    height: auto;
+  }
+
+  .examples-section-image-3{
+    padding-left: 150px;
+  }
+
+  .examples-section-image-4{
+    padding-left: 150px;
   }
 
 }
