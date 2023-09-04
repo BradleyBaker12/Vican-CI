@@ -129,7 +129,7 @@ body {
     line-height: 1;
     position: relative;
     flex-direction: column;
-    height: 200px;
+    height: 250px;
     overflow: hidden;
   } 
   
@@ -904,6 +904,10 @@ body::-webkit-scrollbar{
     height: 100%;
     top: 10%;
   }
+
+  .basics-list {
+    height: 200px;
+  } 
 
   .line{
     height: 200px;
