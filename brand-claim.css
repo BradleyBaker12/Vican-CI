@@ -129,7 +129,7 @@ body {
     line-height: 1;
     position: relative;
     flex-direction: column;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
   } 
   
@@ -212,21 +212,6 @@ body::-webkit-scrollbar{
   font-size: 14px;
   padding-left: 50px;
   font-family: Gilroy-Light, sans-serif;
-}
-
-#archway {
-  /* transform: translateX(50%); */
-  transform-origin: bottom center;
-  width: 14px; /* Set the height of your SVG */
-  height: auto;
-  transition: 0.3s ease-out;
-  position:fixed;
-  top: 29%;
-  left: 14.35%;
-  border: none;
-  z-index: 999;
-  animation: slideAway 0.5s 1 forwards;
-  z-index: 999;
 }
 
 @keyframes slideAway{
@@ -382,6 +367,38 @@ body::-webkit-scrollbar{
   opacity: 0;
 }
 
+.positioning-heading-text{
+  width: 439px; 
+  height: 44px; 
+  color: #EBEBEB; 
+  font-size: 50px; 
+  font-family: Gilroy-Bold; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  letter-spacing: 2.50px; 
+  word-wrap: break-word;
+}
+
+.positioning-text{
+  width: 972px;
+}
+
+.positioning-subheading{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Medium; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.positioning-paragraph{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Light; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
 .positioning-images{
   padding-left: 100px; 
   justify-content: center; 
@@ -389,6 +406,31 @@ body::-webkit-scrollbar{
   gap: 30px; 
   display: inline-flex; 
   opacity: 0;
+}
+
+.positioning-image-1-2-3{
+  height: 607px; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex;
+}
+
+.vertical-line-1{
+  width: 1px; 
+  height: 608px; 
+  border-left: 0.25px   rgba(235, 235, 235, 0.4)  solid;
+}
+
+.vertical-line-2{
+  width: 1px; 
+  height: 608px; 
+  border-left: 0.25px   rgba(235, 235, 235, 0.4) solid;
+}
+
+.image{
+  width: 430px; 
+  height: 607px;
 }
 
 .example-heading {
@@ -403,6 +445,16 @@ body::-webkit-scrollbar{
   opacity: 0;
 }
 
+.example-heading-text{
+  color: #EBEBEB; 
+  font-size: 50px; 
+  font-family: Gilroy-Bold; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  letter-spacing: 2.50px; 
+  word-wrap: break-word;
+}
+
 .example-image-1 {
   padding-left: 100px;
   padding-right: 100px;
@@ -411,6 +463,20 @@ body::-webkit-scrollbar{
   gap: 30px;
   display: inline-flex;
   opacity: 0;
+}
+
+.image-1-example{
+  height: 959px; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+}
+
+.image-1{
+  width: 1408px; 
+  height: 961px;
 }
 
 .example-image-2 {
@@ -423,6 +489,20 @@ body::-webkit-scrollbar{
   gap: 30px;
   display: inline-flex;
   opacity: 0;
+}
+
+.image-2-example{
+  height: 607px; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+}
+
+.image-2{
+  width: 1414px; 
+  height: 601.75px;
 }
 
 
@@ -537,4 +617,506 @@ body::-webkit-scrollbar{
 
 .item-8 a:hover{
   font-size: 24px;
+}
+
+.brand-claim-section{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.brand-claim {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.brand-claim-content {
+  width: 1615px;
+  height: 1083px;
+  position: relative;
+}
+
+.brand-claim-image {
+  left: 470px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.brand-claim-block {
+  width: 1024px;
+  height: 1083px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #e0c438;
+}
+
+.brand-claim-text {
+  padding-top: 320px;
+  padding-left: 150px;
+  height: 298px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  display: flex;
+}
+
+.brand-claim-heading {
+  width: 808px;
+  height: 73px;
+  color: black;
+  font-size: 80px;
+  font-family: Gilroy-Heavy;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+  z-index: 999;
+}
+
+.brand-claim-text-1 {
+  width: 807px;
+  z-index: 999;
+}
+
+.brand-claim-subheading-1 {
+  color: black;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.brand-claim-subheading-2 {
+  color: black;
+  font-size: 20px;
+  font-family: Gilroy-Heavy;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.brand-claim-paragraph {
+  color: black;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.design-section-heading{
+  height: 44px; 
+  color: #EBEBEB; 
+  font-size: 50px; 
+  font-family: Gilroy-Bold; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  letter-spacing: 2.50px; 
+  word-wrap: break-word;
+}
+
+.design-section-text{
+  width: 972px;
+}
+
+.design-text-1{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Medium; 
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.design-text-2{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-3{
+  color: #E0C438; 
+  font-size: 20px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-4{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-5{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Medium; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-6{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Light; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-7{
+  color: #E0C438; 
+  font-size: 20px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-8{
+  color: #E0C438; 
+  font-size: 20px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-9{
+  color: #E0C438; 
+  font-size: 20px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-10{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.design-text-11{
+  color: #EBEBEB; 
+  font-size: 20px; 
+  font-family: Gilroy-Light; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.white-ribbon-layout{
+  width: 920px;
+}
+
+.white-ribbon-text-1{
+  color: black; 
+  font-size: 50px; 
+  font-family: Gilroy-Light; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.white-ribbon-text-2{
+  color: black; 
+  font-size: 50px; 
+  font-family: Gilroy-Bold; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.black-ribbon-layout{
+  width: 900px
+}
+
+.black-ribbon-text-1{
+  color: #EBEBEB; 
+  font-size: 50px; 
+  font-family: Gilroy-Light; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.black-ribbon-text-2{
+  color: #E0C438; 
+  font-size: 50px; 
+  font-family: Gilroy-Bold; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.yellow-ribbon-layout{
+  width: 909px;
+}
+
+.yellow-ribbon-text-1{
+  color: black; 
+  font-size: 50px; 
+  font-family: Gilroy-Medium; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.yellow-ribbon-text-2{
+  color: black; 
+  font-size: 50px; 
+  font-family: Gilroy-Heavy; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+
+@media(max-width: 1919px){
+
+  .sidebar{
+    width: 15%;
+    padding-top: 2%;
+  }
+
+  .sidebar a{
+    padding-left: 15%;
+    padding-top: 2%;
+    font-size: 16px;
+  }
+
+  .search-bar{
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  .sidebar-heading{
+    padding-left: 15%;
+  }
+
+  .sidebar-heading-2{
+    padding-left: 15%;
+  }
+
+  .scroller-svg{
+    height: 100%;
+    top: 10%;
+  }
+
+  .line{
+    height: 200px;
+    top: -16px;
+  }
+
+  .square{
+    width: 17px;
+    height: 17px;
+  }
+
+  .basics-list{
+    padding-left: 8%;
+  }
+
+  .basics-list .item a{
+    font-size: 16px;
+  }
+
+  .basics-list .item:hover a{
+    font-size: 20px;
+  }
+
+  .item-1 a, .item-2 a, .item-3 a,
+  .item-4 a, .item-5 a, .item-6 a,
+  .item-7 a, .item-8 a{
+    font-size: 15px;
+  }
+
+  .brand-claim-content{
+    width: 800px;
+    height: 700px;
+  }
+
+  .brand-claim-block{
+    width: 800px;
+    height: 650px;
+  }
+
+  .brand-claim-text{
+    padding-top: 20%;
+    padding-left: 15%;
+  }
+
+  .brand-claim-text-1{
+    width: 90%;
+  }
+
+  .brand-claim-heading{
+    font-size: 70px;
+  }
+
+  .brand-claim-subheading-1{
+    font-size: 18px;
+  }
+
+  .brand-claim-subheading-2{
+    font-size: 18px;
+  }
+
+  .brand-claim-paragraph{
+    font-size: 18px;
+  }
+
+  .brand-claim-image{
+    width: 122%;
+    height: auto;
+  }
+
+  .design-section{
+    padding-top: 0;
+    height: 550px;
+  }
+
+  .design-section-heading{
+    font-size: 40px;
+  }
+
+  .design-text-1{
+    font-size: 18px;
+  }
+
+  .design-text-2{
+    font-size: 18px;
+  }
+
+  .design-text-3{
+    font-size: 18px;
+  }
+
+  .design-text-4{
+    font-size: 18px;
+  }
+
+  .design-text-5{
+    font-size: 18px;
+  }
+
+  .design-text-6{
+    font-size: 18px;
+  }
+
+  .design-text-7{
+    font-size: 18px;
+  }
+
+  .design-text-8{
+    font-size: 18px;
+  }
+
+  .design-text-9{
+    font-size: 18px;
+  }
+
+  .design-text-10{
+    font-size: 18px;
+  }
+
+  .design-text-11{
+    font-size: 18px;
+  }
+
+  .white-ribbon{
+    width: 70%;
+    height: 80px;
+    padding-left: 21%;
+  }
+
+  .white-ribbon-text-1{
+    font-size: 40px;
+  }
+
+  .white-ribbon-text-2{
+    font-size: 40px;
+  }
+
+  .black-ribbon{
+    width: 70%;
+    height: 80px;
+    padding-left: 21%;
+  }
+
+  .black-ribbon-text-1{
+    font-size: 40px;
+  }
+
+  .black-ribbon-text-2{
+    font-size: 40px;
+  }
+
+  .yellow-ribbon{
+    width: 70%;
+    height: 80px;
+    padding-left: 21%;
+  }
+
+  .yellow-ribbon-text-1{
+    font-size: 40px;
+  }
+
+  .yellow-ribbon-text-2{
+    font-size: 40px;
+  }
+
+  .positioning-heading-text{
+    font-size: 40px;
+  }
+
+  .positioning-subheading{
+    font-size: 18px;
+  }
+
+  .positioning-paragraph{
+    font-size: 18px;
+  }
+
+  .vertical-line-1{
+    height: 400px;
+  }
+
+  .vertical-line-2{
+    height: 400px;
+  }
+
+  .positioning-image-1-2-3{
+    width: 50%;
+  }
+
+  .image{
+    width: 280px;
+    height: auto;
+  }
+
+  .example-heading-text{
+    font-size: 40px;
+  }
+
+  .image-1-example{
+    height: auto;
+  }
+
+  .image-1{
+    width: 1000px;
+    height: auto;
+  }
+
+  .image-2-example{
+    height: auto;
+  }
+
+  .image-2{
+    width: 1000px;
+    height: auto;
+  }
+
 }
