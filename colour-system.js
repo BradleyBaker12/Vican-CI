@@ -22,7 +22,7 @@ function setActiveButton(button) {
     let scrollerBackgroundColor = '#EBEBEB';
 
     if (button === yellowButton) {
-        leftPosition = 17.5;
+        leftPosition = 48;
         backgroundColor = '#E0C438';
         textColor = '#000000';
         activeSquareColour = '#000000';
@@ -31,7 +31,7 @@ function setActiveButton(button) {
         blackBorder = "1px solid #000000";
         scrollerBackgroundColor = '#EBEBEB';
     } else if (button === blackButton) {
-        leftPosition = 25.3;
+        leftPosition = 68.8;
         backgroundColor = '#000000';
         textColor = '#EBEBEB';
         activeSquareColour = '#EBEBEB';
@@ -40,7 +40,7 @@ function setActiveButton(button) {
         blackBorder = "1px solid #EBEBEB";
         scrollerBackgroundColor = '#EBEBEB';
     } else if (button === whiteButton) {
-        leftPosition = 33;
+        leftPosition = 90;
         backgroundColor = '#EBEBEB';
         textColor = '#000000';
         activeSquareColour = '#000000';
