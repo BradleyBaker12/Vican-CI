@@ -1530,6 +1530,7 @@ body::-webkit-scrollbar{
 
   .colour-system-heading{
     font-size: 70px;
+    padding-bottom: 20px;
   }
 
   .colour-system-subheading{

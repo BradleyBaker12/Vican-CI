@@ -316,18 +316,6 @@ body::-webkit-scrollbar{
   font-family: Gilroy-Light, sans-serif;
 }
 
-#archway {
-  transform-origin: bottom center;
-  width: 14px; /* Set the height of your SVG */
-  height: auto;
-  transition: 0.3s ease-out;
-  position:fixed;
-  top: 35%;
-  left: 14.3%;
-  border: none;
-  z-index: 999;
-  animation: slideAway 1s 1 forwards;
-}
 
 @keyframes slideAway{
   from{
@@ -513,4 +501,472 @@ body::-webkit-scrollbar{
 
 .item-8 a:hover{
   font-size: 24px;
+}
+
+.gilroy-font-section-heading {
+  padding-top: 50px;
+  color: #e0c438;
+  font-size: 80px;
+  font-family: Gilroy-Heavy;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-section-subheading {
+  color: #ebebeb;
+  font-size: 80px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 80px;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-content-layout {
+  width: 558px;
+  height: 461px;
+  position: relative;
+}
+
+.gilroy-font-content-vertical-line {
+  width: 558px;
+  height: 461px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.gilroy-font-content-1 {
+  width: 194px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.gilroy-font-content-2 {
+  width: 194px;
+  left: 0px;
+  top: 242px;
+  position: absolute;
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.gilroy-font-type-layout {
+  width: 486px;
+  height: 461px;
+  position: relative;
+}
+
+.gilroy-font-type-1 {
+  width: 452px;
+  height: 461px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.gilroy-font-type-examples-layout {
+  width: 441px;
+  height: 461px;
+  left: 45px;
+  top: 0px;
+  position: absolute;
+}
+
+.gilroy-font-light-heading {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-light-uppercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-light-lowercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-medium-heading {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-medium-uppercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-medium-lowercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-bold-heading {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-bold-uppercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-bold-lowercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-heavy-heading {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Heavy;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-heavy-uppercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Heavy;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.gilroy-font-heavy-lowercase {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Heavy;
+  font-weight: 400;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
+
+.application-heading-text {
+  width: 616px;
+  height: 44px;
+  color: #ebebeb;
+  font-size: 50px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  word-wrap: break-word;
+}
+
+.application-subheading-layout {
+  width: 972px;
+}
+
+.application-subheading {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.application-paragraph {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.application-list-heading {
+  color: #e0c438;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.application-bullet-point {
+  color: #e0c438;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.application-bullet-point-text {
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.application-image-1-layout {
+  height: 248px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.application-image-1 {
+  width: 430px;
+  height: 248px;
+}
+
+.application-image-2 {
+  width: 430px;
+  height: 248px;
+}
+
+.application-image-3 {
+  width: 430px;
+  height: 248px;
+}
+
+.application-vertical-line {
+  width: 1px;
+  height: 248px;
+  border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.right-arrow-layout {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+
+@media(max-width: 1919px){
+  .sidebar{
+    width: 15%;
+    padding-top: 2%;
+  }
+
+  .sidebar a{
+    padding-left: 15%;
+    padding-top: 2%;
+    font-size: 16px;
+  }
+
+  .search-bar{
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  .sidebar-heading{
+    padding-left: 15%;
+  }
+
+  .sidebar-heading-2{
+    padding-left: 15%;
+  }
+
+  .scroller-svg{
+    height: 100%;
+    top: 10%;
+  }
+
+  .basics-list {
+    height: 200px;
+  } 
+
+  .line{
+    height: 200px;
+    top: -16px;
+  }
+
+  .square{
+    width: 17px;
+    height: 17px;
+  }
+
+  .basics-list{
+    padding-left: 8%;
+  }
+
+  .basics-list .item a{
+    font-size: 16px;
+  }
+
+  .basics-list .item:hover a{
+    font-size: 20px;
+  }
+
+  .item-1 a, .item-2 a, .item-3 a,
+  .item-4 a, .item-5 a, .item-6 a,
+  .item-7 a, .item-8 a{
+    font-size: 15px;
+  }
+
+  .typography{
+    height: 680px;
+  }
+
+  .typography-content{
+    width: 900px;
+  }
+
+  .typography-heading{
+    font-size: 70px;
+  }
+
+  .typography-subheading{
+    font-size: 18px;
+  }
+
+  .typography-paragraph{
+    font-size: 18px;
+  }
+
+  .tester{
+    width: 90%;
+    height: 75%;
+    font-size: 24px;
+  }
+
+  .gilroy-font-content{
+    padding-bottom: 0;
+  }
+
+  .gilroy-font-section-heading{
+    font-size: 70px;
+  }
+
+  .gilroy-font-section-subheading{
+    font-size: 65px;
+  }
+
+  .gilroy-font-content-layout{
+    width: 50%;
+  }
+
+  .gilroy-font-content-vertical-line{
+    width: 150%;
+    height: 90%
+  }
+
+  .gilroy-font-content-1{
+    font-size: 18px;
+  }
+
+  .gilroy-font-content-2{
+    font-size: 18px;
+  }
+
+  .gilroy-font-light-heading, .gilroy-font-light-lowercase,
+  .gilroy-font-light-uppercase{
+    font-size: 18px;
+  }
+
+  .gilroy-font-medium-heading, .gilroy-font-medium-lowercase,
+  .gilroy-font-medium-uppercase{
+    font-size: 18px;
+  }
+
+  .gilroy-font-bold-heading, .gilroy-font-bold-lowercase,
+  .gilroy-font-bold-uppercase{
+    font-size: 18px;
+  }
+
+  .gilroy-font-heavy-heading, .gilroy-font-heavy-lowercase,
+  .gilroy-font-heavy-uppercase{
+    font-size: 18px;
+  }
+
+  .application-heading-text{
+    font-size: 40px;
+  }
+
+  .application-subheading{
+    font-size: 18px;
+  }
+
+  .application-paragraph{
+    font-size: 18px;
+  }
+
+  .application-list-heading{
+    font-size: 18px;
+  }
+
+  .application-bullet-point{
+    font-size: 18px;
+  }
+
+  .application-bullet-point-text{
+    font-size: 18px;
+  }
+
+  .application-images{
+    gap: 15px;
+    padding-left: 0px;
+  }
+
+  .application-image-1, .application-image-2,
+  .application-image-3{
+    width: 28%;
+    height: auto;
+  }
+
+  .application-vertical-line {
+    height: 180px;
+  }
+
+  .right-arrow-layout{
+    left: -10px;
+  }
 }
