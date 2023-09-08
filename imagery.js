@@ -15,7 +15,7 @@ function setActiveButton(button) {
     let leftPosition = 0;
 
     if (button === button1) {
-        leftPosition = 18.7;
+        leftPosition = 12;
         button1.style.background = 'transparent';
         button2.style.background = '#000000';
         button3.style.background = '#000000';
@@ -24,7 +24,7 @@ function setActiveButton(button) {
         document.querySelector('.image-2').style.opacity = '0';
         document.querySelector('.image-3').style.opacity = '0';
     } else if (button === button2) {
-        leftPosition = 30;
+        leftPosition = 47.5;
         button1.style.background = '#000000';
         button2.style.background = 'transparent';
         button3.style.background = '#000000';
@@ -33,7 +33,7 @@ function setActiveButton(button) {
         document.querySelector('.image-2').style.opacity = '1';
         document.querySelector('.image-3').style.opacity = '0';
     } else if (button === button3) {
-        leftPosition = 41.5;
+        leftPosition = 83;
         button1.style.background = '#000000';
         button2.style.background = '#000000';
         button3.style.background = 'transparent';

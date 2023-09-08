@@ -186,6 +186,10 @@ body {
     display: inline-flex;
   }
 
+  .imagery-text-content{
+    width: 807px
+  }
+
   .imagery-heading{
     color: black; 
     font-size: 80px; 
@@ -217,13 +221,14 @@ body {
     align-items: flex-start; 
     gap: 25px; 
     display: inline-flex;
+    position: relative;
   }
 
   .active-square {
     width: 20px;
     height: 20px;
-    left: 18.7%;
-    top: 70%;
+    left: 12%;
+    top: 89%;
     position: absolute;
     background: black;
     transition: left 0.3s ease-in-out;
@@ -326,19 +331,6 @@ body::-webkit-scrollbar{
   font-family: Gilroy-Light, sans-serif;
 }
 
-#archway {
-  transform-origin: bottom center;
-  width: 14px; /* Set the height of your SVG */
-  height: auto;
-  transition: 0.3s ease-out;
-  position:fixed;
-  top: 41.5%;
-  left: 14.3%;
-  border: none;
-  z-index: 999;
-  animation: slideAway 0.5s 1 forwards;
-}
-
 @keyframes slideAway{
   from{
     opacity: 0;
@@ -348,7 +340,7 @@ body::-webkit-scrollbar{
   }
 }
 
-.branding-guidleines-heading.active,
+.branding-guidelines-heading.active,
 .section-1.active,
 .section-2.active,
 .section-3.active,
@@ -365,58 +357,137 @@ body::-webkit-scrollbar{
   transition: opacity 1s, transform 1s;
 }
 
-.branding-guidleines-heading{
+.branding-guidelines-heading{
   padding-bottom: 50px; 
   padding-left: 100px; 
   padding-right: 100px; 
   flex-direction: column; 
-  justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 50px; 
+  display: flex;
   opacity: 0;
 }
 
-.section-1{
-  padding-left: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex; opacity: 0;
+.section-1 {
+  padding-left: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-2{
-  padding-left: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex; opacity: 0;
+.section-2 {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-3{
-  padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex; opacity: 0;
+.section-3 {
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-4{
-  padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex; opacity: 0;
+.section-4 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-5{
-  padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex; opacity: 0;
+.section-5 {
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-6{
-  padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex; opacity: 0;
+.section-6 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-7{
-  padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex; opacity: 0;
+.section-7 {
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-8{
-  padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; justify-content: center; align-items: center; gap: 26px; display: inline-flex; opacity: 0;
+.section-8 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-9{
-  padding-bottom: 50px; padding-left: 100px; padding-right: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; display: flex; opacity: 0;
+.section-9 {
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+  display: flex;
+  opacity: 0;
 }
 
-.section-10{
-  padding-left: 447px; padding-right: 100px; padding-top: 50px; justify-content: center; align-items: center; gap: 30px; display: inline-flex; opacity: 0;
+.section-10 {
+  padding-left: 447px;
+  padding-right: 100px;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: inline-flex;
+  opacity: 0;
 }
 
-.section-11{
-  padding-left: 100px; padding-right: 100px; justify-content: center; align-items: center; gap: 30px; display: inline-flex; opacity: 0;
+.section-11 {
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: inline-flex;
+  opacity: 0;
 }
+
 
 .item-1 a{
   margin-top: 0; 
@@ -528,4 +599,396 @@ body::-webkit-scrollbar{
 
 .item-8 a:hover{
   font-size: 24px;
+}
+
+.imagery-section-2-content {
+  padding-top: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.branding-guidelines-heading-text {
+  color: #ebebeb;
+  font-size: 50px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  word-wrap: break-word;
+}
+
+.branding-guidelines-paragraph {
+  width: 1014px;
+  color: #ebebeb;
+  font-size: 25px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.branding-guidelines-section-1-number-content {
+  width: 670px;
+  height: 180px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  display: inline-flex;
+}
+
+.branding-guidelines-section-1-number-heading {
+  color: #e0c438;
+  font-size: 25px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  word-wrap: break-word;
+}
+
+.branding-guidelines-section-1-number-paragraph {
+  width: 670px;
+  height: 129px;
+  color: white;
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.vertical-line-1 {
+  width: 0.5px;
+  height: 145px;
+  border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
+  position: relative;
+  top: -15px;
+}
+
+.vertical-line-2 {
+  width: 0.5px;
+  height: 400px;
+  border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.vertical-line-3 {
+  width: 0.5px;
+  height: 400px;
+  border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.image-border {
+  width: 322px;
+  height: 400px;
+  border: 0.25px rgba(235, 235, 235, 0.4) solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.image-border-2 {
+  width: 322px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.image-style-1 {
+  flex: 1 1 0;
+  align-self: stretch;
+}
+
+.image-style-2 {
+  width: 322px;
+  height: 400px;
+}
+
+.image-style-3 {
+  flex: 1 1 0;
+  align-self: stretch;
+  border: 0.25px rgba(235, 235, 235, 0.4) solid;
+}
+
+.image-adjustment-heading {
+  width: 1014px;
+  height: 44px;
+  color: #ebebeb;
+  font-size: 50px;
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  word-wrap: break-word;
+}
+
+.image-adjustment-paragraph {
+  width: 881px;
+  color: #ebebeb;
+  font-size: 25px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.image-adjustment-images {
+  width: 322px;
+  height: 400px;
+  border: 0.25px rgba(235, 235, 235, 0.4) solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.image-adjustment-image-1 {
+  flex: 1 1 0;
+  align-self: stretch;
+}
+
+.image-adjustment-image-2 {
+  flex: 1 1 0;
+  align-self: stretch;
+}
+
+.section-11-layout {
+  width: 1398px;
+  height: 180px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: inline-flex;
+}
+
+.section-11-content {
+  width: 1079px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+@media(max-width: 1919px){
+  .sidebar{
+    width: 15%;
+    padding-top: 2%;
+  }
+
+  .sidebar a{
+    padding-left: 15%;
+    padding-top: 2%;
+    font-size: 16px;
+  }
+
+  .search-bar{
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  .sidebar-heading{
+    padding-left: 15%;
+  }
+
+  .sidebar-heading-2{
+    padding-left: 15%;
+  }
+
+  .scroller-svg{
+    height: 100%;
+    top: 10%;
+  }
+
+  .basics-list {
+    height: 200px;
+  } 
+
+  .line{
+    height: 200px;
+    top: -16px;
+  }
+
+  .square{
+    width: 17px;
+    height: 17px;
+  }
+
+  .basics-list{
+    padding-left: 8%;
+  }
+
+  .basics-list .item a{
+    font-size: 16px;
+  }
+
+  .basics-list .item:hover a{
+    font-size: 20px;
+  }
+
+  .item-1 a, .item-2 a, .item-3 a,
+  .item-4 a, .item-5 a, .item-6 a,
+  .item-7 a, .item-8 a{
+    font-size: 15px;
+  }
+
+  .imagery{
+    height: 700px;
+  }
+
+  .image-1{
+    width: 40%;
+    height: 100%;
+    left: 65%;
+  }
+
+  .image-2{
+    width: auto;
+    height: 100%;
+    left: 64%;
+  }
+
+  .image-3{
+    width: auto;
+    height: 100%;
+    left: 60%;
+  }
+
+  .imagery-content{
+    width: 50%;
+    height: 75%;
+    padding-top: 15%;
+  }
+
+  .imagery-text-content{
+    width: 100%;
+  }
+
+  .imagery-heading{
+    font-size: 70px;
+  }
+
+  .imagery-subheading{
+    font-size: 18px;
+  }
+
+  .imagery-paragraph{
+    font-size: 18px;
+  }
+
+  .active-square{
+    width: 15px;
+    height: 15px;
+    top: 89%;
+    left: 11%;
+  }
+
+  .button-1, .button-2, .button-3{
+    width: 72px;
+    height: 72px;
+  }
+
+  .imagery-section-2-content{
+    width: 80%;
+  }
+
+  .branding-guidelines-heading{
+    width: 100%;
+  }
+
+  .branding-guidelines-heading-text{
+    font-size: 40px;
+  }
+
+  .branding-guidelines-paragraph{
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .branding-guidelines-section-1-number-content{
+    width: 50%;
+  }
+
+  .branding-guidelines-section-1-number-heading {
+    font-size: 20px;
+  }
+  
+  .branding-guidelines-section-1-number-paragraph {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+  }
+
+  .section-1, .section-3, .section-4,
+  .section-5, .section-6, .section-7, .section-8,
+  .section-9, .section-10, .section-11{
+    width: 100%;
+  }
+
+  .section-2{
+    width: 100%;
+  }
+
+  .image-border {
+    max-width: 100%; /* Set the maximum width to 100% to make the image responsive */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+  
+  .image-border-2 {
+    max-width: 100%; /* Set the maximum width to 100% to make the image responsive */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+  
+  .image-style-1 {
+    width: 100%; /* Set the width to 100% to fill the container */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+  
+  .image-style-2 {
+    max-width: 100%; /* Set the maximum width to 100% to make the image responsive */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+  
+  .image-style-3 {
+    width: 100%; /* Set the width to 100% to fill the container */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+
+  .vertical-line-2{
+    height: 260px;
+  }
+
+  .vertical-line-3{
+    height: 400px;
+  }
+
+  .image-adjustment-heading{
+    font-size: 40px;
+  }
+
+  .image-adjustment-paragraph{
+    font-size: 20px;
+  }
+
+  .image-adjustment-images{
+    max-width: 40%;
+    height: auto;
+  }
+  .section-10{
+    padding-top: 0;
+    padding-left: 10%;
+  }
+
+  .section-11-layout {
+    max-width: 100%;
+  }
+  
+  .section-11-content {
+    width: 95%;
+    font-size: 16px;
+  }
+
 }
