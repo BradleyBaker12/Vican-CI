@@ -1261,7 +1261,7 @@ body::-webkit-scrollbar{
   }
 
   .vertical-line-2{
-    height: 300px;
+    height: 350px;
   }
 
   .text-quater-1{
@@ -1286,4 +1286,5 @@ body::-webkit-scrollbar{
     width: 80px;
     height: 80px;
   }
+
 }
