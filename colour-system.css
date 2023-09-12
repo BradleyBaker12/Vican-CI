@@ -309,7 +309,6 @@ body::-webkit-scrollbar{
 .colour-systems-colours.active, 
 .brand-colours-section.active{
   opacity: 1;
-  transform: translateY(-10px);
   transition: opacity 1s, transform 1s;
 }
 
@@ -443,6 +442,7 @@ body::-webkit-scrollbar{
 }
 
 .colour-systems-layout {
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -452,18 +452,17 @@ body::-webkit-scrollbar{
 .colour-system-blocks-layout {
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   display: flex;
 }
 
 .yellow-block {
-  width: 552px;
+  width: 33%;
   height: 1080px;
   position: relative;
 }
 
 .yellow-block-layout {
-  width: 550px;
+  width: 100%;
   height: 469px;
   left: 0px;
   top: 0px;
@@ -471,7 +470,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-1 {
-  width: 552px;
+  width: 33%;
   height: 469px;
   left: 0px;
   top: 0px;
@@ -756,7 +755,7 @@ body::-webkit-scrollbar{
 }
 
 .black-block {
-  width: 537px;
+  width: 33%;
   height: 1080px;
   position: relative;
 }
@@ -1055,7 +1054,7 @@ body::-webkit-scrollbar{
 }
 
 .white-block{
-  width: 537px; 
+  width: 33%; 
   height: 1080px; 
   position: relative;
 }
@@ -1562,15 +1561,15 @@ body::-webkit-scrollbar{
   }
   
   .yellow-block, .black-block, .white-block{
-    width: 388px;
+    width: 100%;
   }
 
   .yellow-block-layout{
-    width: 386px;
+    width: 100%;
   }
 
   .yellow-block-1{
-    width: 388px;
+    width: 100%;
   }
 
   .yellow-block-1-heading{
@@ -1619,31 +1618,35 @@ body::-webkit-scrollbar{
     width: 210px;
   }
 
+  .yellow-block-shading-square {
+    width: 100%;
+  }
+
   .yellow-block-2{
-    width: 388px;
+    width: 100%;
   }
 
   .yellow-block-percentage-background{
-    width: 388px;
+    width: 100%;
   }
 
   .yellow-block-colour-gradient-colour{
-    width: 388px;
+    width: 100%;
   }
 
   .yellow-block-shading-sqaure{
-    width: 388px;
+    width: 100%;
   }
 
   .yellow-80-percent-shaded-square-colour, 
   .yellow-40-percent-shaded-square-colour{
-    width: 194px;
+    width: 50%;
   }
 
   .yellow-60-percent-shaded-square-colour, 
   .yellow-20-percent-shaded-square-colour{
-    width: 194px;
-    left: 194px;
+    width: 50%;
+    left: 50%;
   }
 
   .yellow-80-text, .yellow-40-text{
@@ -1665,11 +1668,11 @@ body::-webkit-scrollbar{
   }
 
   .black-block-layout{
-    width: 388px;
+    width: 100%;
   }
 
   .black-block-1{
-    width: 388px;
+    width: 100%;
   }
   
   .black-block-heading{
@@ -1719,30 +1722,30 @@ body::-webkit-scrollbar{
   }
 
   .black-block-2-layout{
-    width: 388px;
+    width: 100%;
   }
 
   .black-block-percent-background{
-    width: 388px;
+    width: 100%;
   }
 
   .black-block-colour-gradient-colour{
-    width: 388px;
+    width: 100%;
   }
 
   .black-block-shaded-square{
-    width: 388px;
+    width: 100%;
   }
 
   .black-80-percent-shaded-square-colour,
   .black-40-percent-shaded-square-colour{
-    width: 194px;
+    width: 50%;
   }
 
   .black-60-percent-shaded-square-colour,
   .black-20-percent-shaded-square-colour{
-    width: 194px;
-    left: 194px;
+    width: 50%;
+    left: 50%;
   }
 
   .black-80-text,
@@ -1766,11 +1769,11 @@ body::-webkit-scrollbar{
   }
 
   .white-block-layout{
-    width: 388px;
+    width: 100%;
   }
 
   .white-block-1{
-    width: 388px;
+    width: 100%;
   }
 
   .white-block-1-heading{
@@ -1778,7 +1781,7 @@ body::-webkit-scrollbar{
   }
 
   .white-block-1-content-1{
-    width: 300px;
+    width: 100%;
   }
 
   .white-block-1-content-1-heading{
@@ -1820,30 +1823,30 @@ body::-webkit-scrollbar{
   }
 
   .white-block-2{
-    width: 388px;
+    width: 100%;
   }
 
   .white-block-2-percent-background{
-    width: 388px;
+    width: 100%;
   }
 
   .white-block-2-colour-gradient-colour{
-    width: 388px;
+    width: 100%;
   }
 
   .white-block-shaded-square{
-    width: 388px;
+    width: 100%;
   }
 
   .white-80-percent-shaded-square,
   .white-40-percent-shaded-square{
-    width: 194px;
+    width: 50%;
   }
 
   .white-60-percent-shaded-square,
   .white-20-percent-shaded-square{
-    width: 194px;
-    left: 194px;
+    width: 50%;
+    left: 50%;
   }
 
   .white-80-text,
@@ -1889,5 +1892,11 @@ body::-webkit-scrollbar{
 
   .image-1-text, .image-2-text, .image-3-text{
     font-size: 18px;
+  }
+}
+
+@media(max-width: 1550){
+  .yellow-block, .black-block, .white-block{
+    width: 500px;
   }
 }

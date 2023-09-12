@@ -176,43 +176,37 @@ body {
   font-family: Gilroy-Medium, sans-serif;
 }
 
+.scroller{
+  position: absolute;
+  top: 65%;
+  left: 90%;
+}
+
+.container{
+  position: relative;
+}
+
 .square{
   width: 20px;
   height: 20px;
   background-color: #E0C438;
   position: absolute;
-  top: 70%;
-  left: 88%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   animation: slideIn2 1s ease forwards;
-}
-
-@keyframes slideIn2{
-  from{
-    left: 100%;
-  }
-  to{
-    left: 88%;
-  }
 }
 
 .line{
   width: 145px;
-  height: 0px;
+  height: 0.5px;
   border: 0.5px solid #E0C438;
   color: #E0C438;
   position: absolute;
-  top: 71%;
-  left: 79%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%);
   animation: slideIn3 1s ease forwards;
-}
-
-@keyframes slideIn3{
-  from{
-    left: 100%;
-  }
-  to{
-    left: 79%;
-  }
 }
 
 .item-inactive{
@@ -257,7 +251,7 @@ body {
   }
 
   .main-heading{
-    left: 34%;
+    left: 35%;
     top: 30%;
   }
 
@@ -271,7 +265,7 @@ body {
   }
 
   .main-paragraph{
-    left: 62%;
+    left: 60%;
     top: 42%;
   }
 
@@ -283,16 +277,13 @@ body {
     font-size: 17px;
   }
 
+  .scroller{
+    left: 87%;
+  }
+
   .square{
     width: 18px;
     height: 18px;
-    top: 65%;
-  }
-
-  .line{
-    width: 130px;
-    top: 66%;
-    left: 60%;
   }
 
   @keyframes slideIn3 {
@@ -305,4 +296,14 @@ body {
     
   }
 
+}
+
+@media(min-width: 1350px){
+  .scroller{
+    left: 90%;
+  }
+
+ .main-heading{
+  left: 33%;
+ }
 }
