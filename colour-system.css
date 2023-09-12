@@ -313,7 +313,6 @@ body::-webkit-scrollbar{
 }
 
 .colour-systems-colours{
-  justify-content: center; 
   align-items: center; 
   display: inline-flex;
   opacity: 0;
@@ -443,9 +442,9 @@ body::-webkit-scrollbar{
 
 .colour-systems-layout {
   width: 100%;
+  margin: 0;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   display: inline-flex;
 }
 
@@ -456,7 +455,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block {
-  width: 33%;
+  width: 34%;
   height: 1080px;
   position: relative;
 }
@@ -470,7 +469,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-1 {
-  width: 33%;
+  width: 100%;
   height: 469px;
   left: 0px;
   top: 0px;
@@ -492,7 +491,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-1-section-1 {
-  width: 462px;
+  width: 100%;
   height: 81px;
   left: 23px;
   top: 145px;
@@ -524,7 +523,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-1-section-1-content-2 {
-  width: 195px;
+  width: 100%;
   left: 267px;
   top: 33px;
   position: absolute;
@@ -538,7 +537,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-1-section-1-divider {
-  width: 245px;
+  width: 100%;
   height: 37px;
   left: 0px;
   top: 36px;
@@ -547,7 +546,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-1-section-2 {
-  width: 335px;
+  width: 100%;
   height: 129px;
   left: 23px;
   top: 265px;
@@ -602,7 +601,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-2 {
-  width: 537px;
+  width: 100%;
   height: 647px;
   left: 0px;
   top: 433px;
@@ -610,7 +609,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-percentage-background {
-  width: 552px;
+  width: 100%;
   height: 611px;
   left: 0px;
   top: 36px;
@@ -619,7 +618,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-colour-gradient-colour {
-  width: 575px;
+  width: 100%;
   height: 224px;
   left: 0px;
   top: 423px;
@@ -628,7 +627,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-block-shading-square {
-  width: 600px;
+  width: 100%;
   height: 387px;
   left: 0px;
   top: 36px;
@@ -636,7 +635,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-80-percent-shaded-square-colour {
-  width: 276px;
+  width: 50%;
   height: 194px;
   left: 0px;
   top: 0px;
@@ -645,7 +644,7 @@ body::-webkit-scrollbar{
 }
 
 .yellow-40-percent-shaded-square-colour {
-  width: 276px;
+  width: 50%;
   height: 194px;
   left: 0px;
   top: 193px;
@@ -654,18 +653,18 @@ body::-webkit-scrollbar{
 }
 
 .yellow-60-percent-shaded-square-colour {
-  width: 276px;
+  width: 50%;
   height: 194px;
-  left: 276px;
+  left: 50%;
   top: 0px;
   position: absolute;
   background: rgba(224, 196, 56, 0.6);
 }
 
 .yellow-20-percent-shaded-square-colour {
-  width: 276px;
+  width: 50%;
   height: 194px;
-  left: 276px;
+  left: 50%;
   top: 193px;
   position: absolute;
   background: rgba(224, 196, 56, 0.2);
@@ -755,13 +754,13 @@ body::-webkit-scrollbar{
 }
 
 .black-block {
-  width: 33%;
+  width: 34%;
   height: 1080px;
   position: relative;
 }
 
 .black-block-layout {
-  width: 537px;
+  width: 100%;
   height: 469px;
   left: 0px;
   top: 0px;
@@ -769,7 +768,7 @@ body::-webkit-scrollbar{
 }
 
 .black-block-1 {
-  width: 544px;
+  width: 100%;
   height: 469px;
   left: 0px;
   top: 0px;
@@ -901,7 +900,7 @@ body::-webkit-scrollbar{
 }
 
 .black-block-2-layout {
-  width: 544px;
+  width: 100%;
   height: 647px;
   left: 0px;
   top: 433px;
@@ -909,7 +908,7 @@ body::-webkit-scrollbar{
 }
 
 .black-block-percent-background {
-  width: 537px;
+  width: 100%;
   height: 611px;
   left: 0px;
   top: 36px;
@@ -918,7 +917,7 @@ body::-webkit-scrollbar{
 }
 
 .black-block-colour-gradient-colour {
-  width: 537px;
+  width: 100%;
   height: 224px;
   left: 0px;
   top: 423px;
@@ -927,7 +926,7 @@ body::-webkit-scrollbar{
 }
 
 .black-block-shaded-square {
-  width: 537px;
+  width: 100%;
   height: 387px;
   left: 0px;
   top: 36px;
@@ -935,7 +934,7 @@ body::-webkit-scrollbar{
 }
 
 .black-80-percent-shaded-square-colour {
-  width: 268px;
+  width: 50%;
   height: 193px;
   left: 0px;
   top: 0px;
@@ -944,7 +943,7 @@ body::-webkit-scrollbar{
 }
 
 .black-40-percent-shaded-square-colour {
-  width: 268px;
+  width: 50%;
   height: 194px;
   left: 0px;
   top: 193px;
@@ -953,18 +952,18 @@ body::-webkit-scrollbar{
 }
 
 .black-60-percent-shaded-square-colour {
-  width: 269px;
+  width: 50%;
   height: 193px;
-  left: 268px;
+  left: 50%;
   top: 0px;
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
 }
 
 .black-20-percent-shaded-square-colour {
-  width: 269px;
+  width: 50%;
   height: 194px;
-  left: 268px;
+  left: 50%;
   top: 193px;
   position: absolute;
   background: rgba(0, 0, 0, 0.2);
@@ -1054,13 +1053,13 @@ body::-webkit-scrollbar{
 }
 
 .white-block{
-  width: 33%; 
+  width: 34%; 
   height: 1080px; 
   position: relative;
 }
 
 .white-block-layout {
-  width: 537px;
+  width: 100%;
   height: 469px;
   left: 0px;
   top: 0px;
@@ -1068,7 +1067,7 @@ body::-webkit-scrollbar{
 }
 
 .white-block-1 {
-  width: 542px;
+  width: 100%;
   height: 469px;
   left: 0px;
   top: 0px;
@@ -1200,7 +1199,7 @@ body::-webkit-scrollbar{
 }
 
 .white-block-2 {
-  width: 550px;
+  width: 100%;
   height: 647px;
   left: 0px;
   top: 433px;
@@ -1208,7 +1207,7 @@ body::-webkit-scrollbar{
 }
 
 .white-block-2-percent-background {
-  width: 550px;
+  width: 100%;
   height: 611px;
   left: 0px;
   top: 36px;
@@ -1217,7 +1216,7 @@ body::-webkit-scrollbar{
 }
 
 .white-block-2-colour-gradient-colour {
-  width: 550px;
+  width: 100%;
   height: 224px;
   left: 0px;
   top: 423px;
@@ -1226,7 +1225,7 @@ body::-webkit-scrollbar{
 }
 
 .white-block-shaded-square {
-  width: 550px;
+  width: 100%;
   height: 387px;
   left: 0px;
   top: 36px;
@@ -1234,7 +1233,7 @@ body::-webkit-scrollbar{
 }
 
 .white-80-percent-shaded-square {
-  width: 268px;
+  width: 50%;
   height: 193px;
   left: 0px;
   top: 0px;
@@ -1243,7 +1242,7 @@ body::-webkit-scrollbar{
 }
 
 .white-40-percent-shaded-square {
-  width: 268px;
+  width: 50%;
   height: 194px;
   left: 0px;
   top: 193px;
@@ -1252,18 +1251,18 @@ body::-webkit-scrollbar{
 }
 
 .white-60-percent-shaded-square {
-  width: 277px;
+  width: 50%;
   height: 193px;
-  left: 268px;
+  left: 50%;
   top: 0px;
   position: absolute;
   background: rgba(235, 235, 235, 0.6);
 }
 
 .white-20-percent-shaded-square {
-  width: 277px;
+  width: 50%;
   height: 194px;
-  left: 268px;
+  left: 50%;
   top: 193px;
   position: absolute;
   background: rgba(235, 235, 235, 0.2);
