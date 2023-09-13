@@ -184,7 +184,7 @@ body {
     align-items: flex-start; 
     gap: 25px; 
     display: inline-flex;
-    padding-left: 15%;
+    left: 15%;
     padding-top: 50px;
     position: relative;
   }
@@ -213,7 +213,7 @@ body {
   .active-square {
     width: 20px;
     height: 20px;
-    left: 48%;
+    left: 12%;
     top: 94%;
     position: absolute;
     background: black;
@@ -1523,7 +1523,7 @@ body::-webkit-scrollbar{
   }
 
   .colour-systems{
-    height: 650px;
+    height: 850px;
   }
 
   .colour-system-heading{
