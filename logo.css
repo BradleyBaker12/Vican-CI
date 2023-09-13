@@ -212,6 +212,7 @@ body::-webkit-scrollbar{
 
 .main-logo-content {
   width: 1000px;
+  height: 300px;
 }
 
 .main-logo-heading {
@@ -1054,20 +1055,6 @@ body::-webkit-scrollbar{
   cursor: default;
 }
 
-#archway {
-  /* transform: translateX(50%); */
-  transform-origin: bottom center;
-  width: 14px; /* Set the height of your SVG */
-  height: auto;
-  transition: 0.3s ease-out;
-  position:fixed;
-  top: 25.5%;
-  left: 14.35%;
-  border: none;
-  z-index: 999;
-  animation: slideAway 0.5s 1 forwards;
-}
-
 @keyframes slideAway{
   from{
     opacity: 0;
@@ -1651,7 +1638,7 @@ body::-webkit-scrollbar{
   }
 
   .prohibitions-image-1{
-    height: auto
+    height: auto;
   }
 
   .image-1{

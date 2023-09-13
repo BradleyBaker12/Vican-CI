@@ -944,7 +944,7 @@ body::-webkit-scrollbar{
 
   .brand-claim-block{
     width: 800px;
-    height: 650px;
+    height: 100%;
   }
 
   .brand-claim-text{
@@ -978,7 +978,7 @@ body::-webkit-scrollbar{
   }
 
   .design-section{
-    padding-top: 0;
+    padding-top: 50px;
     height: 550px;
   }
 
