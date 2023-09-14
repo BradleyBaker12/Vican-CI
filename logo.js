@@ -134,3 +134,23 @@ const observer = new IntersectionObserver(handleIntersection, observerOptions);
 animatedElements.forEach(element => {
     observer.observe(element);
 });
+
+
+const animatedElement = document.querySelector('.basics-list .item a');
+
+const animationRemoved = localStorage.getItem('animationRemoved');
+
+if (animationRemoved) {
+    // If the animation has been removed, remove the animation property
+    animatedElement.style.animation = 'none';
+  } else {
+    // If the animation has not been removed, listen for the animationiteration event
+    animatedElement.addEventListener('animationiteration', () => {
+      // This event is fired when the animation completes a cycle (iteration).
+      // Remove the animation property
+      animatedElement.style.animation = 'none';
+      
+      // Set a flag in localStorage to remember that the animation has been removed
+      localStorage.setItem('animationRemoved', 'true');
+    });
+  }

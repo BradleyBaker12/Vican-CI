@@ -26,6 +26,7 @@ body::-webkit-scrollbar{
   overflow-x: hidden;
   padding-top: 20px;
   border-right: 0.5px solid rgba(235, 235, 235, 0.4);
+  z-index: 99;
 }
 
 /* Style the sidebar links */
@@ -127,13 +128,13 @@ body::-webkit-scrollbar{
   position: relative;
   display: flex;
   flex-direction: column;
-  opacity: 0;
+  opacity: 0.3;
   animation: fadeOpacity 2s 1 forwards;
 }
 
 @keyframes fadeOpacity{
   0%{
-    opacity: 0;
+    opacity: 0.3;
   }
   100%{
     opacity: 1;
@@ -147,7 +148,7 @@ body::-webkit-scrollbar{
   flex-direction: column;
   height: 0;
   overflow: hidden;
-  animation: slideBar 1s ease-out forwards;
+  animation: slideBar 1s ease-out forwards 1;
 }
 
 .basics-list .item a {
@@ -157,7 +158,11 @@ body::-webkit-scrollbar{
   transition: font-size 0.1s ease-out;
   opacity: 0;
   transform: translateY(-10px);
-  animation: cascade 0.5s ease-out forwards;
+  animation: cascade 0.5s ease-out forwards 1;
+}
+
+.remove-animation{
+  animation: none;
 }
 
 .basics-list .item:hover a {
@@ -204,6 +209,7 @@ body::-webkit-scrollbar{
 }
 
 .main-logo {
+  width: 100%;
   background-color: #e0c438;
   padding-top: 250px;
   padding-left: 250px;
@@ -326,7 +332,7 @@ body::-webkit-scrollbar{
 }
 
 .variable-logos{
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .variable-logos.active,
@@ -364,7 +370,7 @@ body::-webkit-scrollbar{
 }
 
 .downloadable-logos{
-  opacity: 0;
+  opacity: 0.1;
 }
 
 .download-yellow-logo {
@@ -437,7 +443,8 @@ body::-webkit-scrollbar{
 }
 
 .positioning-slideshow {
-  opacity: 0;
+  width: 100%;
+  opacity: 0.3;
 }
 
 .positioning-main-content {
@@ -448,13 +455,13 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .positioning-text{
   width: 972px; 
   padding-top: 20px;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .positioning-main-heading {
@@ -464,7 +471,7 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .positioning-main-subheading {
@@ -531,7 +538,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .minimum-size-content {
@@ -552,13 +559,13 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .minimum-size-text{
   width: 972px; 
   padding-top: 20px;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .minimum-size-subheading {
@@ -576,13 +583,14 @@ body::-webkit-scrollbar{
 }
 
 .minimum-size-image-layout {
+  width: 100%;
   padding-left: 100px;
   padding-right: 100px;
   justify-content: flex-start;
   align-items: center;
   gap: 50px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .minimum-size-large-image {
@@ -594,8 +602,8 @@ body::-webkit-scrollbar{
 }
 
 .large-image {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
 }
 
 .main-logo-horizontal-line {
@@ -613,8 +621,8 @@ body::-webkit-scrollbar{
 }
 
 .small-image {
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
 }
 
 .spacing-section {
@@ -622,7 +630,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .spacing-content {
@@ -644,13 +652,13 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .spacing-text{
   width: 972px; 
   padding-top: 30px;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .spacing-subheading {
@@ -675,7 +683,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 134px;
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .spacing-square {
@@ -688,8 +696,8 @@ body::-webkit-scrollbar{
 }
 
 .spacing-square-image {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
 }
 
 .spacing-horizontal {
@@ -712,7 +720,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .logo-size-content {
@@ -732,13 +740,13 @@ body::-webkit-scrollbar{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   word-wrap: break-word;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .logo-size-text{
   width: 972px; 
   padding-top: 20px;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .logo-size-subheading {
@@ -764,7 +772,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 97px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .logo-size-examples-content {
@@ -937,7 +945,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .prohibitions-content {
@@ -965,7 +973,6 @@ body::-webkit-scrollbar{
 
 .prohibitions-slideshow {
   padding-left: 100px;
-  justify-content: center;
   align-items: center;
   gap: 30px;
   display: inline-flex;
@@ -1058,7 +1065,7 @@ body::-webkit-scrollbar{
 
 @keyframes slideAway{
   from{
-    opacity: 0;
+    opacity: 0.3;
   }
   to{
     opacity: 1;
@@ -1134,7 +1141,7 @@ body::-webkit-scrollbar{
   align-items: center; 
   gap: 30px; 
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .examples-section-image-3{
@@ -1143,7 +1150,7 @@ body::-webkit-scrollbar{
   align-items: center; 
   gap: 30px; 
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .examples-section-image-4{
@@ -1152,7 +1159,7 @@ body::-webkit-scrollbar{
   align-items: center; 
   gap: 30px; 
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .tshirt-1-container{
@@ -1407,7 +1414,8 @@ body::-webkit-scrollbar{
   }
 
   .main-logo-content{
-    width: 90%
+    width: 50%;
+    height: auto;
   }
 
   .main-logo-heading{
@@ -1717,6 +1725,113 @@ body::-webkit-scrollbar{
 
   .examples-section-image-4{
     padding-left: 150px;
+  }
+
+}
+
+@media(width: 2560px){
+  .scroller-svg{
+    height: 100%;
+    top: 10%;
+  }
+
+  .minimum-size-large-image{
+    width: 400px;
+    height: 400px;
+  }
+
+  .minimum-size-small-image{
+    width: 100px;
+    height: 100px;
+  }
+
+  .spacing-square{
+    width: 500px;
+    height: 500px;
+  }
+
+  .spacing-horizontal{
+    width:696px;
+    height: 500px;
+  }
+
+  .spacing-horizontal-image{
+    width: 100%;
+    height: 45%;
+  }
+
+  .horizontal-1, .horizontal-2, 
+  .horizontal-3, .horizontal-4,
+  .horizontal-5, .horizontal-6{
+    width: 900px;
+  }
+
+  .icon-1-layout, .icon-2-layout{
+    gap: 670px;
+  }
+
+  .icon-1, .icon-2{
+    width: 150px;
+    height: 150px;
+  }
+
+  .icon-1-text, .icon-2-text{
+    font-size: 25px;
+    width: 80px;
+  }
+
+  .header-layout{
+    height: 150px;
+    gap: 250px;
+  }
+
+  .subheading-layout{
+    height: 150px;
+    gap: 150px;
+  }
+
+  .header-heading{
+    height: auto;
+    font-size: 180px;
+  }
+
+  .header-text, .subheading-text{
+    font-size: 25px;
+  }
+
+  .subheading-heading{
+    font-size: 90px;
+  }
+
+  .prohibitions-image-1, .prohibitions-image-2,
+  .prohibitions-image-3{
+    width: 30%;
+    height: auto;
+  }
+
+  .image-1, .image-2, .image-3{
+    width: 100%;
+    height: 100%;
+  }
+
+  .example-section{
+    width: 100%;
+  }
+
+  .examples-section-image-1-2{
+    width: 80%;
+  }
+
+  .example-image-1-container, 
+  .example-image-2-container{
+    width: 90%;
+    height: 90%;
+  }
+
+  .example-image-1,
+  .example-image-2{
+    width: 100%;
+    height: 100%;
   }
 
 }

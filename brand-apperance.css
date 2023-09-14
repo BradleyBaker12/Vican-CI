@@ -26,6 +26,7 @@ body::-webkit-scrollbar{
     overflow-x: hidden;
     padding-top: 20px;
     border-right: 0.5px solid rgba(235, 235, 235, 0.4);
+    z-index: 99;
 }
 
 
@@ -467,6 +468,68 @@ body::-webkit-scrollbar{
     font-family: Gilroy-Light, sans-serif;
   }
 
+  @media(width: 2560px) {
+
+      .reliability-section, .support-section, 
+      .no-time-wasting-section{
+        height: 100%;
+      }
+
+      .reliability-main-content{
+        top: -220px;
+      }
+
+      .reliability-image-1{
+        width: 100%;
+        height: 10%;
+      }
+
+      .reliability-heading, .experts-heading, 
+      .support-heading, .system-driven-heading,
+      .no-time-wasting-heading{
+        font-size: 65px;
+      }
+
+      .reliability-subheading, .experts-subheading,
+      .support-subheading, .system-driven-subheading,
+      .no-time-wasting-subheading{
+        font-size: 17px;
+      }
+
+      .reliability-paragraph, .experts-paragraph,
+      .support-paragraph, .system-driven-paragraph,
+      .no-time-wasting-paragraph{
+        font-size: 17px;
+      }
+
+      .reliability-image-1{
+        height: auto;
+      }
+
+      .experts-main-content{
+        top: 70%;
+      }
+
+      .system-driven-main-content{
+        top: 70%;;
+      }
+
+      .scroller-svg{
+        height: 100%;
+        top: 10%;
+      }
+
+      .line{
+        height: 200px;
+        top: -16px;
+      }
+
+      .square{
+        width: 17px;
+        height: 17px;
+      }
+    }
+
   @media(max-width: 1919px) {
 
     .sidebar{
@@ -552,3 +615,79 @@ body::-webkit-scrollbar{
         height: 17px;
       }
     }
+
+@media(max-width: 1140px) {
+
+      .reliability-section, .support-section, 
+      .no-time-wasting-section{
+        height: 100%;
+      }
+
+      .reliability-main-content{
+        top: -178px;
+      }
+
+      .reliability-image-1{
+        width: 100%;
+        height: 10%;
+      }
+
+      .reliability-heading, .experts-heading, 
+      .support-heading, .system-driven-heading,
+      .no-time-wasting-heading{
+        font-size: 65px;
+      }
+
+      .reliability-subheading, .experts-subheading,
+      .support-subheading, .system-driven-subheading,
+      .no-time-wasting-subheading{
+        font-size: 17px;
+      }
+
+      .reliability-paragraph, .experts-paragraph,
+      .support-paragraph, .system-driven-paragraph,
+      .no-time-wasting-paragraph{
+        font-size: 17px;
+      }
+
+      .reliability-image-1{
+        height: auto;
+      }
+
+      .experts-main-content{
+        top: 57%;
+      }
+
+      .system-driven-main-content{
+        top: 55%;
+      }
+
+      .scroller-svg{
+        height: 100%;
+        top: 10%;
+      }
+
+      .line{
+        height: 200px;
+        top: -16px;
+      }
+
+      .square{
+        width: 17px;
+        height: 17px;
+      }
+}
+
+@media(max-width: 1240px) {
+
+    .system-driven-main-content{
+      top: 56%;
+    }
+}
+
+@media(max-width: 1340px) {
+
+    .system-driven-main-content{
+      top: 58%;
+    }
+}
