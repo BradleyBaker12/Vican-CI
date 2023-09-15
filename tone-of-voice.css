@@ -1239,7 +1239,7 @@ body::-webkit-scrollbar{
    .section-18, .section-19, 
    .section-20, .section-21, 
    .section-22, .section-24{
-    width: 100%;
+    max-width: 100%;
   }
 
   .section-23{
@@ -1272,7 +1272,8 @@ body::-webkit-scrollbar{
 
   .section-19-layout, .section-24-layout{
     width: 100%;
-    margin-left: 15%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
   }
 
   /* .section-24-layout{
