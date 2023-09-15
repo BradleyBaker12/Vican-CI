@@ -1243,7 +1243,8 @@ body::-webkit-scrollbar{
   }
 
   .section-23{
-    width: 100%;
+    height: auto;
+    padding-top: 20px;
   }
 
   .linguistic-principles-subheading{
@@ -1326,6 +1327,11 @@ body::-webkit-scrollbar{
     height: 260px;
   }
 
+  .professional-image-layout {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
   .vertical-line-1{
     height: 400px;
   }
@@ -1340,7 +1346,17 @@ body::-webkit-scrollbar{
   }
 
   .focused-image-layout{
-    padding-left: 13%;
+    padding-left: 0;
+    gap: 20px;
+  }
+  .focused-images {
+    width: 40%;
+    height: auto;
+  }
+
+  .focused-image {
+    width: 100%;
+    height: auto;
   }
 
   .image-style-3{
