@@ -1133,7 +1133,6 @@ body::-webkit-scrollbar{
 
   .iconography{
     background-color: #e0c438;
-    width: 60%;
   }
 
   .iconography-content{
@@ -1142,7 +1141,7 @@ body::-webkit-scrollbar{
 
   .iconography-layout{
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 24%;
     padding-top: 15%;
     padding-bottom: 15%;
     gap: 40px;
@@ -1198,7 +1197,7 @@ body::-webkit-scrollbar{
   .icon-search{
     width: 400px;
     font-size: 15px;
-    left: 10%;
+    left: 14%;
   }
 
   .library-filters{
