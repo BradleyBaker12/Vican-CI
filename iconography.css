@@ -113,7 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    animation: fadeOpacity 2s 1 forwards;
+    animation: fadeOpacity 1s 1 forwards;
   }
   
   @keyframes fadeOpacity{
@@ -217,7 +217,7 @@ body {
     top: 0;
     left: 0;
     z-index: 1; 
-    opacity: 0;
+    opacity: 0.3;
     filter: invert(100%);
 }
 
@@ -233,7 +233,7 @@ body {
   }
   
   .library-content{
-    opacity: 0;
+    opacity: 0.3;
   }
 
   .icon-library-heading-container {
@@ -280,6 +280,13 @@ body {
     width: 100%;
   }
 
+  .dropdown-arrow{
+    padding-right: 5px;
+    padding-bottom: 1px;
+    width: 10px;
+    height: 10px;
+  }
+
   .icon-dropdown {
     font-size: 16px;
     color: #EBEBEB;
@@ -287,6 +294,11 @@ body {
     background-color: transparent;
     font-family: Gilroy-Light;
     margin-right: 40px;
+    appearance: none;
+  }
+
+  .icon-dropdown:focus {
+    outline: none;
   }
   
   .option {
@@ -330,7 +342,7 @@ body {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    opacity: 0;
+    opacity: 0.3;
   }
 
   .scroller-svg {
@@ -431,7 +443,7 @@ body::-webkit-scrollbar{
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
+  opacity: 0.3;
   transition: opacity 0.5s ease-in;
 }
 
@@ -598,7 +610,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-2 {
@@ -607,7 +619,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 20px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-3 {
@@ -618,7 +630,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-4 {
@@ -628,7 +640,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 30px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .stroke-image {
@@ -1160,7 +1172,7 @@ body::-webkit-scrollbar{
 
   .stroke-image,
   .fill-image {
-    max-width: 68%; /* Set a maximum width for responsiveness */
+    width: 70%; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
     position: absolute;
     top: 0;
@@ -1168,6 +1180,7 @@ body::-webkit-scrollbar{
     opacity: 1;
     transition: opacity 0.7s ease;
   }
+
 
   .stroke-image {
     opacity: 1;

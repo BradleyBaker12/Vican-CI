@@ -113,7 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    animation: fadeOpacity 2s 1 forwards;
+    animation: fadeOpacity 1s 1 forwards;
   }
   
   @keyframes fadeOpacity{
@@ -299,7 +299,7 @@ body::-webkit-scrollbar{
 
 @keyframes slideAway{
   from{
-    opacity: 0;
+    opacity: 0.3;
   }
   to{
     opacity: 1;
@@ -315,7 +315,7 @@ body::-webkit-scrollbar{
 .colour-systems-colours{
   align-items: center; 
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .brand-colours-section{
@@ -325,7 +325,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start; 
   align-items: flex-start; 
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .item-1 a{

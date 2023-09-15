@@ -111,7 +111,7 @@ body {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    animation: fadeOpacity 2s 1 forwards;
+    animation: fadeOpacity 1s 1 forwards;
   }
   
   @keyframes fadeOpacity{
@@ -344,7 +344,7 @@ body::-webkit-scrollbar{
   align-items: flex-start; 
   gap: 30px; 
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .gilroy-font-content{
@@ -356,7 +356,7 @@ body::-webkit-scrollbar{
   align-items: flex-start; 
   gap: 158px; 
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .application-section{
@@ -367,7 +367,7 @@ body::-webkit-scrollbar{
   justify-content: flex-start; 
   align-items: flex-start; 
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .application-heading{
@@ -379,7 +379,7 @@ body::-webkit-scrollbar{
   align-items: flex-start; 
   gap: 50px; 
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .application-images{
@@ -388,7 +388,7 @@ body::-webkit-scrollbar{
   align-items: center; 
   gap: 30px; 
   display: inline-flex; 
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .item-1 a{

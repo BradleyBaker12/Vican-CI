@@ -117,7 +117,7 @@ body::-webkit-scrollbar{
     display: flex;
     flex-direction: column;
     opacity: 0;
-    animation: fadeOpacity 3s 1 forwards;
+    animation: fadeOpacity 1s 1 forwards;
 }
 
 @keyframes fadeOpacity{
