@@ -1133,7 +1133,7 @@ body::-webkit-scrollbar{
 
   .iconography{
     background-color: #e0c438;
-    width: 70%;
+    width: 60%;
   }
 
   .iconography-content{
@@ -1172,7 +1172,7 @@ body::-webkit-scrollbar{
 
   .stroke-image,
   .fill-image {
-    width: 73%; /* Set a maximum width for responsiveness */
+    width: 70%; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
     position: absolute;
     top: 0;
