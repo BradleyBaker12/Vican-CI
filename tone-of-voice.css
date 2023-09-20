@@ -642,7 +642,7 @@ body::-webkit-scrollbar{
 }
 
 .tone-of-voice-heading {
-  width: 808px;
+  width: 100%;
   height: 73px;
   color: black;
   font-size: 80px;
@@ -1189,7 +1189,7 @@ body::-webkit-scrollbar{
 
   .tone-of-voice-main-section{
     max-width: 100%;
-    height: 680px;
+    height: 750px;
   }
 
   .tone-of-voice-main-image{

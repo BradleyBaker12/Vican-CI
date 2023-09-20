@@ -199,7 +199,7 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 67%;
     left: 0%;
-    opacity: 0;
+    opacity: 0.3;
 }
 
 
@@ -254,7 +254,7 @@ body::-webkit-scrollbar{
     padding-left: 50px;
     position: relative;
     top: -140px;
-    opacity: 0;
+    opacity: 0.3;
     transition: opacity 1s, transform 1s;
     transform: translateY(30px);
 }
@@ -310,7 +310,7 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 67%;
     left: 0%;
-    opacity: 0;
+    opacity: 0.3;
 }
 
 .system-driven-content-1{
@@ -365,7 +365,7 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 58%;
     left: 0%;
-    opacity: 0;
+    opacity: 0.3;
 }
 
 .no-time-wasting-content-1{

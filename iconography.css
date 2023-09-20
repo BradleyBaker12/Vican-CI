@@ -259,7 +259,7 @@ body {
     float: right;
     background-color: transparent;
     position: relative;
-    left: 24.5%;
+    left: 24%;
     width: 460px;
     color: #EBEBEB;
     font-size: 20px;
@@ -1141,8 +1141,6 @@ body::-webkit-scrollbar{
   }
 
   .iconography-layout{
-    padding-left: 10%;
-    padding-right: 24%;
     padding-top: 15%;
     padding-bottom: 15%;
     gap: 40px;
@@ -1198,7 +1196,7 @@ body::-webkit-scrollbar{
   .icon-search{
     width: 400px;
     font-size: 15px;
-    left: 14%;
+    left: 23%;
   }
 
   .library-filters{
@@ -1308,5 +1306,52 @@ body::-webkit-scrollbar{
     width: 80px;
     height: 80px;
   }
+}
 
+@media(max-width: 1740px){
+  .icon-search{
+    width: 400px;
+    font-size: 15px;
+    left: 20%;
+  }
+}
+
+@media(max-width: 1640px){
+  .icon-search{
+    width: 400px;
+    font-size: 15px;
+    left: 18%;
+  }
+}
+
+@media(max-width: 1540px){
+  .icon-search{
+    width: 400px;
+    font-size: 15px;
+    left: 15%;
+  }
+}
+
+@media(max-width: 1440px){
+  .icon-search{
+    width: 400px;
+    font-size: 15px;
+    left: 12%;
+  }
+}
+
+@media(max-width: 1340px){
+  .icon-search{
+    width: 400px;
+    font-size: 15px;
+    left: 10%;
+  }
+}
+
+@media(max-width: 1240px){
+  .icon-search{
+    width: 400px;
+    font-size: 15px;
+    left: 6%;
+  }
 }

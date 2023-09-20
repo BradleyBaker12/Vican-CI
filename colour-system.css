@@ -141,11 +141,11 @@ body {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, scrollbar-color 0.5s ease-in-out;
   }
 
-  .colour-systems-content{
+  .colour-system-content{
     flex-direction: column; 
     justify-content: center; 
     align-items: flex-start; 
-    gap: 80px; 
+    gap: 50px; 
     display: inline-flex;
     
   }
@@ -160,6 +160,11 @@ body {
     padding-top: 18%;
     padding-left: 15%;
     transition: color 0.3s ease-in-out;
+  }
+
+  .colour-system-main-content{
+    width: 80%; 
+    padding-left: 15%;;
   }
 
   .colour-system-subheading{
@@ -185,7 +190,6 @@ body {
     gap: 25px; 
     display: inline-flex;
     left: 15%;
-    padding-top: 50px;
     position: relative;
   }
 
@@ -214,7 +218,7 @@ body {
     width: 20px;
     height: 20px;
     left: 12%;
-    top: 94%;
+    top: 89%;
     position: absolute;
     background: black;
     transition: left 0.3s ease-in-out;
@@ -1523,12 +1527,12 @@ body::-webkit-scrollbar{
   }
 
   .colour-systems{
-    height: 850px;
+    height: 750px;
   }
 
   .colour-system-heading{
     font-size: 70px;
-    padding-bottom: 20px;
+    padding-top: 14%;
   }
 
   .colour-system-subheading{

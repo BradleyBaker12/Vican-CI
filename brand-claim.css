@@ -224,6 +224,10 @@ body::-webkit-scrollbar{
   }
 }
 
+.ribbon, .ribbon-container{
+  width: 100%;
+}
+
 .design-section-content.active,
 .positioning-heading.active,
 .positioning-images.active,
@@ -286,7 +290,7 @@ body::-webkit-scrollbar{
 }
 
 .white-ribbon{
-  width: 1430px; 
+  width: 100%; 
   height: 105px; 
   padding-left: 100px; 
   padding-right: 100px; 
@@ -297,12 +301,12 @@ body::-webkit-scrollbar{
   display: inline-flex;
   position: relative;
   left: 0%;
-  opacity: 0.3;
+  opacity: 0;
   z-index: -1;
 }
 
 .black-ribbon{
-  width: 1417px; 
+  width: 100%; 
   height: 105px; 
   padding-left: 100px; 
   padding-right: 100px; 
@@ -313,12 +317,12 @@ body::-webkit-scrollbar{
   display: inline-flex;
   position: relative;
   right: 0%;
-  opacity: 0.3;
+  opacity: 0;
   z-index: -1;
 }
 
 .yellow-ribbon{
-  width: 1430px; 
+  width: 100%; 
   height: 105px; 
   padding-left: 100px; 
   padding-right: 100px; 
@@ -329,7 +333,7 @@ body::-webkit-scrollbar{
   display: inline-flex;
   position: relative;
   left: 0%;
-  opacity: 0.3;
+  opacity: 0;
   z-index: -1;
 }
 
@@ -638,7 +642,7 @@ body::-webkit-scrollbar{
 
 .brand-claim-content {
   width: 1615px;
-  height: 1083px;
+  height: 970px;
   position: relative;
 }
 
@@ -646,12 +650,12 @@ body::-webkit-scrollbar{
   left: 470px;
   top: 0px;
   position: absolute;
-  width: 100%;
+  width: 90%;
 }
 
 .brand-claim-block {
   width: 1024px;
-  height: 1083px;
+  height: 970px;
   left: 0px;
   top: 0px;
   position: absolute;
@@ -974,7 +978,7 @@ body::-webkit-scrollbar{
   }
 
   .brand-claim-image{
-    width: 122%;
+    width: 131%;
     height: auto;
   }
 
@@ -1032,9 +1036,9 @@ body::-webkit-scrollbar{
   }
 
   .white-ribbon{
-    width: 70%;
+    width: 100%;
     height: 80px;
-    padding-left: 21%;
+    padding-left: 15%;
   }
 
   .white-ribbon-text-1{
@@ -1046,9 +1050,9 @@ body::-webkit-scrollbar{
   }
 
   .black-ribbon{
-    width: 70%;
+    width: 100%;
     height: 80px;
-    padding-left: 21%;
+    padding-left: 15%;
   }
 
   .black-ribbon-text-1{
@@ -1060,9 +1064,9 @@ body::-webkit-scrollbar{
   }
 
   .yellow-ribbon{
-    width: 70%;
+    width: 100%;
     height: 80px;
-    padding-left: 21%;
+    padding-left: 15%;
   }
 
   .yellow-ribbon-text-1{

@@ -31,7 +31,7 @@ function setActiveButton(button) {
         blackBorder = "1px solid #000000";
         scrollerBackgroundColor = '#EBEBEB';
     } else if (button === blackButton) {
-        leftPosition = 48;
+        leftPosition = 47.5;
         backgroundColor = '#000000';
         textColor = '#EBEBEB';
         activeSquareColour = '#EBEBEB';
@@ -40,7 +40,7 @@ function setActiveButton(button) {
         blackBorder = "1px solid #EBEBEB";
         scrollerBackgroundColor = '#EBEBEB';
     } else if (button === whiteButton) {
-        leftPosition = 84;
+        leftPosition = 83.5;
         backgroundColor = '#EBEBEB';
         textColor = '#000000';
         activeSquareColour = '#000000';

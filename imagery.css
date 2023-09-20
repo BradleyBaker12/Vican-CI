@@ -369,7 +369,7 @@ body::-webkit-scrollbar{
   align-items: flex-start; 
   gap: 50px; 
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-1 {
@@ -378,7 +378,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 30px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-2 {
@@ -389,7 +389,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 26px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-3 {
@@ -399,7 +399,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 30px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-4 {
@@ -411,7 +411,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 26px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-5 {
@@ -421,7 +421,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 30px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-6 {
@@ -433,7 +433,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 26px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-7 {
@@ -443,7 +443,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 30px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-8 {
@@ -455,7 +455,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 26px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-9 {
@@ -467,7 +467,7 @@ body::-webkit-scrollbar{
   align-items: flex-start;
   gap: 50px;
   display: flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-10 {
@@ -478,7 +478,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 30px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .section-11 {
@@ -488,7 +488,7 @@ body::-webkit-scrollbar{
   align-items: center;
   gap: 30px;
   display: inline-flex;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 
@@ -843,9 +843,9 @@ body::-webkit-scrollbar{
   }
 
   .image-1{
-    width: 30%;
+    width: auto;
     height: 100%;
-    left: 70%;
+    left: 74%;
   }
 
   .image-2{
@@ -861,7 +861,7 @@ body::-webkit-scrollbar{
   }
 
   .imagery-content{
-    width: 55%;
+    width: 59%;
     height: 100%;
     padding-top: 0;
   }
