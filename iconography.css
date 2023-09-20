@@ -1134,6 +1134,7 @@ body::-webkit-scrollbar{
   .iconography{
     background-color: #e0c438;
     width: 60%;
+    height: 750px;
   }
 
   .iconography-content{
