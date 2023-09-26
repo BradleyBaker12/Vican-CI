@@ -631,7 +631,7 @@ body::-webkit-scrollbar{
 }
 
 .tone-of-voice-content-text {
-  width: 100%;
+  width: 80%;
   padding-left: 15%;
   padding-top: 25%;
   flex-direction: column;
