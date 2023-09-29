@@ -135,7 +135,7 @@ body {
 
   .typography{
     background-color: #e0c438;
-    height: 965px;
+    height: 50.26vw;
   }
 
   .typography-content{
@@ -245,7 +245,7 @@ body {
     height: 300px;
     position: fixed;
     top: 40%;
-    left: 97.8%;
+    left: 97%;
     z-index: 999;
 }
 
@@ -755,7 +755,7 @@ body::-webkit-scrollbar{
 }
 
 .application-image-1-layout {
-  height: 248px;
+  height: 12.91vw;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -763,23 +763,23 @@ body::-webkit-scrollbar{
 }
 
 .application-image-1 {
-  width: 430px;
-  height: 248px;
+  width: 22.39vw;
+  height: 12.91vw;
 }
 
 .application-image-2 {
-  width: 430px;
-  height: 248px;
+  width: 22.39vw;
+  height: 12.91vw;
 }
 
 .application-image-3 {
-  width: 430px;
-  height: 248px;
+  width: 22.39vw;
+  height: 12.91vw;
 }
 
 .application-vertical-line {
   width: 1px;
-  height: 248px;
+  height: 12.91vw;
   border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
 }
 

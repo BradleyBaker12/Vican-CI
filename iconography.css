@@ -149,10 +149,10 @@ body {
     gap: 80px; 
     display: inline-flex;
     flex:1;
-    padding-left: 8%;
-    padding-right: 6%;
-    padding-top: 13%;
-    padding-bottom: 12%;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    padding-top: 12vw;
+    padding-bottom: 10vw;
   }
 
   .iconography-content-text{
@@ -259,7 +259,7 @@ body {
     float: right;
     background-color: transparent;
     position: relative;
-    left: 24%;
+    left: 20vw;
     width: 460px;
     color: #EBEBEB;
     font-size: 20px;
@@ -350,7 +350,7 @@ body {
     height: 300px;
     position: fixed;
     top: 40%;
-    left: 97.8%;
+    left: 97%;
     z-index: 999;
 }
 
@@ -396,7 +396,7 @@ body::-webkit-scrollbar{
   background-color: #000000;
   flex: 1;
   position:relative;
-  width: 700px;
+  width: 36.45vw;
   height: auto;
 }
 
@@ -1134,7 +1134,6 @@ body::-webkit-scrollbar{
   .iconography{
     background-color: #e0c438;
     width: 60%;
-    height: 750px;
   }
 
   .iconography-content{
@@ -1176,7 +1175,7 @@ body::-webkit-scrollbar{
 
   .stroke-image,
   .fill-image {
-    width: 79%; /* Set a maximum width for responsiveness */
+    width: 95%; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
     position: absolute;
     top: 0;

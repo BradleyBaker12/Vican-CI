@@ -145,7 +145,7 @@ body {
     height: 300px;
     position: fixed;
     top: 40%;
-    left: 97.8%;
+    left: 97%;
     z-index: 999;
 }
 
@@ -388,8 +388,8 @@ body::-webkit-scrollbar{
 }
 
 .layout-structure-main-section {
-  width: 1613px;
-  height: 1083px;
+  width: 84.01041666666667vw;
+  height: 52vw;
   position: relative;
   left: 2px;
 }
@@ -403,9 +403,9 @@ body::-webkit-scrollbar{
 }
 
 .layout-structure-main-content-section {
-  width: 1024px;
-  height: 1083px;
-  left: -2px;
+  width: 53.33vw;
+  height: 52vw;
+  left: -0.10416666666666667vw;
   top: 0px;
   position: absolute;
   background: #e0c438;
@@ -499,7 +499,7 @@ body::-webkit-scrollbar{
 }
 
 .implementing-layout-structure-image-layout {
-  height: 430px;
+  height: 22.39vw;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -508,13 +508,13 @@ body::-webkit-scrollbar{
 
 .implementing-layout-structure-vertical-line {
   width: 1px;
-  height: 430px;
+  height: 22.39vw;
   border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
 }
 
 .implementing-layout-structure-image {
-  width: 430px;
-  height: 430px;
+  width: 22.39vw;
+  height: 22.39vw;
 }
 
 .right-arrow-layout {
@@ -538,8 +538,8 @@ body::-webkit-scrollbar{
 }
 
 .image-21-image {
-  width: 1147px;
-  height: 631px;
+  width: 59.73vw;
+  height: 32.86vw;
 }
 
 .prohibitions-content {
@@ -575,7 +575,7 @@ body::-webkit-scrollbar{
 }
 
 .prohibitions-content-layout {
-  width: 430px;
+  width: 22.39vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -584,8 +584,8 @@ body::-webkit-scrollbar{
 }
 
 .prohibitions-images {
-  width: 430px;
-  height: 607px;
+  width: 22.39vw;
+  height: 31.61vw;
 }
 
 .prohibitions-image-text-1 {
@@ -607,7 +607,7 @@ body::-webkit-scrollbar{
 
 .prohibitions-vertical-line {
   width: 1px;
-  height: 662px;
+  height: 34.47vw;
   border-left: 0.25px rgba(235, 235, 235, 0.4) solid;
 }
 

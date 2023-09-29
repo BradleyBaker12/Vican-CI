@@ -146,9 +146,8 @@ body::-webkit-scrollbar{
   line-height: 1;
   position: relative;
   flex-direction: column;
-  height: 0;
+  height: 250px;
   overflow: hidden;
-  animation: slideBar 1s ease-out forwards 1;
 }
 
 .basics-list .item a {
@@ -156,9 +155,6 @@ body::-webkit-scrollbar{
   font-size: 20px;
   text-rendering: optimizeLegibility;
   transition: font-size 0.1s ease-out;
-  opacity: 0;
-  transform: translateY(-10px);
-  animation: cascade 0.5s ease-out forwards 1;
 }
 
 .remove-animation{
