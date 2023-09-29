@@ -1383,6 +1383,7 @@ body::-webkit-scrollbar{
 
   .basics-list{
     padding-left: 8%;
+    height: 200px
   }
 
   @keyframes slideBar {
